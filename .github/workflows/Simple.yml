@@ -1,0 +1,5 @@
+name: SimplePipeline
+
+on:
+  push:
+    branches: [main]
