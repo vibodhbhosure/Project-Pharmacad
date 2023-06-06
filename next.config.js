@@ -1,7 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: "export",
-    basePath: "/Project-Pharmacad",
+    images: {
+        loader: "akamai",
+        path: "/",
+    }
 };
 
 module.exports = nextConfig
