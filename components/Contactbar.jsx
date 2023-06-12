@@ -4,9 +4,9 @@ import { FaMapMarkerAlt,FaRegEnvelope,FaPhoneAlt,FaFacebookF,FaLinkedinIn,FaYout
 
 function Contactbar() {
   return (
-    <div className="fixed left-0 top-0 w-full z-10 mt-2 bg-lime-100">
-      <div className="flex p-4 text-black space-x-7 justify-end mr-24">
-        <ul className='flex space-x-7'>
+    <div className="md:fixed md:left-0 md:top-0 md:w-full md:z-10 md:bg-lime-100 lg:fixed lg:left-0 lg:top-0 lg:w-full lg:z-10 lg:bg-lime-100">
+      <div className="hidden md:flex md:p-4 md:text-black md:space-x-7 md:justify-center lg:flex lg:p-4 lg:text-black lg:space-x-7 lg:justify-end lg:mr-24">
+        <ul className='md:flex md:space-x-2 lg:flex lg:space-x-7'>
             <li className='flex space-x-3'>
                 <Link  href="" >
                     <span >

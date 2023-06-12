@@ -25,3 +25,8 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.active{
+  font-weight: bold;
+  text-decoration: underline;
+}
