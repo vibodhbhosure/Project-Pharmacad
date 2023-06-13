@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import Rectangle364 from "../../public/Reactangle 364.svg";
-import Rectangle323 from "../../public/Reactangle 323.svg";
+import Rectangle364 from "../../public/Reactangle364.svg";
+import Rectangle323 from "../../public/Reactangle323.svg";
 
 const About = () => {
   return (
