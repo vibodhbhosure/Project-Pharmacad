@@ -3,6 +3,7 @@ import '../../components/Navbar'
 import { Inter } from 'next/font/google'
 import Navbar from '../../components/Navbar'
 import Contactbar from '../../components/Contactbar'
+import Nav from '../../components/Nav'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
     <>
       <Contactbar/>
       <Navbar/>
+      {/* <Nav/> */}
     </>
   )
 }
