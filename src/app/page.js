@@ -14,7 +14,8 @@ export default function Home() {
       <FAQs/>
       <Contact/>
       
-      
+
     </main>
+    
   )
 }

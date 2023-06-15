@@ -2,15 +2,15 @@ import React from "react";
 
 const Contact = () => {
     return (
-
-        <div className="flex flex-col items-center justify-center h-screen">
-            <h1 className="text-3xl text-left font-bold mb-0">Contact Us</h1>
-            <p className="text-lg text-left font-normal mb-4">- Reach out to us and start your path to success</p>
-
+       <div className="container mx-auto max-w-screen-lg px-4 py-8">
+            <h1 className="text-3xl text-center font-bold mb-0">Contact Us</h1>
+            <p className="text-lg text-center font-normal mb-4">- Reach out to us and start your path to success</p>
             <div className="max-w-4xl w-full p-8 rounded shadow-lg mx-4">
+                <div className="flex flex-col md:flex-row md:space-x-8">
+                    {/* Left Side - Contact Form */}
 
-                <div className="flex flex-wrap">
-                    <div className="w-1/2 pr-4">
+                    <div className="flex-1">
+                        {/* Contact Form Content */}
                         <div className="mb-4">
                             <label htmlFor="name" className="block text-gray-700 font-medium mb-1">Name<span className="text-red-500">*</span></label>
                             <input type="text" id="name" className="w-full border-gray-300 border rounded px-3 py-2" required />
@@ -42,7 +42,8 @@ const Contact = () => {
                         </div>
                         <button type="submit" className="bg-indigo-700 text-white py-2 px-4 rounded">Send Message</button>
                     </div>
-                    <div className="w-1/2 pl-0 hidden md:block bg-lime-50">
+                    <div className=" bg-lime-50 hidden md:block flex-1">
+                        {/* Map & Address Details Content */}
                         <div className="aspect-w-16 hidden md:block aspect-h-9 mt-0">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1885.9691144355859!2d72.84549224184214!3d19.02244342328444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ced958713b33%3A0xa2e3acbf46da6c1b!2sShishuvihar%20Madhyamik%20Vidhyala!5e0!3m2!1sen!2sin!4v1686379120146!5m2!1sen!2sin" width="416" height="300" loading="lazy" ></iframe>
                         </div>
@@ -102,7 +103,6 @@ const Contact = () => {
 
 
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -112,4 +112,5 @@ const Contact = () => {
     )
 }
 
-export default Contact;  
+export default Contact;
+

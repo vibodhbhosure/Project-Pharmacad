@@ -38,7 +38,7 @@ const states = [
 const CheckoutForm = () => {
     return (
         <div className="mx-auto max-w-screen-xl p-4">
-            <h2 className="text-4xl font-semibold mb-8">Payment Checkout</h2>
+            <h2 className="text-4xl font-semibold pt-10 mb-8">Payment Checkout</h2>
             <form className="w-full md:flex md:flex-row md:justify-between ">
                 <div className="flex flex-col mb-4 md:w-1/2 md:mr-4">
                     <div>
