@@ -1,6 +1,16 @@
 import React from "react";
 import Image from 'next/image';
 
+
+function Component() {
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) return <></>;
+  // write rest of your code
+}
 const Footer = () => {
   return (
     <footer className="bg-black body-font">
@@ -9,7 +19,7 @@ const Footer = () => {
           {/* Left Side */}
           <div className="w-full md:w-80 flex-wrap md:mr-20 text-center md:text-left mb-8 md:mb-0">
             <Image
-              src="/Pharmacad_Logo-removebg-preview..png"
+              src="/Pharmacad_Logo-removebg-preview..png" // Update the image path and file extension
               alt="Pharmacad"
               width={150}
               height={100}
@@ -27,58 +37,55 @@ const Footer = () => {
               <h2 className="title-font font-bold text-white tracking-widest text-xl mb-3">Navigate</h2>
               <nav className="list-none text-left mb-10">
                 <li>
-                  <a href="" className="text-white hover:text-gray-600">Home</a>
+                  <a href="#" className="text-white hover:text-gray-600">Home</a>
                 </li>
                 <li>
-                                <a href="" className="text-white hover:text-gray-600 ">Courses</a>
-                            </li>
-                            <li>
-                                <a href="" className="text-white hover:text-gray-600">Resources</a>
-                            </li>
-                            <li>
-                                <a href="" className="text-white hover:text-gray-600">Blogs</a>
-                            </li>
-                            <li>
-                                <a href="" className="text-white hover:text-gray-600">Events</a>
-                            </li>
-                            <li>
-                                <a href="" className="text-white hover:text-gray-600">About Us</a>
-                            </li>
-                            <li>
-                                <a href="" className="text-white hover:text-gray-600">FAQs</a>
-                            </li>
-                            <li>
-                                <a href="" className="text-white hover:text-gray-600">Contact</a>
-                            </li>
-                {/* Add more navigation links */}
+                  <a href="#" className="text-white hover:text-gray-600">Courses</a>
+                </li>
+                <li>
+                  <a href="#" className="text-white hover:text-gray-600">Resources</a>
+                </li>
+                <li>
+                  <a href="#" className="text-white hover:text-gray-600">Blogs</a>
+                </li>
+                <li>
+                  <a href="#" className="text-white hover:text-gray-600">Events</a>
+                </li>
+                <li>
+                  <a href="#" className="text-white hover:text-gray-600">About Us</a>
+                </li>
+                <li>
+                  <a href="#" className="text-white hover:text-gray-600">FAQs</a>
+                </li>
+                <li>
+                  <a href="#" className="text-white hover:text-gray-600">Contact</a>
+                </li>
               </nav>
             </div>
             
-            <div className="w-1/2 md:w-1/2 ">
+            <div className="w-1/2 md:w-1/2">
               <h2 className="title-font font-bold text-white tracking-widest text-xl mb-3">Contact</h2>
               <nav className="list-none text-left mb-10">
                 <li>
-                  <a href="" className="text-white hover:text-gray-600">Dadar, Mumbai-14</a>
+                  <a href="#" className="text-white hover:text-gray-600">Dadar, Mumbai-14</a>
                 </li>
                 <li>
-                                <a href="" className="text-white break-words hover:text-gray-600">pharmacad.india@gmail.com </a>
-                            </li>
-
-                            <li>
-                                <a href="" className="text-white hover:text-gray-600">(+91)9967163961</a>
-                            </li>    
-                {/* Add more contact details */}
+                  <a href="#" className="text-white break-words hover:text-gray-600">pharmacad.india@gmail.com</a>
+                </li>
+                <li>
+                  <a href="#" className="text-white hover:text-gray-600">(+91) 9967163961</a>
+                </li>
               </nav>
               <div className="w-full mt-6 text-left">
-                <a href="">
-                <button className="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="w-6 h-6" viewBox="0 0 512 512">
-                                        <path d="M99.617 8.057a50.191 50.191 0 00-38.815-6.713l230.932 230.933 74.846-74.846L99.617 8.057zM32.139 20.116c-6.441 8.563-10.148 19.077-10.148 30.199v411.358c0 11.123 3.708 21.636 10.148 30.199l235.877-235.877L32.139 20.116zM464.261 212.087l-67.266-37.637-81.544 81.544 81.548 81.548 67.273-37.64c16.117-9.03 25.738-25.442 25.738-43.908s-9.621-34.877-25.749-43.907zM291.733 279.711L60.815 510.629c3.786.891 7.639 1.371 11.492 1.371a50.275 50.275 0 0027.31-8.07l266.965-149.372-74.849-74.847z"></path>
-                                    </svg>
-                                    <span className="ml-4 flex items-start flex-col leading-none">
-                                        <span className="text-sm text-gray-600 mb">GET IT ON</span>
-                                        <span className="title-font font-bold   text-lg">Google Play</span>
-                                    </span>
+                <a href="#">
+                  <button className="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="w-6 h-6" viewBox="0 0 512 512">
+                      <path d="M99.617 8.057a50.191 50.191 0 00-38.815-6.713l230.932 230.933 74.846-74.846L99.617 8.057zM32.139 20.116c-6.441 8.563-10.148 19.077-10.148 30.199v411.358c0 11.123 3.708 21.636 10.148 30.199l235.877-235.877L32.139 20.116zM464.261 212.087l-67.266-37.637-81.544 81.544 81.548 81.548 67.273-37.64c16.117-9.03 25.738-25.442 25.738-43.908s-9.621-34.877-25.749-43.907zM291.733 279.711L60.815 510.629c3.786.891 7.639 1.371 11.492 1.371a50.275 50.275 0 0027.31-8.07l266.965-149.372-74.849-74.847z"></path>
+                    </svg>
+                    <span className="ml-4 flex items-start flex-col leading-none">
+                      <span className="text-sm text-gray-600 mb">GET IT ON</span>
+                      <span className="title-font font-bold text-lg">Google Play</span>
+                    </span>
                   </button>
                 </a>
               </div>
@@ -102,5 +109,4 @@ const Footer = () => {
   );
 }
 
-export default Footer;  
-
+export default Footer;
