@@ -22,7 +22,7 @@ const Faq = () => {
                 <div className="w-full md:px-6  ">
                     <div id="mainHeading" className="flex justify-between items-center w-full">
                         <div className=" ">
-                            <p className="flex justify-center items-center font-medium text-base leading-6 md:leading-4 text-gray-800">
+                            <p className="flex justify-center items-center font-medium text-lg leading-6 md:leading-4 text-gray-800">
                                 {" "}
                                 <span className="  lg:mr-6 mr-4 lg:text-2xl md:text-xl text-lg leading-6 md:leading-5 lg:leading-4 font-semibold text-gray-800"></span> When is the right time to start my prep for GPAT/NIPER?
                             </p>
@@ -34,7 +34,7 @@ const Faq = () => {
                         </button>
                     </div>
                     <div id="menu" className={"mt-6 w-full " + (open ? "block" : "hidden")}>
-                        <p className="text-base leading-6 text-gray-600 font-normal">Usually, students who have aspirations to gain a Master’s degree from India itself, start their preparations for GPAT/NIPER from the second year or third year. The sooner you join, the better it is because practicing concepts over and over helps you gain a competitive advantage.</p>
+                        <p className="text-lg leading-6 text-gray-600 font-normal">Usually, students who have aspirations to gain a Master’s degree from India itself, start their preparations for GPAT/NIPER from the second year or third year. The sooner you join, the better it is because practicing concepts over and over helps you gain a competitive advantage.</p>
                     </div>
                 </div>
 
@@ -45,7 +45,7 @@ const Faq = () => {
                 <div className="w-full md:px-6 ">
                     <div id="mainHeading" className="flex justify-between items-center w-full">
                         <div className="">
-                            <p className="flex justify-center items-center font-medium text-base leading-6 lg:leading-4 text-gray-800">
+                            <p className="flex justify-center items-center font-medium text-lg leading-6 lg:leading-4 text-gray-800">
                                 {" "}
                                 <span className="  lg:mr-6 mr-4 lg:text-2xl md:text-xl text-lg leading-6 md:leading-5 lg:leading-4 font-semibold text-gray-800"></span>If I am a second-year B.Pharm Student, would I be able to cope up with the advanced syllabus of GPAT?
                             </p>
@@ -57,7 +57,7 @@ const Faq = () => {
                         </button>
                     </div>
                     <div id="menu" className={"mt-6 w-full " + (open2 ? "block" : "hidden")}>
-                        <p className="text-base leading-6 text-gray-600 font-normal">We will teach the second-year students to study smart. Our teachers work sincerely on simplifying the learnings, they’ll also motivate you to aspire big. In fact, after the first year of the struggle, the second-year students score better in the later semesters.</p>
+                        <p className="text-lg leading-6 text-gray-600 font-normal">We will teach the second-year students to study smart. Our teachers work sincerely on simplifying the learnings, they’ll also motivate you to aspire big. In fact, after the first year of the struggle, the second-year students score better in the later semesters.</p>
                     </div>
                 </div>
 
@@ -68,7 +68,7 @@ const Faq = () => {
                 <div className="w-full md:px-6 ">
                     <div id="mainHeading" className="flex justify-between items-center w-full">
                         <div className="">
-                            <p className="flex justify-center items-center font-medium text-base leading-6 lg:leading-4 text-gray-800">
+                            <p className="flex justify-center items-center font-medium text-lg leading-6 lg:leading-4 text-gray-800">
                                 {" "}
                                 <span className="  lg:mr-6 mr-4 lg:text-2xl md:text-xl text-lg leading-6 md:leading-5 lg:leading-4 font-semibold text-gray-800"></span>
                                 Do you conduct career counseling sessions? If yes, is there an additional charge?
@@ -81,7 +81,7 @@ const Faq = () => {
                         </button>
                     </div>
                     <div id="menu" className={"mt-6 w-full " + (open3 ? "block" : "hidden")}>
-                        <p className="text-base leading-6 text-gray-600 font-normal">Yes, we take pride in guiding and molding our students in the right direction because that’s how a learning institute should operate. Always thinking about the student’s betterment. Besides, we do this voluntarily and do not charge for it.</p>
+                        <p className="text-lg leading-6 text-gray-600 font-normal">Yes, we take pride in guiding and molding our students in the right direction because that’s how a learning institute should operate. Always thinking about the student’s betterment. Besides, we do this voluntarily and do not charge for it.</p>
                     </div>
                 </div>
 
@@ -92,7 +92,7 @@ const Faq = () => {
                 <div className="w-full md:px-6  ">
                     <div id="mainHeading" className="flex justify-between items-center w-full">
                         <div className="">
-                            <p className="flex justify-center items-center font-medium text-base leading-6 lg:leading-4 text-gray-800">
+                            <p className="flex justify-center items-center font-medium text-lg leading-6 lg:leading-4 text-gray-800">
                                 {" "}
                                 <span className="  lg:mr-6 mr-4 lg:text-2xl md:text-xl text-lg leading-6 md:leading-5 lg:leading-4 font-semibold text-gray-800"></span>
                                 Do you have online platforms for continuous learning?
@@ -105,7 +105,7 @@ const Faq = () => {
                         </button>
                     </div>
                     <div id="menu" className={"mt-6 w-full " + (open4 ? "block" : "hidden")}>
-                        <p className="text-base leading-6 text-gray-600 font-normal">RYes, we do have a mobile application where a student can revisit the concepts. Those are pre-recorded videos recorded by our faculty. Online test series for GPAT, NIPER, and all entrance exams covering over 10,000 MCQs are included in the application. So, head on to the play store and check it out. <a href="#" className="text-sky-500">Download our App now!</a></p>
+                        <p className="text-lg leading-6 text-gray-600 font-normal">RYes, we do have a mobile application where a student can revisit the concepts. Those are pre-recorded videos recorded by our faculty. Online test series for GPAT, NIPER, and all entrance exams covering over 10,000 MCQs are included in the application. So, head on to the play store and check it out. <a href="#" className="text-sky-500">Download our App now!</a></p>
                     </div>
                 </div>
 
@@ -116,7 +116,7 @@ const Faq = () => {
                 <div className="w-full md:px-6 ">
                     <div id="mainHeading" className="flex justify-between items-center w-full">
                         <div className="">
-                            <p className="flex justify-center items-center font-medium text-base leading-6 lg:leading-4 text-gray-800">
+                            <p className="flex justify-center items-center font-medium text-lg leading-6 lg:leading-4 text-gray-800">
                                 {" "}
                                 <span className="  lg:mr-6 mr-4 lg:text-2xl md:text-xl text-lg leading-6 md:leading-5 lg:leading-4 font-semibold text-gray-800"></span>
                                 Do you provide coaching for semesters?
@@ -129,7 +129,7 @@ const Faq = () => {
                         </button>
                     </div>
                     <div id="menu" className={"mt-6 w-full " + (open5 ? "block" : "hidden")}>
-                        <p className="text-base leading-6 text-gray-600 font-normal">Yes, we have a dedicated faculty for semester coaching for B.Pharmacy, D.Pharmacy as per the PCI syllabus. <a href="#" className="text-sky-500">Download our App now!</a></p>
+                        <p className="text-lg leading-6 text-gray-600 font-normal">Yes, we have a dedicated faculty for semester coaching for B.Pharmacy, D.Pharmacy as per the PCI syllabus. <a href="#" className="text-sky-500">Download our App now!</a></p>
                     </div>
                 </div>
 
