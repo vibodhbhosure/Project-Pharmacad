@@ -14,7 +14,7 @@ function Component() {
 const Footer = () => {
   return (
     <footer className="bg-black body-font">
-      <div className="container mx-auto max-w-screen-lg px-2 py-8">
+      <div className="container mx-auto max-w-screen-xl px-2 py-8">
         <div className="flex flex-col md:flex-row md:space-x-8">
           {/* Left Side */}
           <div className="w-full md:w-80 flex-wrap md:mr-20 text-center md:text-left mb-8 md:mb-0">
@@ -84,7 +84,7 @@ const Footer = () => {
                     </svg>
                     <span className="ml-4 flex items-start flex-col leading-none">
                       <span className="text-sm text-gray-600 mb">GET IT ON</span>
-                      <span className="title-font font-bold text-lg">Google Play</span>
+                      <span className="title-font font-bold text-md text-left">Google Play</span>
                     </span>
                   </button>
                 </a>

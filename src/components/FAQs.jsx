@@ -9,11 +9,13 @@ const Faq = () => {
     const [open5, setOpen5] = useState(false);
 
     return (
-        <div className=" lg:container lg:mx-auto lg:py-16 md:py-12 md:px-6 py-12 px-4">
-            <h1 className="md:mb-0 mb-8 md:text-center text-center lg:text-4xl text-3xl lg:leading-9 leading-7 text-gray-800 font-bold">Your FAQ's - answered by us</h1>
+        <div className="container mx-auto max-w-screen-xl px-4 py-8">
+      <div className="flex flex-wrap items-center justify-between">
+        <h1 className="text-4xl font-bold">Your FAQs - answered by us</h1>
+      </div>
+           
 
-
-            <div className="lg:w-8/12 w-full mx-auto">
+            <div className="w-full mx-auto">
                 {/* <!-- Question 1 --> */}
                 <hr className=" w-full lg:mt-10 md:mt-12 md:mb-8 my-8" />
 
@@ -22,7 +24,7 @@ const Faq = () => {
                         <div className=" ">
                             <p className="flex justify-center items-center font-medium text-base leading-6 md:leading-4 text-gray-800">
                                 {" "}
-                                <span className="  lg:mr-6 mr-4 lg:text-2xl md:text-xl text-lg leading-6 md:leading-5 lg:leading-4 font-semibold text-gray-800">Q1.</span> When is the right time to start my prep for GPAT/NIPER?
+                                <span className="  lg:mr-6 mr-4 lg:text-2xl md:text-xl text-lg leading-6 md:leading-5 lg:leading-4 font-semibold text-gray-800"></span> When is the right time to start my prep for GPAT/NIPER?
                             </p>
                         </div>
                         <button aria-label="toggler" className="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800" onClick={() => setOpen(!open)}>
@@ -45,7 +47,7 @@ const Faq = () => {
                         <div className="">
                             <p className="flex justify-center items-center font-medium text-base leading-6 lg:leading-4 text-gray-800">
                                 {" "}
-                                <span className="  lg:mr-6 mr-4 lg:text-2xl md:text-xl text-lg leading-6 md:leading-5 lg:leading-4 font-semibold text-gray-800">Q2.</span>If I am a second-year B.Pharm Student, would I be able to cope up with the advanced syllabus of GPAT?
+                                <span className="  lg:mr-6 mr-4 lg:text-2xl md:text-xl text-lg leading-6 md:leading-5 lg:leading-4 font-semibold text-gray-800"></span>If I am a second-year B.Pharm Student, would I be able to cope up with the advanced syllabus of GPAT?
                             </p>
                         </div>
                         <button aria-label="toggler" className="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800" onClick={() => setOpen2(!open2)}>
@@ -68,7 +70,7 @@ const Faq = () => {
                         <div className="">
                             <p className="flex justify-center items-center font-medium text-base leading-6 lg:leading-4 text-gray-800">
                                 {" "}
-                                <span className="  lg:mr-6 mr-4 lg:text-2xl md:text-xl text-lg leading-6 md:leading-5 lg:leading-4 font-semibold text-gray-800">Q3.</span>
+                                <span className="  lg:mr-6 mr-4 lg:text-2xl md:text-xl text-lg leading-6 md:leading-5 lg:leading-4 font-semibold text-gray-800"></span>
                                 Do you conduct career counseling sessions? If yes, is there an additional charge?
                             </p>
                         </div>
@@ -92,7 +94,7 @@ const Faq = () => {
                         <div className="">
                             <p className="flex justify-center items-center font-medium text-base leading-6 lg:leading-4 text-gray-800">
                                 {" "}
-                                <span className="  lg:mr-6 mr-4 lg:text-2xl md:text-xl text-lg leading-6 md:leading-5 lg:leading-4 font-semibold text-gray-800">Q4.</span>
+                                <span className="  lg:mr-6 mr-4 lg:text-2xl md:text-xl text-lg leading-6 md:leading-5 lg:leading-4 font-semibold text-gray-800"></span>
                                 Do you have online platforms for continuous learning?
                             </p>
                         </div>
@@ -116,7 +118,7 @@ const Faq = () => {
                         <div className="">
                             <p className="flex justify-center items-center font-medium text-base leading-6 lg:leading-4 text-gray-800">
                                 {" "}
-                                <span className="  lg:mr-6 mr-4 lg:text-2xl md:text-xl text-lg leading-6 md:leading-5 lg:leading-4 font-semibold text-gray-800">Q5.</span>
+                                <span className="  lg:mr-6 mr-4 lg:text-2xl md:text-xl text-lg leading-6 md:leading-5 lg:leading-4 font-semibold text-gray-800"></span>
                                 Do you provide coaching for semesters?
                             </p>
                         </div>

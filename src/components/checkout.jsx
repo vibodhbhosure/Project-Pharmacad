@@ -119,7 +119,7 @@ const CheckoutForm = () => {
 
             </form>
             <div className="flex justify-start mt-6 my-6">
-                <button className="bg-indigo-700 hover:bg-sky-600 text-white font-normal py-2 px-4 rounded-sm w-50 float-left mb-4">
+                <button className="bg-indigo-700 hover:bg-sky-600 text-white font-normal py-2 px-4 rounded-lg w-50 float-left mb-4">
                     Confirm Payment
                 </button>
             </div>
