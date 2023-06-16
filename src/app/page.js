@@ -3,6 +3,7 @@ import FAQs from '@/components/FAQs'
 import Contact from '@/components/contact'
 import About from '@/components/about'
 import CheckoutForm from '@/components/checkout'
+import CoursesOffered from '@/components/coursesoffered'
 import Banner from '../components/banner'
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
     <main>
       <Banner />
       <CheckoutForm />
+      <CoursesOffered />
       <About />
       <FAQs />
       <Contact />

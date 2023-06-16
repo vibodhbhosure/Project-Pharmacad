@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import logo from "../../public/logo.png";
-
 function Component() {
   const [mounted, setMounted] = useState(false);
   useEffect(() => {
@@ -14,16 +13,11 @@ function Component() {
 const Footer = () => {
   return (
     <footer className="bg-black body-font">
-      <div className="container mx-auto max-w-screen-lg px-2 py-8">
+      <div className="container mx-auto max-w-screen-xl px-2 py-8">
         <div className="flex flex-col md:flex-row md:space-x-8">
           {/* Left Side */}
           <div className="w-full md:w-80 flex-wrap md:mr-20 text-center md:text-left mb-8 md:mb-0">
-            <Image
-              src={logo} // Update the image path and file extension
-              alt="Pharmacad"
-              width={150}
-              height={100}
-            />
+            <Image src={logo} alt="Pharmacad" width={150} height={100} />
             <div>
               <p className="mt-2 text-md text-justify text-white">
                 Dedicated to providing a transformative learning experience and
@@ -109,10 +103,7 @@ const Footer = () => {
                 </li>
               </nav>
               <div className="w-full mt-6 text-left">
-                <a
-                  href="https://play.google.com/store/apps/details?id=co.loki.pharmac"
-                  target="_blank"
-                >
+                <a href="#">
                   <button className="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -126,7 +117,7 @@ const Footer = () => {
                       <span className="text-sm text-gray-600 mb">
                         GET IT ON
                       </span>
-                      <span className="title-font font-bold text-lg">
+                      <span className="title-font font-bold text-md text-left">
                         Google Play
                       </span>
                     </span>
