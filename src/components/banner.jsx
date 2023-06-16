@@ -12,8 +12,7 @@ const Banner = () => {
               <p className=" text-2xl sm:text-1xl md:text-1xl lg:text-1xl font-medium">
                 #1 COACHING CLASSES FOR PHARMACY IN MUMBAI
               </p>
-
-              <p className=" text-6xl sm:text-4xl md:text-8xl lg:text-6xl font-extrabold">
+              <p className=" text-4 xl m:text-4xl md:text-8xl lg:text-6xl font-extrabold">
                 YOUR Dreams. <br className="lg:flex hidden" />
                 OUR Mission. <br className="lg:flex hidden" />
               </p>
