@@ -3,7 +3,11 @@
 @import 'tailwindcss/utilities';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&display=swap');
 
-* {
+.contact{
+    background-color: #EAFFD9;
+}
+
+/* * {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -82,7 +86,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 /* @media screen and (min-width: 768px) {
     .nav__menu-bar {
