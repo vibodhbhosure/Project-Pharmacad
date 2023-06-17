@@ -1,5 +1,5 @@
 import React from "react";
-import Abtpage from '../../public/Pharmacad1-1536x864.png';
+import Abtpage from '../../public/aboutuspage.png';
 
 
 

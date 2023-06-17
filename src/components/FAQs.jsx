@@ -23,8 +23,7 @@ const Faq = () => {
                     <div id="mainHeading" className="flex justify-between items-center w-full">
                         <div className=" ">
                             <p className="flex justify-center items-center font-medium text-lg leading-6 md:leading-4 text-gray-800">
-                                {" "}
-                                <span className="  lg:mr-6 mr-4 lg:text-2xl md:text-xl text-lg leading-6 md:leading-5 lg:leading-4 font-semibold text-gray-800"></span> When is the right time to start my prep for GPAT/NIPER?
+                               When is the right time to start my prep for GPAT/NIPER?
                             </p>
                         </div>
                         <button aria-label="toggler" className="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800" onClick={() => setOpen(!open)}>
@@ -46,8 +45,7 @@ const Faq = () => {
                     <div id="mainHeading" className="flex justify-between items-center w-full">
                         <div className="">
                             <p className="flex justify-center items-center font-medium text-lg leading-6 lg:leading-4 text-gray-800">
-                                {" "}
-                                <span className="  lg:mr-6 mr-4 lg:text-2xl md:text-xl text-lg leading-6 md:leading-5 lg:leading-4 font-semibold text-gray-800"></span>If I am a second-year B.Pharm Student, would I be able to cope up with the advanced syllabus of GPAT?
+                                  If I am a second-year B.Pharm Student, would I be able to cope up with the advanced syllabus of GPAT?
                             </p>
                         </div>
                         <button aria-label="toggler" className="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800" onClick={() => setOpen2(!open2)}>
@@ -69,8 +67,7 @@ const Faq = () => {
                     <div id="mainHeading" className="flex justify-between items-center w-full">
                         <div className="">
                             <p className="flex justify-center items-center font-medium text-lg leading-6 lg:leading-4 text-gray-800">
-                                {" "}
-                                <span className="  lg:mr-6 mr-4 lg:text-2xl md:text-xl text-lg leading-6 md:leading-5 lg:leading-4 font-semibold text-gray-800"></span>
+                                  
                                 Do you conduct career counseling sessions? If yes, is there an additional charge?
                             </p>
                         </div>
@@ -93,8 +90,7 @@ const Faq = () => {
                     <div id="mainHeading" className="flex justify-between items-center w-full">
                         <div className="">
                             <p className="flex justify-center items-center font-medium text-lg leading-6 lg:leading-4 text-gray-800">
-                                {" "}
-                                <span className="  lg:mr-6 mr-4 lg:text-2xl md:text-xl text-lg leading-6 md:leading-5 lg:leading-4 font-semibold text-gray-800"></span>
+                                  
                                 Do you have online platforms for continuous learning?
                             </p>
                         </div>
@@ -105,7 +101,7 @@ const Faq = () => {
                         </button>
                     </div>
                     <div id="menu" className={"mt-6 w-full " + (open4 ? "block" : "hidden")}>
-                        <p className="text-lg leading-6 text-gray-600 font-normal">RYes, we do have a mobile application where a student can revisit the concepts. Those are pre-recorded videos recorded by our faculty. Online test series for GPAT, NIPER, and all entrance exams covering over 10,000 MCQs are included in the application. So, head on to the play store and check it out. <a href="#" className="text-sky-500">Download our App now!</a></p>
+                        <p className="text-lg leading-6 text-gray-600 font-normal">Yes, we do have a mobile application where a student can revisit the concepts. Those are pre-recorded videos recorded by our faculty. Online test series for GPAT, NIPER, and all entrance exams covering over 10,000 MCQs are included in the application. So, head on to the play store and check it out. <a href="#" className="text-sky-500">Download our App now!</a></p>
                     </div>
                 </div>
 
@@ -117,8 +113,7 @@ const Faq = () => {
                     <div id="mainHeading" className="flex justify-between items-center w-full">
                         <div className="">
                             <p className="flex justify-center items-center font-medium text-lg leading-6 lg:leading-4 text-gray-800">
-                                {" "}
-                                <span className="  lg:mr-6 mr-4 lg:text-2xl md:text-xl text-lg leading-6 md:leading-5 lg:leading-4 font-semibold text-gray-800"></span>
+                                  
                                 Do you provide coaching for semesters?
                             </p>
                         </div>
