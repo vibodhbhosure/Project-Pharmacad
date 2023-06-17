@@ -5,6 +5,7 @@ import Contact from '@/components/contact'
 import About from '@/components/about'
 import CheckoutForm from '@/components/checkout'
 import CoursesOffered from '@/components/coursesoffered'
+import About3 from '@/components/aboutpage'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <About/>
       <FAQs/>
       <Contact/>
+      <About3/>
       
 
     </main>
