@@ -5,7 +5,7 @@ import googleplay from "../../public/googleplay.svg";
 const Banner = () => {
   return (
     <>
-      <div className="container mx-auto my-10 mt-8 ">
+      <div className="container mx-auto my-10">
         <div className="bg-[#ffff] px-6 lg:px-16 py-10 rounded-xl">
           <div className="flex flex-col lg:flex-row justify-center  lg:justify-between items-center gap-5">
             <div className="flex flex-col gap-5 lg:gap-10">
