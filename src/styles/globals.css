@@ -84,7 +84,7 @@ nav {
     align-items: center;
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     .nav__menu-bar {
         display: none;
     }
@@ -112,4 +112,4 @@ nav {
     .nav__link:hover:before {
         width: 100%;
     }
-}
+} */
