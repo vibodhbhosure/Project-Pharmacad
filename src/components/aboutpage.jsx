@@ -1,5 +1,5 @@
 import React from "react";
-import Image from 'next/image';
+import Abtpage from '../../public/Pharmacad1-1536x864.png';
 
 
 
@@ -19,9 +19,9 @@ Our team at Pharmacad are united by a common desire to work towards grooming pha
 
                 
                 <div className="w-full lg:w-6/12">
-                    <img className="lg:block hidden w-full" src="/Pharmacad1-1536x864.png" alt="people discussing on board" />
-                    <img className="lg:hidden sm:block hidden w-full" src="/Pharmacad1-1536x864.png" alt="people discussing on board" />
-                    <img className="sm:hidden block w-full" src="/Pharmacad1-1536x864.png" alt="people discussing on board" />
+                    <img className="lg:block hidden w-full" src={Abtpage} alt="people discussing on board" />
+                    <img className="lg:hidden sm:block hidden w-full" src={Abtpage} alt="people discussing on board" />
+                    <img className="sm:hidden block w-full" src={Abtpage} alt="people discussing on board" />
                 </div>
             </div>
             <div className="border-t border-gray-500 my-4"></div>

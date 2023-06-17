@@ -1,5 +1,6 @@
 import React from "react";
 import Image from 'next/image';
+import Logo from '../../public/Pharmacad_Logo-removebg-preview..png';
 
 const Footer = () => {
   return (
@@ -9,7 +10,7 @@ const Footer = () => {
           {/* Left Side */}
           <div className="w-full md:w-80 flex-wrap md:mr-20 text-center md:text-left mb-8 md:mb-0">
             <Image
-              src="/Pharmacad_Logo-removebg-preview..png" // Update the image path and file extension
+              src={Logo} // Update the image path and file extension
               alt="Pharmacad"
               width={150}
               height={100}
@@ -25,7 +26,7 @@ const Footer = () => {
           <div className="flex-grow flex flex-wrap md:pl-40">
             <div className="w-1/2 md:w-1/2 md:pr-8">
               <h2 className="title-font font-bold text-white tracking-widest text-xl mb-3">Navigate</h2>
-              <nav className="list-none text-left mb-10">
+              <div className="list-none text-left mb-10">
                 <li>
                   <a href="#" className="text-white hover:text-gray-600">Home</a>
                 </li>
@@ -50,12 +51,12 @@ const Footer = () => {
                 <li>
                   <a href="#" className="text-white hover:text-gray-600">Contact</a>
                 </li>
-              </nav>
+              </div>
             </div>
 
             <div className="w-1/2 md:w-1/2">
               <h2 className="title-font font-bold text-white tracking-widest text-xl mb-3">Contact</h2>
-              <nav className="list-none text-left mb-10">
+              <div className="list-none text-left mb-10">
                 <li>
                   <a href="#" className="text-white hover:text-gray-600">Dadar, Mumbai-14</a>
                 </li>
@@ -65,7 +66,7 @@ const Footer = () => {
                 <li>
                   <a href="#" className="text-white hover:text-gray-600">(+91) 9967163961</a>
                 </li>
-              </nav>
+              </div>
               <h2 className="title-font font-bold font-sans text-white tracking-widest text-xl mb-3">Socials</h2>
               <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
                 <a href="#" className=" text-gray-500">

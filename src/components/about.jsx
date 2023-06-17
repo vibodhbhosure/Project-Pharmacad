@@ -1,5 +1,6 @@
 import React from "react";
-
+import Rectangle364 from '../../public/Rectangle 364.svg'
+import Rectangle323 from '../../public/Rectangle 323.svg'
 const About = () => {
     return (
         <div className="bg-lime-50">
@@ -22,11 +23,11 @@ const About = () => {
                 </div>
                 <div className="md:block">
                     <div className="w-full lg:w-8/12">
-                        <img className="w-auto h-auto" src="/Rectangle 364.svg" alt="SVG image" />
+                        <img className="w-auto h-auto" src={Rectangle364} alt="SVG image" />
                         
                     </div>
                     <div className="w-full lg:w-8/12">
-                    <img className="w-auto h-auto my-10 " src="/Rectangle 323.svg" alt="SVG image" />
+                    <img className="w-auto h-auto my-10 " src={Rectangle323} alt="SVG image" />
 
                     </div>
                 </div>
