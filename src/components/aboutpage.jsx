@@ -1,5 +1,5 @@
 import React from "react";
-import Abtpage from '../../public/aboutuspage.png';
+import Abtpage from '../../public/Pharmacad1-1536x864.png';
 
 
 
@@ -24,21 +24,21 @@ Our team at Pharmacad are united by a common desire to work towards grooming pha
                     <img className="sm:hidden block w-full" src={Abtpage} alt="people discussing on board" />
                 </div>
             </div>
-            <div className="border-t border-gray-500 my-4"></div>
+            <div className="border-t border-gray-700 mt-10"></div>
 
-            <div className="flex md:gap-14 gap-16 justify-between lg:mt-20 mt-10">
+            <div className="flex md:gap-14 gap-16 justify-between lg:mt-10 mt-10">
                 <div className="w-full">
-                    <h2 className="font-bold font-sans lg:text-4xl text-4xl lg:leading-9 leading-7 text-gray-800">Our Mission & Vision</h2>
-                    <p className="font-normal font-sans text-xl leading-6 text-gray-600 mt-6 w-full text-justify">We possess strong tie-ups and partnerships with leading industry professionals for certificate courses, job placements, and internship opportunities.</p>
-                    <p className="font-normal font-sans text-xl leading-6 text-gray-600 w-full mt-2 text-justify">We aim to deepen and extend knowledge in the field of pharmacy by creating a one-stop solution for all pharmacy students to help them achieve academic excellence and professional leadership.</p>
+                    <h2 className="font-bold font-sans lg:text-4xl text-2xl lg:leading-9 leading-7 text-gray-800">Our Mission & Vision</h2>
+                    <p className="font-normal font-sans text-lg leading-6 text-gray-600 mt-6 w-full text-justify">We possess strong tie-ups and partnerships with leading industry professionals for certificate courses, job placements, and internship opportunities.</p>
+                    <p className="font-normal font-sans text-lg leading-6 text-gray-600 w-full mt-2 text-justify">We aim to deepen and extend knowledge in the field of pharmacy by creating a one-stop solution for all pharmacy students to help them achieve academic excellence and professional leadership.</p>
                 </div>
                 
                 </div>
 
                 <div className="container mx-auto py-8">
-  <div className="flex items-center my-8">
+  <div className="flex items-center my-4">
     <div className="flex-grow bg-gray-500 h-px"></div>
-    <p className="mx-4 text-black text-lg">Coaching</p>
+    <p className="mx-4 text-black font-bold text-xl">Coaching</p>
     <div className="flex-grow bg-gray-500 h-px"></div>
   </div>
 
@@ -70,7 +70,7 @@ Our team at Pharmacad are united by a common desire to work towards grooming pha
 <div className="container mx-auto px-4 py-8">
   <div className="flex items-center my-8">
     <div className="flex-grow bg-gray-500 h-px"></div>
-    <p className="mx-4 text-black text-lg">Certification</p>
+    <p className="mx-4 text-black text-xl font-bold">Certification</p>
     <div className="flex-grow bg-gray-500 h-px"></div>
   </div>
 
@@ -100,7 +100,7 @@ Our team at Pharmacad are united by a common desire to work towards grooming pha
 <div className="container mx-auto px-4 py-8">
   <div className="flex items-center my-8">
     <div className="flex-grow bg-gray-500 h-px"></div>
-    <p className="mx-4 text-black text-lg">Counseling</p>
+    <p className="mx-4 text-black text-xl font-bold">Counseling</p>
     <div className="flex-grow bg-gray-500 h-px"></div>
   </div>
 
@@ -133,7 +133,7 @@ Our team at Pharmacad are united by a common desire to work towards grooming pha
 <div className="container mx-auto px-4 py-8">
   <div className="flex items-center my-8">
     <div className="flex-grow bg-gray-500 h-px"></div>
-    <p className="mx-4 text-black text-lg">Co-Curricular</p>
+    <p className="mx-4 text-black text-xl font-bold">Co-Curricular</p>
     <div className="flex-grow bg-gray-500 h-px"></div>
   </div>
 

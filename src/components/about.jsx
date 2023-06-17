@@ -3,7 +3,8 @@ import Rectangle364 from '../../public/Rectangle364.svg'
 import Rectangle323 from '../../public/Rectangle323.svg'
 const About = () => {
     return (
-        <div className="bg-lime-50">
+        <div className="bg-[#e8fedb]">
+           
         <div className="container mx-auto max-w-screen-xl px-4 py-8">
             <div className="flex flex-col lg:flex-row justify-between gap-10">
                 <div className="w-full lg:w-8/12 flex flex-col justify-center">

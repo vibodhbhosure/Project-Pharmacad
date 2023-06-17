@@ -61,7 +61,7 @@ const Footer = () => {
                   <a href="#" className="text-white hover:text-gray-600">Dadar, Mumbai-14</a>
                 </li>
                 <li>
-                  <a href="#" className="text-white break-words hover:text-gray-600">pharmacad.india@gmail.com</a>
+                  <a href="#" className="text-white break-words text-sm hover:text-gray-600">pharmacad.india@gmail.com</a>
                 </li>
                 <li>
                   <a href="#" className="text-white hover:text-gray-600">(+91) 9967163961</a>
