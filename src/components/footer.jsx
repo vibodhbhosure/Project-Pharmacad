@@ -4,7 +4,7 @@ import Logo from '../../public/Pharmacad_Logo-removebg-preview..png';
 
 const Footer = () => {
   return (
-    <footer className="bg-black body-font">
+    <footer className="bg-[#030303] body-font">
       <div className="container mx-auto max-w-screen-xl px-2 py-8">
         <div className="flex flex-col md:flex-row md:space-x-8">
           {/* Left Side */}
@@ -109,7 +109,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="bg-slate-800">
+      <div className="bg-[#0C0C0C]">
         <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
           <p className="text-white text-sm text-center sm:text-left font-sans-bold">
             © 2023
