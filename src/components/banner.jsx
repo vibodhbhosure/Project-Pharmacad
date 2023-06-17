@@ -41,7 +41,13 @@ const Banner = () => {
               </a>
             </div>
             <div>
-              <Image className="left-align" src={a1} width={750} height={370} />
+              <Image
+                className="left-align"
+                src={a1}
+                width={750}
+                height={370}
+                priority={true}
+              />
             </div>
           </div>
         </div>
