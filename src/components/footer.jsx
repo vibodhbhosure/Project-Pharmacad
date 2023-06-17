@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Logo from "../../public/logo.png";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -58,9 +59,12 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="/about" className="text-white hover:text-gray-600">
+                  <Link
+                    href="/about"
+                    className="text-white hover:text-gray-600"
+                  >
                     About Us
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <a href="#" className="text-white hover:text-gray-600">
