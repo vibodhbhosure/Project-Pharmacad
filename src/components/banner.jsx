@@ -28,13 +28,17 @@ const Banner = () => {
               <p className="text-sm sm:text-base lg:text-lg text-[#393939]">
                 Pharmacad is also available on the Playstore!
               </p>
-
-              <Image
-                className="px-3 py-1.5 flex gap-2 items-center rounded-xl"
-                src={googleplay}
-                width={240}
-                height={120}
-              />
+              <a
+                href="https://play.google.com/store/apps/details?id=co.loki.pharmac"
+                target="_blank"
+              >
+                <Image
+                  className="px-3 py-1.5 flex gap-2 items-center rounded-xl"
+                  src={googleplay}
+                  width={240}
+                  height={120}
+                />
+              </a>
             </div>
             <div>
               <Image className="left-align" src={a} width={750} height={370} />

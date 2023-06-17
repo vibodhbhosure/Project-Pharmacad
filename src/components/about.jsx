@@ -1,8 +1,7 @@
 import React from "react";
-import Image from "next/image";
 import Rectangle323 from "../../public/Rectangle323.svg";
 import Rectangle364 from "../../public/Rectangle364.svg";
-
+import Image from "next/image";
 const About = () => {
   return (
     <div className="bg-lime-50">

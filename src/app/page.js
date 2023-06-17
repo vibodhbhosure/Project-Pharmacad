@@ -5,6 +5,7 @@ import About from '@/components/about'
 import CheckoutForm from '@/components/checkout'
 import CoursesOffered from '@/components/coursesoffered'
 import Banner from '../components/banner'
+import BestChoiceContainer from "../components/BestChoice"
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Banner />
       <CheckoutForm />
       <CoursesOffered />
+      <BestChoiceContainer />
       <About />
       <FAQs />
       <Contact />
