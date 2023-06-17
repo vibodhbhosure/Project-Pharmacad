@@ -55,7 +55,7 @@ const Contact = () => {
 
                             <div className="flex items-center mx-6 mt-4 mb-2">
                                
-                            <ul className="list-disc"><li>   <p className="text-gray-600">pharmacad.india@gmail.com</p></li></ul>
+                            <ul className="list-disc"><li>   <p className="text-gray-600 break-all">pharmacad.india@gmail.com</p></li></ul>
                                 
                             </div>
 
