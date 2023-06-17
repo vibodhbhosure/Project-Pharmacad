@@ -9,7 +9,7 @@ export default[
       "id": 2,
       "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVbqOX6yMdic8__SMjTD2FD83gdzzyQrbuvEZCJtxJKA&s",
       "title": "Guidance for Placements",
-      "description": "Timely conduction of tests and assignments which helps students attain in-depth knowledge of the syllabus."
+      "description": "Full assistance to students for industrial training, internships, & placements so they can get their dream job."
     },
     {
       "id": 3,
