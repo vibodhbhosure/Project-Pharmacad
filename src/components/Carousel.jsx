@@ -3,11 +3,7 @@
 import React from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
-import { useClient } from "next/client";
-import Image from "next/image";
-// import image1 from "../../public/image1c.svg";
-// import image2 from "../../public/image2c.svg";
-// import image3 from "../../public/image3c.svg";
+import Image from "next/legacy/image";
 
 const Carousel = () => {
   // useClient();

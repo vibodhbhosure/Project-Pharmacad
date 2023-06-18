@@ -44,7 +44,7 @@ function Contactbar() {
                   <FaPhoneAlt />
                 </Link>
               </span>
-              <span>(+91)9967 163 961</span>
+              <span>(+91) 9967 163 961</span>
             </div>
           </li>
         </ul>
