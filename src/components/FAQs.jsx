@@ -25,8 +25,6 @@ const Faq = () => {
           >
             <div className=" ">
               <p className="flex justify-center items-center font-medium text-lg leading-6 md:leading-4 text-gray-800">
-                {" "}
-                <span className="  lg:mr-6 mr-4 lg:text-2xl md:text-xl text-lg leading-6 md:leading-5 lg:leading-4 font-semibold text-gray-800"></span>{" "}
                 When is the right time to start my prep for GPAT/NIPER?
               </p>
             </div>
@@ -78,8 +76,6 @@ const Faq = () => {
           >
             <div className="">
               <p className="flex justify-center items-center font-medium text-lg leading-6 lg:leading-4 text-gray-800">
-                {" "}
-                <span className="  lg:mr-6 mr-4 lg:text-2xl md:text-xl text-lg leading-6 md:leading-5 lg:leading-4 font-semibold text-gray-800"></span>
                 If I am a second-year B.Pharm Student, would I be able to cope
                 up with the advanced syllabus of GPAT?
               </p>
@@ -132,8 +128,6 @@ const Faq = () => {
           >
             <div className="">
               <p className="flex justify-center items-center font-medium text-lg leading-6 lg:leading-4 text-gray-800">
-                {" "}
-                <span className="  lg:mr-6 mr-4 lg:text-2xl md:text-xl text-lg leading-6 md:leading-5 lg:leading-4 font-semibold text-gray-800"></span>
                 Do you conduct career counseling sessions? If yes, is there an
                 additional charge?
               </p>
@@ -185,8 +179,6 @@ const Faq = () => {
           >
             <div className="">
               <p className="flex justify-center items-center font-medium text-lg leading-6 lg:leading-4 text-gray-800">
-                {" "}
-                <span className="  lg:mr-6 mr-4 lg:text-2xl md:text-xl text-lg leading-6 md:leading-5 lg:leading-4 font-semibold text-gray-800"></span>
                 Do you have online platforms for continuous learning?
               </p>
             </div>
@@ -218,7 +210,7 @@ const Faq = () => {
             className={"mt-6 w-full " + (open4 ? "block" : "hidden")}
           >
             <p className="text-lg leading-6 text-gray-600 font-normal">
-              RYes, we do have a mobile application where a student can revisit
+              Yes, we do have a mobile application where a student can revisit
               the concepts. Those are pre-recorded videos recorded by our
               faculty. Online test series for GPAT, NIPER, and all entrance
               exams covering over 10,000 MCQs are included in the application.
@@ -241,8 +233,6 @@ const Faq = () => {
           >
             <div className="">
               <p className="flex justify-center items-center font-medium text-lg leading-6 lg:leading-4 text-gray-800">
-                {" "}
-                <span className="  lg:mr-6 mr-4 lg:text-2xl md:text-xl text-lg leading-6 md:leading-5 lg:leading-4 font-semibold text-gray-800"></span>
                 Do you provide coaching for semesters?
               </p>
             </div>
