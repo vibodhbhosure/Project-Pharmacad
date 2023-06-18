@@ -16,7 +16,7 @@ const Footer = () => {
               height={100}
             />
             <div>
-              <p className="mt-2 text-md text-justify text-white">
+              <p className="mt-2 text-md text-justify font-inter text-white">
                 Dedicated to providing a transformative learning experience and shaping the next generation of pharmaceutical leaders with cutting-edge curriculum, innovative research, and hands-on training.
               </p>
             </div>
@@ -25,49 +25,49 @@ const Footer = () => {
           {/* Right Side */}
           <div className="flex-grow flex flex-wrap md:pl-40">
             <div className="w-1/2 md:w-1/2 md:pr-8">
-              <h2 className="title-font font-bold text-white tracking-widest text-xl mb-3">Navigate</h2>
+              <h2 className="title-font font-bold text-white tracking-widest text-xl mb-3 font-inter">Navigate</h2>
               <div className="list-none text-left mb-10">
                 <li>
-                  <a href="#" className="text-white hover:text-gray-600">Home</a>
+                  <a href="#" className="text-white hover:text-gray-600 font-inter">Home</a>
                 </li>
                 <li>
-                  <a href="#" className="text-white hover:text-gray-600">Courses</a>
+                  <a href="#" className="text-white hover:text-gray-600 font-inter">Courses</a>
                 </li>
                 <li>
-                  <a href="#" className="text-white hover:text-gray-600">Resources</a>
+                  <a href="#" className="text-white hover:text-gray-600 font-inter">Resources</a>
                 </li>
                 <li>
-                  <a href="#" className="text-white hover:text-gray-600">Blogs</a>
+                  <a href="#" className="text-white hover:text-gray-600 font-inter">Blogs</a>
                 </li>
                 <li>
-                  <a href="#" className="text-white hover:text-gray-600">Events</a>
+                  <a href="#" className="text-white hover:text-gray-600 font-inter">Events</a>
                 </li>
                 <li>
-                  <a href="#" className="text-white hover:text-gray-600">About Us</a>
+                  <a href="#" className="text-white hover:text-gray-600 font-inter">About Us</a>
                 </li>
                 <li>
-                  <a href="#" className="text-white hover:text-gray-600">FAQs</a>
+                  <a href="#" className="text-white hover:text-gray-600 font-inter">FAQs</a>
                 </li>
                 <li>
-                  <a href="#" className="text-white hover:text-gray-600">Contact</a>
+                  <a href="#" className="text-white hover:text-gray-600 font-inter">Contact</a>
                 </li>
               </div>
             </div>
 
             <div className="w-1/2 md:w-1/2">
-              <h2 className="title-font font-bold text-white tracking-widest text-xl mb-3">Contact</h2>
+              <h2 className="title-font font-bold text-white tracking-widest text-xl mb-3 font-inter">Contact</h2>
               <div className="list-none text-left mb-10">
                 <li>
-                  <a href="#" className="text-white hover:text-gray-600">Dadar, Mumbai-14</a>
+                  <a href="#" className="text-white hover:text-gray-600font-inter">Dadar, Mumbai-14</a>
                 </li>
                 <li>
-                  <a href="#" className="text-white break-words text-sm hover:text-gray-600">pharmacad.india@gmail.com</a>
+                  <a href="#" className="text-white break-words text-sm hover:text-gray-600 font-inter">pharmacad.india@gmail.com</a>
                 </li>
                 <li>
-                  <a href="#" className="text-white hover:text-gray-600">(+91) 9967163961</a>
+                  <a href="#" className="text-white hover:text-gray-600 font-inter">(+91) 9967163961</a>
                 </li>
               </div>
-              <h2 className="title-font font-bold font-sans text-white tracking-widest text-xl mb-3">Socials</h2>
+              <h2 className="title-font font-bold font-sans text-white tracking-widest text-xl mb-3 font-inter">Socials</h2>
               <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
                 <a href="#" className=" text-gray-500">
                   <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
@@ -99,8 +99,8 @@ const Footer = () => {
                       <path d="M99.617 8.057a50.191 50.191 0 00-38.815-6.713l230.932 230.933 74.846-74.846L99.617 8.057zM32.139 20.116c-6.441 8.563-10.148 19.077-10.148 30.199v411.358c0 11.123 3.708 21.636 10.148 30.199l235.877-235.877L32.139 20.116zM464.261 212.087l-67.266-37.637-81.544 81.544 81.548 81.548 67.273-37.64c16.117-9.03 25.738-25.442 25.738-43.908s-9.621-34.877-25.749-43.907zM291.733 279.711L60.815 510.629c3.786.891 7.639 1.371 11.492 1.371a50.275 50.275 0 0027.31-8.07l266.965-149.372-74.849-74.847z"></path>
                     </svg>
                     <span className="ml-4 flex items-start flex-col leading-none">
-                      <span className="text-sm text-gray-600 mb">GET IT ON</span>
-                      <span className="title-font font-bold text-md text-left">Google Play</span>
+                      <span className="text-sm text-gray-600 mb font-inter">GET IT ON</span>
+                      <span className="title-font font-bold text-md text-left font-inter">Google Play</span>
                     </span>
                   </button>
                 </a>
@@ -110,12 +110,12 @@ const Footer = () => {
         </div>
       </div>
       <div className="bg-[#0C0C0C]">
-        <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-          <p className="text-white text-sm text-center sm:text-left font-sans-bold">
+        <div className="xl:container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+          <p className="text-white font-inter text-sm text-center sm:text-left font-sans-bold">
             © 2023
           </p>
           <div className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-            <p className="text-white text-sm text-left sm:text-left font-sans-bold">
+            <p className="text-white font-inter text-sm text-left sm:text-left font-sans-bold">
               Developed by VIT
             </p>
           </div>
