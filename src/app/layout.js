@@ -3,6 +3,7 @@ import TestimonialsContainer from '../../components/Testimonials';
 import Card from '../../components/Card'
 import './globals.css'
 import { Inter } from 'next/font/google'
+import TestimonialsPage from '../../components/TestimonialsPage';
  
  
  
@@ -18,8 +19,9 @@ export default function RootLayout({ children }) {
   return (
  
     <>
-           <BestChoiceContainer/>
-           <TestimonialsContainer />
+    <TestimonialsPage/>
+           {/* <BestChoiceContainer/> */}
+           {/* <TestimonialsContainer /> */}
     </>
  
   )
