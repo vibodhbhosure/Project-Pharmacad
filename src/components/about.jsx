@@ -45,10 +45,14 @@ const About = () => {
           </div>
           <div className="md:block">
             <div className="w-full lg:w-8/12">
-              <img className="w-auto h-auto" src={aboutImg2} alt="SVG image" />
+              <Image
+                className="w-auto h-auto"
+                src={aboutImg2}
+                alt="SVG image"
+              />
             </div>
             <div className="w-full lg:w-8/12">
-              <img
+              <Image
                 className="w-auto h-auto my-10 "
                 src={aboutImg1}
                 alt="SVG image"
