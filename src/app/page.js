@@ -7,18 +7,20 @@ import CoursesOffered from '@/components/coursesoffered'
 import Banner from '../components/banner'
 import AdCarousal from '../components/AdCarousal'
 import Card1 from '../components/CarousalCards/Card1'
+import Card2 from '../components/CarousalCards/Card2'
 
 export default function Home() {
   return (
     <main>
-      <Banner />
+      {/* <Banner />
       <CheckoutForm />
       <CoursesOffered />
       <About />
       <FAQs />
-      <Contact />
-      {/* <AdCarousal/> */}
-      {/* <Card1/> */}
+      <Contact /> */}
+      <AdCarousal/>
+      <Card1/>
+      <Card2/>
     </main>
   )
 }

@@ -6,6 +6,16 @@
 .contact{
     background-color: #EAFFD9;
 }
+.textcolour{
+    color: #50FCB2;
+}
+.gradient{
+    background: linear-gradient(to right, #8800AA, #620090);
+}
+.bg{
+    background-image: url("../../public/bg2.svg");
+;
+}
 
 * {
     font-family: 'Montserrat', sans-serif;

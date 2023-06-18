@@ -1,6 +1,8 @@
 "use client";
 import React, {useState} from 'react'
 import {FaAngleLeft, FaAngleRight} from "react-icons/fa";
+import Card1 from "./CarousalCards/Card1"
+import Card2 from "./CarousalCards/Card2"
 
 const AdCarousal = () => {
 
@@ -21,6 +23,12 @@ const AdCarousal = () => {
         {
           url: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2671&q=80',
         },
+        // {
+        //   card:<Card1/>
+        // },
+        // {
+        //   card:<Card2/>
+        // },
       ];
 
 const [currentIndex, setCurrentIndex] = useState(0)
@@ -37,7 +45,8 @@ const nextSlide = () => {
 }
     
   return (
-    <div style={{ backgroundImage: `url(${slides[currentIndex].url})` }} className='max-w-[1321px] h-[145px] border-2 border-rose-500 m-auto mt-28 relative group'>
+    // style={{ backgroundImage: `url(${slides[currentIndex].url})` }} 
+    <div style={{ backgroundImage: `url(${slides[currentIndex]}).url` }} className='max-w-[1321px] h-[145px] m-auto mt-28 relative group'>
         <div className='w-full h-full bg-center bg-cover duration-500'>
         </div>
         <div className='hidden group-hover:flex h-9 w-9 border-2 border-gray-300 bg-white items-center justify-center absolute top-[38%] -translate-x-0 transalate-y-[-50%] left-[20px] rounded-sm p-2 cursor-pointer'><FaAngleLeft onClick={prevSlide}/></div>
