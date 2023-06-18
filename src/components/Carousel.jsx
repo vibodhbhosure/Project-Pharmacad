@@ -5,26 +5,28 @@ import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
 import Image from "next/legacy/image";
 
-const Carousel = () => {
-  // useClient();
+import image1c from "../../public/image1c.svg";
+import image2c from "../../public/image2c.svg";
+import image3c from "../../public/image3c.svg";
 
+const Carousel = () => {
   const [currentIndex, setCurrentIndex] = React.useState(0);
 
   const slides = [
     {
-      path: "../../public/image1c.svg",
+      path: image1c,
       alt: "Slide 1",
       width: 1280,
       height: 720,
     },
     {
-      path: "../../public/image2c.svg",
+      path: image2c,
       alt: "Slide 2",
       width: 3508,
       height: 2480,
     },
     {
-      path: "../../public/image3c.svg",
+      path: image3c,
       alt: "Slide 3",
       width: 1334,
       height: 720,
