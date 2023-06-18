@@ -7,6 +7,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap');
 
+.contact {
+    background-color: #EAFFD9;
+}
+
 * {
     font-family: 'Montserrat', sans-serif;
 }
@@ -18,7 +22,7 @@
     box-sizing: border-box;
 }
 
-a {
+/* a {
     text-decoration: none;
     color: inherit;
 }
@@ -84,9 +88,9 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     .nav__menu-bar {
         display: none;
     }
@@ -114,4 +118,4 @@ nav {
     .nav__link:hover:before {
         width: 100%;
     }
-}
+} */
