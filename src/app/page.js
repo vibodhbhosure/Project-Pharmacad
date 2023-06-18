@@ -5,16 +5,18 @@ import About from '@/components/about'
 import CheckoutForm from '@/components/checkout'
 import CoursesOffered from '@/components/coursesoffered'
 import Banner from '../components/banner'
+import AdCarousal from '../components/AdCarousal'
 
 export default function Home() {
   return (
     <main>
-      <Banner />
+      {/* <Banner />
       <CheckoutForm />
       <CoursesOffered />
       <About />
       <FAQs />
-      <Contact />
+      <Contact /> */}
+      <AdCarousal/>
     </main>
   )
 }

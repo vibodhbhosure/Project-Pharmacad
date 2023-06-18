@@ -25,7 +25,7 @@ const Navbars = () => {
 
   return (
     <header>
-      <nav className={`nav flex sticky bg-white top-0 shadow-2xl`}>
+      <nav className={`nav flex sticky bg-white top-0 shadow-2xl h-min`}>
         {/* <Link legacyBehavior href={"/"}>
           <a>
             <h1 className="logo">CodeWithMarish</h1>
