@@ -17,9 +17,9 @@ const Footer = () => {
               height={100}
             />
             <div>
-              <p className="mt-2 text-md text-justify text-white">
-                Dedicated to providing Link transformative learning experience
-                and shaping the next generation of pharmaceutical leaders with
+              <p className="mt-2 text-md text-justify font-inter text-white">
+                Dedicated to providing a transformative learning experience and
+                shaping the next generation of pharmaceutical leaders with
                 cutting-edge curriculum, innovative research, and hands-on
                 training.
               </p>
@@ -29,123 +29,112 @@ const Footer = () => {
           {/* Right Side */}
           <div className="flex-grow flex flex-wrap md:pl-40">
             <div className="w-1/2 md:w-1/2 md:pr-8">
-              <h2 className="title-font font-bold text-white tracking-widest text-xl mb-3">
+              <h2 className="title-font font-bold text-white tracking-widest text-xl mb-3 font-inter">
                 Navigate
               </h2>
               <div className="list-none text-left mb-10">
                 <li>
-                  <Link
-                    target="_blank"
+                  <a
                     href="#"
-                    className="text-white hover:text-gray-600"
+                    className="text-white hover:text-gray-600 font-inter"
                   >
                     Home
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
-                    target="_blank"
+                  <a
                     href="#"
-                    className="text-white hover:text-gray-600"
+                    className="text-white hover:text-gray-600 font-inter"
                   >
                     Courses
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
-                    target="_blank"
+                  <a
                     href="#"
-                    className="text-white hover:text-gray-600"
+                    className="text-white hover:text-gray-600 font-inter"
                   >
                     Resources
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
-                    target="_blank"
+                  <a
                     href="#"
-                    className="text-white hover:text-gray-600"
+                    className="text-white hover:text-gray-600 font-inter"
                   >
                     Blogs
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
-                    target="_blank"
+                  <a
                     href="#"
-                    className="text-white hover:text-gray-600"
+                    className="text-white hover:text-gray-600 font-inter"
                   >
                     Events
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
-                    target="_blank"
+                  <a
                     href="/about"
-                    className="text-white hover:text-gray-600"
+                    className="text-white hover:text-gray-600 font-inter"
                   >
                     About Us
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
-                    target="_blank"
+                  <a
                     href="#"
-                    className="text-white hover:text-gray-600"
+                    className="text-white hover:text-gray-600 font-inter"
                   >
                     FAQs
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
-                    target="_blank"
+                  <a
                     href="#"
-                    className="text-white hover:text-gray-600"
+                    className="text-white hover:text-gray-600 font-inter"
                   >
                     Contact
-                  </Link>
+                  </a>
                 </li>
               </div>
             </div>
 
             <div className="w-1/2 md:w-1/2">
-              <h2 className="title-font font-bold text-white tracking-widest text-xl mb-3">
+              <h2 className="title-font font-bold text-white tracking-widest text-xl mb-3 font-inter">
                 Contact
               </h2>
               <div className="list-none text-left mb-10">
                 <li>
-                  <Link
-                    target="_blank"
+                  <a
                     href="#"
-                    className="text-white hover:text-gray-600"
+                    className="text-white hover:text-gray-600font-inter"
                   >
                     Dadar, Mumbai-14
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
-                    target="_blank"
+                  <a
                     href="#"
-                    className="text-white break-words text-sm hover:text-gray-600"
+                    className="text-white break-words text-sm hover:text-gray-600 font-inter"
                   >
                     pharmacad.india@gmail.com
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
-                    target="_blank"
+                  <a
                     href="#"
-                    className="text-white hover:text-gray-600"
+                    className="text-white hover:text-gray-600 font-inter"
                   >
                     (+91) 9967163961
-                  </Link>
+                  </a>
                 </li>
               </div>
-              <h2 className="title-font font-bold font-sans text-white tracking-widest text-xl mb-3">
+              <h2 className="title-font font-bold font-sans text-white tracking-widest text-xl mb-3 font-inter">
                 Socials
               </h2>
               <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-                <Link target="_blank" href="#" className=" text-gray-500">
+                <a href="#" className=" text-gray-500">
                   <svg
                     fill="currentColor"
                     strokeLinecap="round"
@@ -156,8 +145,8 @@ const Footer = () => {
                   >
                     <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
                   </svg>
-                </Link>
-                <Link target="_blank" href="#" className="ml-5 text-gray-500">
+                </a>
+                <a href="#" className="ml-5 text-gray-500">
                   <svg
                     fill="currentColor"
                     strokeLinecap="round"
@@ -168,8 +157,8 @@ const Footer = () => {
                   >
                     <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
                   </svg>
-                </Link>
-                <Link target="_blank" href="#" className="ml-5 text-gray-500">
+                </a>
+                <a href="#" className="ml-5 text-gray-500">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -189,8 +178,8 @@ const Footer = () => {
                     ></rect>
                     <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
                   </svg>
-                </Link>
-                <Link target="_blank" href="#" className="ml-5 text-gray-500">
+                </a>
+                <a href="#" className="ml-5 text-gray-500">
                   <svg
                     fill="currentColor"
                     stroke="currentColor"
@@ -206,13 +195,10 @@ const Footer = () => {
                     ></path>
                     <circle cx="4" cy="4" r="2" stroke="none"></circle>
                   </svg>
-                </Link>
+                </a>
               </span>
               <div className="w-full mt-6 text-left">
-                <Link
-                  target="_blank"
-                  href="https://play.google.com/store/apps/details?id=co.loki.pharmac"
-                >
+                <a href="https://play.google.com/store/apps/details?id=co.loki.pharmac">
                   <button className="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -223,27 +209,27 @@ const Footer = () => {
                       <path d="M99.617 8.057a50.191 50.191 0 00-38.815-6.713l230.932 230.933 74.846-74.846L99.617 8.057zM32.139 20.116c-6.441 8.563-10.148 19.077-10.148 30.199v411.358c0 11.123 3.708 21.636 10.148 30.199l235.877-235.877L32.139 20.116zM464.261 212.087l-67.266-37.637-81.544 81.544 81.548 81.548 67.273-37.64c16.117-9.03 25.738-25.442 25.738-43.908s-9.621-34.877-25.749-43.907zM291.733 279.711L60.815 510.629c3.786.891 7.639 1.371 11.492 1.371a50.275 50.275 0 0027.31-8.07l266.965-149.372-74.849-74.847z"></path>
                     </svg>
                     <span className="ml-4 flex items-start flex-col leading-none">
-                      <span className="text-sm text-gray-600 mb">
+                      <span className="text-sm text-gray-600 mb font-inter">
                         GET IT ON
                       </span>
-                      <span className="title-font font-bold text-md text-left">
+                      <span className="title-font font-bold text-md text-left font-inter">
                         Google Play
                       </span>
                     </span>
                   </button>
-                </Link>
+                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
       <div className="bg-[#0C0C0C]">
-        <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-          <p className="text-white text-sm text-center sm:text-left font-sans-bold">
+        <div className="xl:container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+          <p className="text-white font-inter text-sm text-center sm:text-left font-sans-bold">
             © 2023
           </p>
           <div className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-            <p className="text-white text-sm text-left sm:text-left font-sans-bold">
+            <p className="text-white font-inter text-sm text-left sm:text-left font-sans-bold">
               Developed by VIT
             </p>
           </div>

@@ -4,14 +4,14 @@ import aboutImg2 from "../../public/Img2.svg";
 import Image from "next/image";
 const About = () => {
   return (
-    <div className="bg-[#e8fedb]">
+    <div className="bg-[#f2fff0]">
       <div className="container mx-auto max-w-screen-xl px-4 py-8">
         <div className="flex flex-col lg:flex-row justify-between gap-10">
           <div className="w-full lg:w-8/12 flex flex-col justify-center">
-            <h1 className="text-4xl lg:text-4xl font-bold leading-9 text-gray-800 pb-4">
+            <h1 className="text-4xl lg:text-4xl font-bold font-inter leading-9 text-gray-800 pb-4">
               About Us
             </h1>
-            <p className="font-lg text-lg leading-6 text-gray-600 ">
+            <p className="font-lg text-lg leading-6 font-montserrat text-gray-600 ">
               India’s Best Coaching Class for M. Pharmacy, MBA entrance exams &
               Abroad Studies for Pharmacy students. Experts in GPAT, NIPER,
               BITS, Manipal, ICT & other entrance exams, also MBA entrance  (CAT
@@ -23,20 +23,20 @@ const About = () => {
             </p>
             <p className="text-lg leading-6 text-gray-600 mt-8">We offer</p>
             <ul className="list-disc list-inside">
-              <li className="font-semibold text-lg leading-6 text-gray-600 ">
+              <li className="font-semibold text-lg font-montserrat leading-6 text-gray-600 ">
                 15,000+ plus MCQs with explanations
               </li>
-              <li className="font-semibold text-lg leading-6 text-gray-600 ">
+              <li className="font-semibold text-lg font-montserrat leading-6 text-gray-600 ">
                 More than 700+ videos
               </li>
-              <li className="font-semibold text-lg leading-6 text-gray-600 ">
+              <li className="font-semibold text-lg font-montserrat leading-6 text-gray-600 ">
                 Detailed & conscised notes & synopsis
               </li>
-              <li className="font-semibold text-lg leading-6 text-gray-600 ">
+              <li className="font-semibold text-lg font-montserrat leading-6 text-gray-600 ">
                 E-books
               </li>
             </ul>
-            <p className="font-lg text-lg leading-6 text-gray-600 mt-11">
+            <p className="font-lg text-lg leading-6 font-montserrat text-gray-600 mt-11">
               Pharmacad also provides Industrial training, career counseling, B.
               Pharmacy & D. Pharmacy coaching, industrial affiliated certificate
               courses like Pharmacovigilance, Intellectual Property Rights,
@@ -45,14 +45,10 @@ const About = () => {
           </div>
           <div className="md:block">
             <div className="w-full lg:w-8/12">
-              <Image
-                className="w-auto h-auto"
-                src={aboutImg2}
-                alt="SVG image"
-              />
+              <img className="w-auto h-auto" src={aboutImg2} alt="SVG image" />
             </div>
             <div className="w-full lg:w-8/12">
-              <Image
+              <img
                 className="w-auto h-auto my-10 "
                 src={aboutImg1}
                 alt="SVG image"
