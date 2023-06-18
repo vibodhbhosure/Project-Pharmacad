@@ -12,19 +12,19 @@ const Carousel = () => {
 
   const slides = [
     {
-      path: "/image1c.svg",
+      path: "../../public/image1c.svg",
       alt: "Slide 1",
       width: 1280,
       height: 720,
     },
     {
-      path: "/image2c.svg",
+      path: "../../public/image2c.svg",
       alt: "Slide 2",
       width: 3508,
       height: 2480,
     },
     {
-      path: "/image3c.svg",
+      path: "../../public/image3c.svg",
       alt: "Slide 3",
       width: 1334,
       height: 720,
