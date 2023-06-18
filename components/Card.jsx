@@ -46,7 +46,7 @@ const Card = ({ cardData }) => {
         </div>
       </div>
       <div
-        className=" lg:mx-7 lg:py-0 lg:text-black lg:font-montserrat lg:text-[10px] lg:font-thin lg:pb-0 lg:leading-2 lg:w-32 sm:mx-7 sm:pb-4 mx-7 pb-4 sm:text-black sm:font-montserrat sm:text-2xl sm:font-thin sm:leading-relaxed sm:w-auto w-auto leading-relaxed text-xs font-thin font-montserrat text-black"
+        className=" lg:mx-7 lg:py-0 lg:text-black lg:font-montserrat lg:text-[12px] lg:font-thin lg:pb-0 lg:leading-2 lg:w-34 sm:mx-7 sm:pb-4 mx-7 pb-4 sm:text-black sm:font-montserrat sm:text-2xl sm:font-thin sm:leading-relaxed sm:w-auto w-auto leading-relaxed text-xs font-thin font-montserrat text-black"
         style={{ color: "#000000" }}
       >
         {description}
