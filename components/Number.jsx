@@ -11,11 +11,11 @@ const Number = () => {
         borderRadius: "4.42587px",
       }}
     >
-      <div className="nums-heading lg:font-inter lg:font-bold lg:text-3xl lg:w-64 lg:mb-4 sm:font-inter sm:font-bold sm:w-2/3 sm:text-4xl sm:mb-10  lg:mt-0 lg:ml-0 sm:mt-4 sm:ml-8 lg:text-white sm:text-white font-inter font-bold w-1/2 text-2xl mb-10 mt-2 ml-6  text-white">
+      <div className="nums-heading lg:font-inter lg:font-bold lg:text-3xl lg:w-64 lg:mb-4   sm:font-inter sm:font-bold sm:w-2/3 sm:text-4xl sm:mb-10  lg:mt-0 lg:ml-12 sm:mt-4 sm:ml-8 lg:text-white sm:text-white font-inter font-bold w-1/2 text-2xl mb-10 mt-2 ml-6  text-white">
         Numbers we are proud of-
       </div>
 
-      <div className="nums-con lg:flex lg:flex-row lg:mx-0 lg:ml-0 sm:flex sm:flex-row sm:mx-12 flex flex-row mx-10">
+      <div className="nums-con lg:flex lg:flex-row lg:mx-0 lg:ml-12 sm:flex sm:flex-row sm:mx-12 flex flex-row mx-10">
         <div className="nums-con1 lg:mb-10 lg:flex lg:flex-row lg:mr-0 sm:flex sm:flex-col sm:mb-10 sm:mr-20 flex flex-col mb-10 mr-20 ">
           <div className="lg:flex lg:flex-col lg:mr-10 sm:flex sm:flex-col sm:justify-items-center sm:content-center sm:pb-5 flex flex-col justify-items-center content-center pb-5">
             <div className="lg:flex lg:flex-row lg:ml-0  sm:flex sm:flex-row flex flex-row  ">
