@@ -31,6 +31,7 @@ module.exports = {
         bluishgreen: '#1CFFF1',
       },
       fontFamily: {
+        raleway:['Poppins', 'sans-serif'],
         inter: ['Inter', 'sans-serif'],
         poppins: ['Poppins', 'sans-serif'],
         montserrat: ['Montserrat', 'sans-serif'],
