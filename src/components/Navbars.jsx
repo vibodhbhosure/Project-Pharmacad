@@ -13,7 +13,6 @@ const MENU_LIST = [
   { text: "Abroad Studies", href: "/" },
   { text: "Youtube", href: "/" },
   { text: "Testimonials", href: "/" },
-  { text: "Gallery", href: "/" },
   { text: "About Us", href: "/about" },
   { text: "Contact", href: "/" },
 ];
@@ -22,7 +21,7 @@ const Navbars = () => {
   const [activeIdx, setActiveIdx] = useState(-1);
 
   return (
-    <header className="mb-20">
+    <header className="mb-20 ">
       <nav className={`nav flex sticky bg-white top-0 shadow-2xl`}>
         {/* <Link legacyBehavior href={"/"}>
           <a>
