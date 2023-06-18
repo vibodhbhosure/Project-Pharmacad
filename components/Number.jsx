@@ -23,7 +23,7 @@ const Number = () => {
                 10
               </div>
 
-              <div className="lg:text-6xl lg:font-bold lg:font-poppins lg:ml-0 sm:text-4xl sm:font-bold sm:font-poppins  sm:ml-1 xs:text-4xl xs:font-bold xs:font-poppins  xs:ml-1 text-bluishgreen">
+              <div className="lg:text-6xl lg:font-bold lg:font-poppins lg:ml-0 sm:text-4xl sm:font-bold sm:font-poppins  sm:ml-1 xs:text-4xl xs:font-bold xs:font-poppins  xs:ml-1 text-[#1CFFF1]">
                 +
               </div>
             </div>
@@ -39,7 +39,7 @@ const Number = () => {
                 25
               </div>
 
-              <div className="lg:text-6xl lg:font-bold lg:font-poppins lg:ml-0 sm:text-4xl sm:font-bold sm:font-poppins  sm:ml-1 xs:text-4xl xs:font-bold xs:font-poppins  xs:ml-1 text-bluishgreen">
+              <div className="lg:text-6xl lg:font-bold lg:font-poppins lg:ml-0 sm:text-4xl sm:font-bold sm:font-poppins  sm:ml-1 xs:text-4xl xs:font-bold xs:font-poppins  xs:ml-1 text-[#1CFFF1]">
                 +
               </div>
             </div>
@@ -57,7 +57,7 @@ const Number = () => {
                 35
               </div>
 
-              <div className="lg:text-6xl lg:font-bold lg:font-poppins lg:ml-0 sm:text-4xl sm:font-bold sm:font-poppins  sm:ml-1 xs:text-4xl xs:font-bold xs:font-poppins  xs:ml-1 text-bluishgreen">
+              <div className="lg:text-6xl lg:font-bold lg:font-poppins lg:ml-0 sm:text-4xl sm:font-bold sm:font-poppins  sm:ml-1 xs:text-4xl xs:font-bold xs:font-poppins  xs:ml-1 text-[#1CFFF1]">
                 +
               </div>
             </div>
@@ -73,7 +73,7 @@ const Number = () => {
                 45
               </div>
 
-              <div className="lg:text-6xl lg:font-bold lg:font-poppins lg:ml-0 sm:text-4xl sm:font-bold sm:font-poppins  sm:ml-1 xs:text-4xl xs:font-bold xs:font-poppins  xs:ml-1 text-bluishgreen">
+              <div className="lg:text-6xl lg:font-bold lg:font-poppins lg:ml-0 sm:text-4xl sm:font-bold sm:font-poppins  sm:ml-1 xs:text-4xl xs:font-bold xs:font-poppins  xs:ml-1 text-[#1CFFF1]">
                 +
               </div>
             </div>

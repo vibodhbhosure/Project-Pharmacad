@@ -1,4 +1,5 @@
 import BestChoiceContainer from '../../components/BestChoice'
+import TestimonialsContainer from '../../components/Testimonials';
 import Card from '../../components/Card'
 import './globals.css'
 import { Inter } from 'next/font/google'
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
  
     <>
            <BestChoiceContainer/>
+           <TestimonialsContainer />
     </>
  
   )
