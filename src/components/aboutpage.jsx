@@ -5,7 +5,7 @@ import Abtpage from '../../public/Pharmacad1-1536x864.png';
 
 const About3 = () => {
     return (
-        <div className="xl:container xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
+        <div className="xl:container xl:mx-14 lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
         
             <div className="flex lg:flex-row flex-col lg:gap-8 sm:gap-10 gap-12">
                 <div className="w-full lg:w-6/12">
@@ -19,9 +19,9 @@ Our team at Pharmacad are united by a common desire to work towards grooming pha
 
                 
                 <div className="w-full lg:w-6/12">
-                    <img className="lg:block hidden w-full" src={Abtpage} alt="people discussing on board" />
-                    <img className="lg:hidden sm:block hidden w-full" src={Abtpage} alt="people discussing on board" />
-                    <img className="sm:hidden block w-full" src={Abtpage} alt="people discussing on board" />
+                    <img className="lg:block hidden w-full" src="/Pharmacad1-1536x864.png" alt="people discussing on board" />
+                    <img className="lg:hidden sm:block hidden w-full" src="/Pharmacad1-1536x864.png" alt="people discussing on board" />
+                    <img className="sm:hidden block w-full" src="/Pharmacad1-1536x864.png" alt="people discussing on board" />
                 </div>
             </div>
             <div className="border-t border-gray-700 mt-10"></div>
@@ -43,7 +43,7 @@ Our team at Pharmacad are united by a common desire to work towards grooming pha
   </div>
 
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-    <div className="bg-white rounded-lg shadow-md p-6">
+    <div className="bg-[#f2fff0] rounded-lg shadow-md p-6">
       <h3 className="text-xl font-semibold text-gray-800 mb-2">Specialized Team of Experts</h3>
       <p className="text-gray-600">
         Our coaching services are provided by a dedicated team of industry experts. They have extensive knowledge and experience to help you prepare for your semester, entrance, and competitive examinations.
@@ -57,7 +57,7 @@ Our team at Pharmacad are united by a common desire to work towards grooming pha
       </p>
     </div>
 
-    <div className="bg-white rounded-lg shadow-md p-6">
+    <div className="bg-[#f2fff0] rounded-lg shadow-md p-6">
       <h3 className="text-xl font-semibold text-gray-800 mb-2">Personalized Approach</h3>
       <p className="text-gray-600">
         We understand that each student has unique learning needs. Our coaching sessions are tailored to address your specific requirements, allowing you to learn at your own pace and focus on areas that require additional attention.
@@ -82,7 +82,7 @@ Our team at Pharmacad are united by a common desire to work towards grooming pha
       </p>
     </div>
 
-    <div className="bg-white rounded-lg shadow-md p-6">
+    <div className="bg-[#f2fff0] rounded-lg shadow-md p-6">
       <h3 className="text-xl font-semibold text-gray-800 mb-2">Job Placements</h3>
       <p className="text-gray-600">
         Benefit from our strong partnerships with leading companies for job placements and internships. Gain practical experience and kickstart your career in your desired field.
@@ -105,7 +105,7 @@ Our team at Pharmacad are united by a common desire to work towards grooming pha
   </div>
 
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-    <div className="bg-white rounded-lg shadow-md p-6">
+    <div className="bg-[#f2fff0] rounded-lg shadow-md p-6">
       <h3 className="text-xl font-semibold text-gray-800 mb-2">Student-Centric Approach</h3>
       <p className="text-gray-600">
         Our counseling services prioritize the needs and aspirations of students. We provide personalized guidance to help you choose a suitable career path and make informed decisions.
@@ -119,7 +119,7 @@ Our team at Pharmacad are united by a common desire to work towards grooming pha
       </p>
     </div>
 
-    <div className="bg-white rounded-lg shadow-md p-6">
+    <div className="bg-[#f2fff0] rounded-lg shadow-md p-6">
       <h3 className="text-xl font-semibold text-gray-800 mb-2">Career Path Guidance</h3>
       <p className="text-gray-600">
         Our experienced counselors provide expert advice and guidance to help you explore different career paths in India and abroad. We help you align your goals and interests with suitable opportunities.
@@ -145,7 +145,7 @@ Our team at Pharmacad are united by a common desire to work towards grooming pha
       </p>
     </div>
 
-    <div className="bg-white rounded-lg shadow-md p-6">
+    <div className="bg-[#f2fff0] rounded-lg shadow-md p-6">
       <h3 className="text-xl font-semibold text-gray-800 mb-2">Sports Events</h3>
       <p className="text-gray-600">
         Take part in exciting sports events and competitions, including football, basketball, cricket, and more. Stay active, enhance teamwork, and showcase your sporting abilities.

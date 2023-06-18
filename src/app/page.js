@@ -4,6 +4,7 @@ import About from '@/components/about'
 import CheckoutForm from '@/components/checkout'
 import CoursesOffered from '@/components/coursesoffered'
 import About3 from '@/components/aboutpage'
+import MediumArticles from '@/components/mediumarticles'
 
 
 
@@ -12,6 +13,7 @@ export default function Home() {
     <main>
       
       <CheckoutForm/>
+      {/* <MediumArticles/> */}
       
       <CoursesOffered/>
       <About/>

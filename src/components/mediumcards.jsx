@@ -1,0 +1,14 @@
+const MediumCard = ({ article }) => {
+    return (
+      <div className="bg-white rounded-lg p-8 shadow-lg">
+        <h2 className="text-xl font-bold mb-2 break-words">{article.title}</h2>
+        <div className="text-gray-600 mb-4 break-all" dangerouslySetInnerHTML={{ __html: article.description }} />
+        <a href={article.link} className="text-blue-500 inline-block">
+          Read more
+        </a>
+      </div>
+    );
+  };
+  
+  export default MediumCard;
+  
