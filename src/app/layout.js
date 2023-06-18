@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
   return (
  
     <>
-           {/* <BestChoiceContainer/> */}
+           <BestChoiceContainer/>
            <TestimonialsContainer />
     </>
  
