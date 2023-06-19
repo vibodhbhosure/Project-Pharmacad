@@ -19,8 +19,8 @@ export default function Home() {
       <FAQs />
       <Contact /> */}
       <AdCarousal/>
-      <Card1/>
-      <Card2/>
+      {/* <Card1/> */}
+      {/* <Card2/> */}
     </main>
   )
 }

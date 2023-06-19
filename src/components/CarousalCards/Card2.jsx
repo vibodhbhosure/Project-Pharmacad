@@ -14,7 +14,7 @@ const Card2 = () => {
             <div className='absolute w-40 ml-[494px] mt-14'>
                 <Image src={svg2}/>
             </div>
-            <button className='absolute ml-[700px] mt-14 text-xs font-semibold text-blue-700 bg-white py-1 px-2'>Certificate Courses</button>
+            <button className='absolute ml-[680px] mt-14 text-xs font-semibold text-blue-700 bg-white py-1 px-2'>Certificate Courses</button>
         </div>
         <div className="bg absolute w-[517px] h-[143px] ml-[804px]">
         </div>
