@@ -41,7 +41,6 @@ nav {
     padding: 16px;
     justify-content: space-between;
     align-items: center;
-    background-color: #f1f1f1;
 }
 
 .nav__menu-bar {
@@ -68,7 +67,6 @@ nav {
     right: -288px;
     padding: 24px 16px;
     transition: all 0.2s;
-    background-color: #f1f1f1;
 }
 
 .nav__menu-list.active {
