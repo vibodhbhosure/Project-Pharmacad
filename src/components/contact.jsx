@@ -1,10 +1,24 @@
 import React from "react";
+import Link from "next/link";
+import {
+
+  FaMapMarkerAlt,
+  FaRegEnvelope,
+  FaPhoneAlt,
+  FaFacebookF,
+  FaLinkedinIn,
+  FaYoutube,
+  FaInstagram,
+  FaGooglePlay,
+} from "react-icons/fa";
 
 const Contact = () => {
   return (
     <div className="container mx-auto max-w-screen-xl px-4 py-8">
-      <h1 className="text-4xl text-left font-bold mb-2">Contact Us</h1>
-      <p className="text-xl text-left font-normal mb-6">
+      <h1 className="text-4xl text-left font-bold mb-2 font-inter">
+        Contact Us
+      </h1>
+      <p className="text-xl text-left font-normal mb-6 font-inter">
         - Reach out to us and start your path to success
       </p>
       <div className="max-w-7xl w-full pl-8 rounded shadow-lg ">
@@ -102,13 +116,13 @@ const Contact = () => {
             </div>
             <button
               type="submit"
-              className="bg-indigo-700 text-white py-2 px-4 shadow-xl rounded"
+              className="bg-[#3a47fb] text-white py-2 px-4 shadow-xl rounded"
             >
               Send Message
             </button>
             <div className="mb-12"></div>
           </div>
-          <div className=" bg-[#e8fedb] flex-1 -ml-8">
+          <div className=" bg-[#f2fff0] flex-1 -ml-8">
             {/* Map & Address Details Content */}
             <div className=" md:block mt-0">
               <iframe
@@ -121,45 +135,73 @@ const Contact = () => {
             </div>
             <div className="text-black">
               <div className="flex items-center mx-6 mt-10">
-                <ul className="list-disc md:ml-10 mx-6">
+                <ul className="list-none md:ml-10 mx-6">
                   <li>
-                    <p className="text-black">(+91) 9967 163 961</p>
+                    <div className="flex space-x-3">
+                      <span className="mt-1">
+                        <Link href="/">
+                          <FaPhoneAlt />
+                        </Link>
+                      </span>
+                      <span className="font-inter">(+91) 9967 163 961</span>
+                    </div>
                   </li>
                 </ul>
               </div>
 
               <div className="flex items-center mx-6 mt-4 mb-2">
-                <ul className="list-disc md:ml-10 mx-6">
+                <ul className="list-none md:ml-10 mx-6">
                   <li>
                     {" "}
-                    <p className="text-black break-all">
-                      pharmacad.india@gmail.com
-                    </p>
+                    <div className="flex space-x-3">
+                      <span className="mt-1">
+                        <Link href="">
+                          <FaRegEnvelope />
+                        </Link>
+                      </span>
+                      <span className="font-inter">
+                        pharmacad.india@gmail.com
+                      </span>
+                    </div>
                   </li>
                 </ul>
               </div>
 
               <div className="flex items-center mx-6 mt-4 mb-2">
-                <ul className="list-disc md:ml-10 mx-6">
+                <ul className="list-none md:ml-10 mx-6">
                   <li>
                     {" "}
-                    <p className="text-black">
-                      Shishu Vihar Mandal, High School, opp. King George, near
-                      Ruia College, Matunga Central Railway Workshop, Dadar
-                      East, Dadar, Mumbai, Maharashtra-400014
-                    </p>
+                    <div className="flex space-x-3">
+                      <span className="mt-1">
+                        <Link href="/">
+                          <FaMapMarkerAlt />
+                        </Link>
+                      </span>
+                      <span className="font-inter">
+                        Shishu Vihar Mandal, High School, opp. King George, near
+                        Ruia College, Matunga Central Railway Workshop, Dadar
+                        East, Dadar, Mumbai, Maharashtra-400014
+                      </span>
+
+                    </div>
                   </li>
                 </ul>
               </div>
               <div className="flex items-center mx-6 mt-4 mb-6">
-                <ul className="list-disc md:ml-10 mx-6">
+                <ul className="list-none md:ml-10 mx-6">
                   <li>
-                    {" "}
-                    <p>
-                      G.E.I.S,M.H. High school and Junior College, Shivaji Path,
-                      near Talaopali, Naupada, Thane West, Thane,
-                      Maharashtra-400601
-                    </p>
+                    <div className="flex space-x-3">
+                      <span className="mt-1">
+                        <Link href="/">
+                          <FaMapMarkerAlt />
+                        </Link>
+                      </span>{" "}
+                      <p className="font-inter">
+                        G.E.I.S,M.H. High school and Junior College, Shivaji
+                        Path, near Talaopali, Naupada, Thane West, Thane,
+                        Maharashtra-400601
+                      </p>
+                    </div>
                   </li>
                 </ul>
               </div>
@@ -170,5 +212,6 @@ const Contact = () => {
     </div>
   );
 };
+
 
 export default Contact;

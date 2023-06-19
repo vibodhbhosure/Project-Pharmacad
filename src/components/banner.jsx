@@ -1,18 +1,17 @@
 import React from "react";
 import Image from "next/image";
-import a1 from "../../public/a1.svg";
+import a1 from "../../public/a.webp";
 import googleplay from "../../public/googleplay.svg";
 const Banner = () => {
   return (
     <>
-      <div className="container mx-auto my-10 ">
+      <div className="container mx-auto mt-10">
         <div className="bg-[#ffff] px-6 lg:px-16 rounded-xl ">
-          <div className="flex flex-col lg:flex-row justify-center  lg:justify-between items-center gap-5">
+          <div className="flex flex-col lg:flex-row justify-center lg:justify-between items-center gap-5">
             <div className="flex flex-col gap-5 lg:gap-10">
-              <p className=" text-xs sm:text-1xl md:text-1xl lg:text-2xl font-medium">
+              <p className=" text-xs sm:text-xl md:text-xl lg:text-xl font-medium">
                 #1 COACHING CLASSES FOR PHARMACY IN MUMBAI
               </p>
-
               <p className=" text-4xl font-extrabold sm:text-7xl md:text-4xl lg:text-6xl">
                 YOUR Dreams.
               </p>
@@ -40,7 +39,13 @@ const Banner = () => {
               />
             </div>
             <div>
-              <Image className="left-align" src={a1} width={750} height={370} />
+              <Image
+                priority={true}
+                className="left-align"
+                src={a1}
+                width={750}
+                height={370}
+              />
             </div>
           </div>
         </div>
