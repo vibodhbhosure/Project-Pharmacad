@@ -1,16 +1,17 @@
 "use client";
 
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 import image1c from "../../public/image1c.webp";
 import image2c from "../../public/image2c.webp";
 import image3c from "../../public/image3c.webp";
 
 const Carousel = () => {
-  const [currentIndex, setCurrentIndex] = React.useState(0);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [isMobileView, setIsMobileView] = useState(false);
 
   const slides = [
     {
@@ -34,14 +35,12 @@ const Carousel = () => {
   ];
 
   const prevSlide = () => {
-    const isFirstSlide = currentIndex === 0;
-    const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1;
+    const newIndex = (currentIndex - 1 + slides.length) % slides.length;
     setCurrentIndex(newIndex);
   };
 
   const nextSlide = () => {
-    const isLastSlide = currentIndex === slides.length - 1;
-    const newIndex = isLastSlide ? 0 : currentIndex + 1;
+    const newIndex = (currentIndex + 1) % slides.length;
     setCurrentIndex(newIndex);
   };
 
@@ -49,40 +48,79 @@ const Carousel = () => {
     setCurrentIndex(slideIndex);
   };
 
+  const handleResize = () => {
+    setIsMobileView(window.innerWidth < 768);
+  };
+
+  useEffect(() => {
+    setIsMobileView(window.innerWidth < 768);
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  const getVisibleSlides = () => {
+    if (isMobileView) {
+      return [slides[currentIndex]];
+    } else {
+      const prevIndex = (currentIndex - 1 + slides.length) % slides.length;
+      const nextIndex = (currentIndex + 1) % slides.length;
+      return [slides[prevIndex], slides[currentIndex], slides[nextIndex]];
+    }
+  };
+
   return (
-    <div className="max-w-[800px] w-full m-auto  relative group">
-      <div className="relative w-full h-[0] pb-[56.25%] rounded-2xl overflow-hidden">
-        {slides.map((slide, slideIndex) => (
+    <div className="container mx-auto max-w-screen-xl px-4 pb-8 relative group">
+      <div
+        className={`grid gap-4 ${
+          isMobileView ? "grid-cols-1 transition-opacity duration-500" : "grid-cols-3"
+        }`}
+      >
+        {getVisibleSlides().map((slide, slideIndex) => (
           <div
             key={slideIndex}
-            className={`absolute top-0 left-0 w-full h-full transition-opacity duration-500 ${
-              slideIndex === currentIndex ? "opacity-100" : "opacity-0"
-            }`}
+            className={`relative h-[0] pb-[56.25%] rounded-2xl overflow-hidden`}
           >
             <Image
               src={slide.path}
               alt={slide.alt}
-              layout="fill"
+              layout="responsive"
               objectFit="cover"
               objectPosition="center"
+              className="w-full h-full"
+              width={slide.width}
+              height={slide.height}
             />
           </div>
         ))}
       </div>
       {/* Left Arrow */}
-      <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
-        <BsChevronCompactLeft onClick={prevSlide} size={30} />
-      </div>
+      {!isMobileView && (
+        <div
+          className="absolute top-[50%] -translate-x-0 translate-y-[-100%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer"
+          onClick={prevSlide}
+        >
+          <BsChevronCompactLeft size={30} />
+        </div>
+      )}
       {/* Right Arrow */}
-      <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
-        <BsChevronCompactRight onClick={nextSlide} size={30} />
-      </div>
+      {!isMobileView && (
+        <div
+          className="absolute top-[50%] -translate-x-0 translate-y-[-100%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer"
+          onClick={nextSlide}
+        >
+          <BsChevronCompactRight size={30} />
+        </div>
+      )}
       <div className="flex top-4 justify-center py-2">
         {slides.map((slide, slideIndex) => (
           <div
             key={slideIndex}
             onClick={() => goToSlide(slideIndex)}
-            className="text-2xl cursor-pointer"
+            className={`text-2xl cursor-pointer ${
+              slideIndex === currentIndex ? "text-black" : "text-gray-500"
+            }`}
           >
             <RxDotFilled />
           </div>
@@ -93,3 +131,6 @@ const Carousel = () => {
 };
 
 export default Carousel;
+
+
+

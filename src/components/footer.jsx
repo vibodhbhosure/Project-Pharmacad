@@ -2,7 +2,6 @@ import React from "react";
 
 import Image from "next/image";
 import Logo from "../../public/logo.webp";
-import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -37,6 +36,7 @@ const Footer = () => {
                 Navigate
               </h2>
               <div className="list-none text-left mb-10">
+                <ul className="list-none text-left mb-10">
                 <li>
                   <a
                     href="#"
@@ -102,15 +102,17 @@ const Footer = () => {
                   </a>
 
                 </li>
+                </ul>
               </div>
             </div>
 
-            <div className="w-1/2 md:w-1/2">
+            <div className="w-1/2 md:w-1/2 ">
 
               <h2 className="title-font font-bold text-white tracking-widest text-xl mb-3 font-inter">
                 Contact
               </h2>
               <div className="list-none text-left mb-10">
+                <ul className="list-none text-left mb-10">
                 <li>
                   <a
                     href="#"
@@ -122,7 +124,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="#"
-                    className="text-white break-words text-sm hover:text-gray-600 font-inter"
+                    className="text-white break-all hover:text-gray-600 font-inter"
                   >
                     pharmacad.india@gmail.com
                   </a>
@@ -135,8 +137,9 @@ const Footer = () => {
                     (+91) 9967163961
                   </a>
                 </li>
+                </ul>
               </div>
-              <h2 className="title-font font-bold font-sans text-white tracking-widest text-xl mb-3 font-inter">
+              <h2 className="title-font font-bold text-white tracking-widest text-xl mb-3 font-inter">
                 Socials
               </h2>
               <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">

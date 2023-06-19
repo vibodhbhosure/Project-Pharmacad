@@ -2,20 +2,21 @@ import React from "react";
 import Image from "next/image";
 import a1 from "../../public/a.webp";
 import googleplay from "../../public/googleplay.svg";
+
 const Banner = () => {
   return (
     <>
-      <div className="container mx-auto mt-10">
+      <div className="container mx-auto max-w-screen-xl px-4 pt-8 mt-10">
         <div className="bg-[#ffff] px-6 lg:px-16 rounded-xl ">
           <div className="flex flex-col lg:flex-row justify-center lg:justify-between items-center gap-5">
             <div className="flex flex-col gap-5 lg:gap-10">
               <p className=" text-xs sm:text-xl md:text-xl lg:text-xl font-medium">
                 #1 COACHING CLASSES FOR PHARMACY IN MUMBAI
               </p>
-              <p className=" text-4xl font-extrabold sm:text-7xl md:text-4xl lg:text-6xl">
+              <p className=" text-4xl font-extrabold font-poppins sm:text-7xl md:text-4xl lg:text-5xl">
                 YOUR Dreams.
               </p>
-              <p className=" text-4xl font-extrabold sm:text-7xl md:text-4xl lg:text-6xl -mt-4">
+              <p className=" text-4xl font-extrabold font-poppins sm:text-7xl md:text-4xl lg:text-5xl -mt-4">
                 OUR Mission.
               </p>
               <div className="flex flex-row space-x-4">

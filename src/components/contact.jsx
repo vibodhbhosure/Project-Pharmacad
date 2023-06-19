@@ -14,13 +14,15 @@ import {
 
 const Contact = () => {
   return (
-    <div className="container mx-auto max-w-screen-xl px-4 py-8">
-      <h1 className="text-4xl text-left font-bold mb-2 font-inter">
-        Contact Us
-      </h1>
-      <p className="text-xl text-left font-normal mb-6 font-inter">
-        - Reach out to us and start your path to success
-      </p>
+    <div className="container mx-auto max-w-screen-xl px-4 pt-8 pb-16">
+      <div className="text-black font-inter font-bold text-3xl">
+          Contact Us
+        </div>
+        <div className="text-black font-inter text-xl my-2 pb-2 lg:text-black lg:font-inter lg:text-lg sm:text-[##4F4F4F] flex flex-row">
+          {" "}
+          <span className="px-2">━━ </span>{" "}
+          <span> Reach out to us and start your path to success </span>
+        </div>
       <div className="max-w-7xl w-full pl-8 rounded shadow-lg ">
         <div className="flex flex-col md:flex-row md:space-x-8">
           {/* Left Side - Contact Form */}
