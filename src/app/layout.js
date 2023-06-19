@@ -19,9 +19,9 @@ export default function RootLayout({ children }) {
   return (
  
     <>
-    <TestimonialsPage/>
-           {/* <BestChoiceContainer/> */}
-           {/* <TestimonialsContainer /> */}
+    {/* <TestimonialsPage/> */}
+           <BestChoiceContainer/>
+           <TestimonialsContainer />
     </>
  
   )

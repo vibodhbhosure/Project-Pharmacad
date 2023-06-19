@@ -3,7 +3,7 @@ import React from "react";
 const Number = () => {
   return (
     <div
-      className="lg:h-72 lg:px-8 lg:mx-0 lg:py-8 sm:h-240  lg:mt-0 sm:px-0 sm:mx-6 sm:mt-0 sm:py-8 h-240 px-0 mx-8 py-2 mt-2"
+      className="lg:h-72 lg:px-8 lg:mx-0 lg:py-8 sm:h-240  lg:mt-0 sm:px-0 sm:mx-6 sm:mt-5 sm:py-8 h-240 px-0 mx-8 py-2 mt-6"
       style={{
         background:
           "linear-gradient(113.02deg, #0477FD 22.78%, #0500FD 108.12%)",
