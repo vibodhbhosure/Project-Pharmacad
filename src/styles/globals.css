@@ -6,24 +6,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Raleway&display=swap');
-
-.contact {
-    background-color: #EAFFD9;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&family=Raleway:wght@200&display=swap');
+* {
+    font-family: 'Montserrat', sans-serif;
 }
 
 * {
-    font-family: 'Montserrat', sans-serif;
-
     margin: 0;
     padding: 0;
     outline: none;
     box-sizing: border-box;
 }
-
-
-
 
 a {
     text-decoration: none;
@@ -93,9 +86,7 @@ nav {
     align-items: center;
 }
 
-
-/* @media screen and (min-width: 768px) {
-
+@media screen and (min-width: 768px) {
     .nav__menu-bar {
         display: none;
     }
@@ -123,6 +114,5 @@ nav {
     .nav__link:hover:before {
         width: 100%;
     }
-
-} */
-
+    
+}
