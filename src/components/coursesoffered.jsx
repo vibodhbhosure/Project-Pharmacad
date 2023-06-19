@@ -1,3 +1,4 @@
+
 import React from "react";
 
 const CoursesOffered = () => {
@@ -20,6 +21,7 @@ const CoursesOffered = () => {
       description:
         "Prepare for India’s top MBA entrance exams (CAT | MAT | CET | NMAT | XAT etc.) with our experienced alumnus support from top B-schools across India like IIM, Goa Institute of Management, NMIMS and Welingkar Institute of Management etc.",
     },
+
   ];
 
   return (
@@ -30,6 +32,7 @@ const CoursesOffered = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-8 pb-2">
         {courses.map((course, index) => (
           <div key={index} className="bg-white p-4 rounded-4xl shadow-md">
+
             <h3 className="text-sm font-light font-inter ">
               {course.headiing}
             </h3>
@@ -45,10 +48,12 @@ const CoursesOffered = () => {
             >
               Learn More
             </a>
+
           </div>
         ))}
       </div>
       <div className="flex flex-col items-left mt-8">
+
         <div className="justify-left md:flex md:justify-left">
           <button className="bg-[#3a47fb] hover:bg-indigo-400 text-white py-2 px-4 rounded-md mr-4 font-raleway">
             View All Courses
@@ -69,5 +74,6 @@ const CoursesOffered = () => {
     </div>
   );
 };
+
 
 export default CoursesOffered;

@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import {
+
   FaMapMarkerAlt,
   FaRegEnvelope,
   FaPhoneAlt,
@@ -181,6 +182,7 @@ const Contact = () => {
                         Ruia College, Matunga Central Railway Workshop, Dadar
                         East, Dadar, Mumbai, Maharashtra-400014
                       </span>
+
                     </div>
                   </li>
                 </ul>
@@ -210,5 +212,6 @@ const Contact = () => {
     </div>
   );
 };
+
 
 export default Contact;

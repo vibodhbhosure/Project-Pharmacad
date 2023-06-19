@@ -1,4 +1,5 @@
 import React from "react";
+
 import aboutImg1 from "../../public/Img1.webp";
 import aboutImg2 from "../../public/Img2.webp";
 import Image from "next/image";
@@ -50,6 +51,7 @@ const About = () => {
                 src={aboutImg2}
                 alt="SVG image"
               />
+
             </div>
             <div className="w-full lg:w-8/12">
               <Image
@@ -63,6 +65,7 @@ const About = () => {
       </div>
     </div>
   );
+
 };
 
 export default About;
