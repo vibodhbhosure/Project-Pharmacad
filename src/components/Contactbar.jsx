@@ -14,7 +14,7 @@ import {
 
 function Contactbar() {
   return (
-    <div className="contact sticky md:left-0 md:top-0 md:w-full md:z-20 lg:left-0 lg:top-0 lg:w-full lg:z-20">
+    <div className="contact sticky md:left-0 md:top-0 md:w-full md:z-40 lg:left-0 lg:top-0 lg:w-full lg:z-40">
       <div className="hidden md:flex md:p-4 md:text-black md:space-x-7 md:justify-center lg:flex lg:p-4 lg:text-black lg:space-x-7 lg:justify-end lg:mr-24">
         <ul className="md:flex md:space-x-2 lg:flex lg:space-x-7">
           <li>

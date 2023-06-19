@@ -21,7 +21,7 @@ const Navbars = () => {
   const [activeIdx, setActiveIdx] = useState(-1);
 
   return (
-    <header>
+    <header className="mb-24">
       <nav className={`nav flex sticky bg-white top-0 shadow-2xl h-min`}>
         {/* <Link legacyBehavior href={"/"}>
           <a>
