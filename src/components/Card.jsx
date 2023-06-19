@@ -24,7 +24,7 @@ const Card = ({ cardData }) => {
 
   return (
     <div
-      className="lg:w-241 lg:bg-white lg:rounded lg:p-1 lg:pb-3 lg:m-1 lg:max-h-full lg:h-72 sm:m-6 sm:bg-white sm:max-h-full sm:rounded-xl  bg-white rounded-lg max-h-full  mx-8"
+      className="lg:w-241 lg:bg-white lg:rounded lg:p-1 lg:pb-3 lg:m-1 lg:max-h-full lg:h-72 sm:m-6 sm:bg-white sm:max-h-full sm:rounded-xl  bg-white rounded-lg max-h-full pb-1  mx-8"
       style={{
         background: "#ffffff",
         filter: "drop-shadow(0px 8px 17.6079px #C2F0CC)",
@@ -46,7 +46,7 @@ const Card = ({ cardData }) => {
         </div>
       </div>
       <div
-        className=" lg:mx-7 lg:py-0 lg:text-black lg:font-montserrat lg:text-[12px] lg:font-thin lg:pb-0 lg:leading-2 lg:w-34 sm:mx-7 sm:pb-4 mx-7 pb-4 sm:text-black sm:font-montserrat sm:text-2xl sm:font-thin sm:leading-relaxed sm:w-auto w-auto leading-relaxed text-xs font-thin font-montserrat text-black"
+        className=" lg:mx-7 lg:py-0 lg:text-black lg:font-montserrat lg:text-[12px] lg:font-thin lg:pb-0 lg:leading-2 lg:w-34 sm:mx-7 sm:pb-4 mx-7 pb-4 sm:text-black sm:font-montserrat sm:text-2xl sm:font-thin sm:leading-relaxed sm:w-auto w-auto leading-relaxed text-sm font-thin font-montserrat text-black"
         style={{ color: "#000000" }}
       >
         {description}

@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import a1 from "../../public/a1.svg";
+import a1 from "../../public/a.webp";
 import googleplay from "../../public/googleplay.svg";
 const Banner = () => {
   return (
@@ -39,7 +39,13 @@ const Banner = () => {
               />
             </div>
             <div>
-              <Image className="left-align" src={a1} width={750} height={370} />
+              <Image
+                priority={true}
+                className="left-align"
+                src={a1}
+                width={750}
+                height={370}
+              />
             </div>
           </div>
         </div>

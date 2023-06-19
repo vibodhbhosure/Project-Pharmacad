@@ -5,9 +5,9 @@ import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
 import Image from "next/legacy/image";
 
-import image1c from "../../public/image1c.svg";
-import image2c from "../../public/image2c.svg";
-import image3c from "../../public/image3c.svg";
+import image1c from "../../public/image1c.webp";
+import image2c from "../../public/image2c.webp";
+import image3c from "../../public/image3c.webp";
 
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = React.useState(0);

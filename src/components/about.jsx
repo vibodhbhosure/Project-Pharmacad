@@ -1,6 +1,6 @@
 import React from "react";
-import aboutImg1 from "../../public/Img1.svg";
-import aboutImg2 from "../../public/Img2.svg";
+import aboutImg1 from "../../public/Img1.webp";
+import aboutImg2 from "../../public/Img2.webp";
 import Image from "next/image";
 const About = () => {
   return (
