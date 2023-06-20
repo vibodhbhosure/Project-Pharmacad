@@ -36,6 +36,7 @@ const Banner = () => {
                 src={googleplay}
                 width={200}
                 height={90}
+                alt="Google Play Button"
               />
             </div>
             <div>
@@ -45,6 +46,7 @@ const Banner = () => {
                 src={a1}
                 width={750}
                 height={370}
+                alt="Pranav Ganatra Hero Image"
               />
             </div>
           </div>
