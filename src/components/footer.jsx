@@ -34,7 +34,7 @@ const Footer = () => {
               </h2>
               <div className="list-none text-left mb-10">
                 <ul className="list-none text-left mb-10">
-                  <li>
+                  <li className="mb-2">
                     <Link
                       href="/"
                       className="text-white hover:text-gray-600 font-inter pr-4"
@@ -42,7 +42,7 @@ const Footer = () => {
                       Home
                     </Link>
                   </li>
-                  <li>
+                  <li className="mb-2">
                     <Link
                       href="#CoursesOffered"
                       className="text-white hover:text-gray-600 font-inter pr-4"
@@ -50,7 +50,7 @@ const Footer = () => {
                       Courses
                     </Link>
                   </li>
-                  <li>
+                  <li className="mb-2">
                     <Link
                       href="#"
                       className="text-white hover:text-gray-600 font-inter pr-4"
@@ -58,7 +58,7 @@ const Footer = () => {
                       Resources
                     </Link>
                   </li>
-                  <li>
+                  <li className="mb-2">
                     <Link
                       href="#"
                       className="text-white hover:text-gray-600 font-inter pr-4"
@@ -66,7 +66,7 @@ const Footer = () => {
                       Blogs
                     </Link>
                   </li>
-                  <li>
+                  <li className="mb-2">
                     <Link
                       href="#"
                       className="text-white hover:text-gray-600 font-inter pr-4"
@@ -74,7 +74,7 @@ const Footer = () => {
                       Events
                     </Link>
                   </li>
-                  <li>
+                  <li className="mb-2">
                     <Link
                       href="#about"
                       className="text-white hover:text-gray-600 font-inter pr-4"
@@ -82,7 +82,7 @@ const Footer = () => {
                       About Us
                     </Link>
                   </li>
-                  <li>
+                  <li className="mb-2">
                     <Link
                       href="#faq"
                       className="text-white hover:text-gray-600 font-inter pr-4"
@@ -90,7 +90,7 @@ const Footer = () => {
                       FAQs
                     </Link>
                   </li>
-                  <li>
+                  <li className="mb-2">
                     <Link
                       href="#contact"
                       className="text-white hover:text-gray-600 font-inter pr-4"
