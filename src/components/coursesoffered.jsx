@@ -33,9 +33,9 @@ const CoursesOffered = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-8 pb-2">
         {courses.map((course, index) => (
           <div key={index} className="bg-white p-4 rounded-4xl shadow-md">
-            <h3 className="text-sm font-light font-inter ">
+            <h2 className="text-sm font-light font-inter ">
               {course.headiing}
-            </h3>
+            </h2>
             <h3 className="text-2xl font-bold font-inter mb-2">
               {course.name}
             </h3>
