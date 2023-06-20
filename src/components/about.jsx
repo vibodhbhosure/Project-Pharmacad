@@ -4,7 +4,7 @@ import aboutImg2 from "../../public/Img2.webp";
 import Image from "next/image";
 const About = () => {
   return (
-    <div className="bg-[#f2fff0]">
+    <div className="bg-[#f2fff0]" id="about">
       <div className="container mx-auto max-w-screen-xl px-4 py-8">
         <div className="flex flex-col lg:flex-row justify-between gap-10">
           <div className="w-full lg:w-8/12 flex flex-col justify-center">

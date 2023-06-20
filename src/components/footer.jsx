@@ -18,8 +18,8 @@ const Footer = () => {
             />
             <div>
               <p className="mt-2 text-md text-justify font-inter text-white">
-                Dedicated to providing a transformative learning experience and
-                shaping the next generation of pharmaceutical leaders with
+                Dedicated to providing Link transformative learning experience
+                and shaping the next generation of pharmaceutical leaders with
                 cutting-edge curriculum, innovative research, and hands-on
                 training.
               </p>
@@ -33,108 +33,112 @@ const Footer = () => {
                 Navigate
               </h2>
               <div className="list-none text-left mb-10">
-                <li>
-                  <a
-                    href="#"
-                    className="text-white hover:text-gray-600 font-inter"
-                  >
-                    Home
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-white hover:text-gray-600 font-inter"
-                  >
-                    Courses
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-white hover:text-gray-600 font-inter"
-                  >
-                    Resources
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-white hover:text-gray-600 font-inter"
-                  >
-                    Blogs
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-white hover:text-gray-600 font-inter"
-                  >
-                    Events
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/about"
-                    className="text-white hover:text-gray-600 font-inter"
-                  >
-                    About Us
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-white hover:text-gray-600 font-inter"
-                  >
-                    FAQs
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-white hover:text-gray-600 font-inter"
-                  >
-                    Contact
-                  </a>
-                </li>
+                <ul className="list-none text-left mb-10">
+                  <li>
+                    <Link
+                      href="/"
+                      className="text-white hover:text-gray-600 font-inter"
+                    >
+                      Home
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="#CoursesOffered"
+                      className="text-white hover:text-gray-600 font-inter"
+                    >
+                      Courses
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="#"
+                      className="text-white hover:text-gray-600 font-inter"
+                    >
+                      Resources
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="#"
+                      className="text-white hover:text-gray-600 font-inter"
+                    >
+                      Blogs
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="#"
+                      className="text-white hover:text-gray-600 font-inter"
+                    >
+                      Events
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="#about"
+                      className="text-white hover:text-gray-600 font-inter"
+                    >
+                      About Us
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="#faq"
+                      className="text-white hover:text-gray-600 font-inter"
+                    >
+                      FAQs
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="#contact"
+                      className="text-white hover:text-gray-600 font-inter"
+                    >
+                      Contact
+                    </Link>
+                  </li>
+                </ul>
               </div>
             </div>
 
-            <div className="w-1/2 md:w-1/2">
+            <div className="w-1/2 md:w-1/2 ">
               <h2 className="title-font font-bold text-white tracking-widest text-xl mb-3 font-inter">
                 Contact
               </h2>
               <div className="list-none text-left mb-10">
-                <li>
-                  <a
-                    href="#"
-                    className="text-white hover:text-gray-600font-inter"
-                  >
-                    Dadar, Mumbai-14
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-white break-words text-sm hover:text-gray-600 font-inter"
-                  >
-                    pharmacad.india@gmail.com
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-white hover:text-gray-600 font-inter"
-                  >
-                    (+91) 9967163961
-                  </a>
-                </li>
+                <ul className="list-none text-left mb-10">
+                  <li>
+                    <Link
+                      href="#"
+                      className="text-white hover:text-gray-600font-inter"
+                    >
+                      Dadar, Mumbai-14
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="#"
+                      className="text-white break-all hover:text-gray-600 font-inter"
+                    >
+                      pharmacad.india@gmail.com
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="#"
+                      className="text-white hover:text-gray-600 font-inter"
+                    >
+                      (+91) 9967163961
+                    </Link>
+                  </li>
+                </ul>
               </div>
-              <h2 className="title-font font-bold font-sans text-white tracking-widest text-xl mb-3 font-inter">
+              <h2 className="title-font font-bold text-white tracking-widest text-xl mb-3 font-inter">
                 Socials
               </h2>
               <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-                <a href="#" className=" text-gray-500">
+                <Link href="#" className=" text-gray-500">
                   <svg
                     fill="currentColor"
                     strokeLinecap="round"
@@ -145,8 +149,8 @@ const Footer = () => {
                   >
                     <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
                   </svg>
-                </a>
-                <a href="#" className="ml-5 text-gray-500">
+                </Link>
+                <Link href="#" className="ml-5 text-gray-500">
                   <svg
                     fill="currentColor"
                     strokeLinecap="round"
@@ -157,8 +161,8 @@ const Footer = () => {
                   >
                     <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
                   </svg>
-                </a>
-                <a href="#" className="ml-5 text-gray-500">
+                </Link>
+                <Link href="#" className="ml-5 text-gray-500">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -176,10 +180,11 @@ const Footer = () => {
                       rx="5"
                       ry="5"
                     ></rect>
+
                     <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
                   </svg>
-                </a>
-                <a href="#" className="ml-5 text-gray-500">
+                </Link>
+                <Link href="#" className="ml-5 text-gray-500">
                   <svg
                     fill="currentColor"
                     stroke="currentColor"
@@ -193,12 +198,13 @@ const Footer = () => {
                       stroke="none"
                       d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
                     ></path>
+
                     <circle cx="4" cy="4" r="2" stroke="none"></circle>
                   </svg>
-                </a>
+                </Link>
               </span>
               <div className="w-full mt-6 text-left">
-                <a href="https://play.google.com/store/apps/details?id=co.loki.pharmac">
+                <Link href="https://play.google.com/store/apps/details?id=co.loki.pharmac">
                   <button className="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -217,7 +223,7 @@ const Footer = () => {
                       </span>
                     </span>
                   </button>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

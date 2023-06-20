@@ -2,7 +2,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import NavItem from "./NavItem";
-import svg1 from "../../public/logo.svg";
+import svg1 from "../../public/logo.webp";
 import svg2 from "../../public/Rectangle408.svg";
 import { FaBars, FaWindowClose } from "react-icons/fa";
 
@@ -14,7 +14,7 @@ const MENU_LIST = [
   { text: "Youtube", href: "/" },
   { text: "Testimonials", href: "/" },
   { text: "About Us", href: "/about" },
-  { text: "Contact", href: "/" },
+  { text: "Contact", href: "#contact" },
 ];
 const Navbars = () => {
   const [navActive, setNavActive] = useState(null);
@@ -34,12 +34,14 @@ const Navbars = () => {
             src={svg1}
             width={80}
             height={80}
+            alt="logo"
           />
           <Image
             className="hidden lg:block lg:absolute lg:z-20 xl:block xl:absolute xl:z-30"
             src={svg2}
             width={130}
             height={130}
+            alt="logo bg"
           />
         </div>
         <div className="top-3 bg-white md:mt-14 lg:fixed lg:left-0 lg:bg-white lg:w-full lg:z-10 lg:mt-10 xl:bg-white xl:fixed xl:left-0 xl:w-full xl:z-10">
@@ -121,7 +123,10 @@ const Navbars = () => {
               onClick={() => setNavActive(!navActive)}
               className={`absolute right-0 float-right mr-6 top-8 text-3xl lg:hidden`}
             >
-              <button className={"w-10 h-10 cursor-pointer"}>
+              <button
+                aria-label="Navbar-menu"
+                className={"w-10 h-10 cursor-pointer"}
+              >
                 {navActive ? <FaWindowClose /> : <FaBars />}
               </button>
             </div>

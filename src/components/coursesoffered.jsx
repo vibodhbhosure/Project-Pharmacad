@@ -23,7 +23,10 @@ const CoursesOffered = () => {
   ];
 
   return (
-    <div className="container mx-auto max-w-screen-xl px-4 py-8">
+    <div
+      className="container mx-auto max-w-screen-xl px-4 py-8"
+      id="CoursesOffered"
+    >
       <div className="flex flex-wrap items-center justify-between">
         <h1 className="text-4xl font-bold font-inter">Courses Offered</h1>
       </div>
