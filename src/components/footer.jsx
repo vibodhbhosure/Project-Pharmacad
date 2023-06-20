@@ -37,7 +37,7 @@ const Footer = () => {
                   <li>
                     <Link
                       href="/"
-                      className="text-white hover:text-gray-600 font-inter"
+                      className="text-white hover:text-gray-600 font-inter pr-4"
                     >
                       Home
                     </Link>
@@ -45,7 +45,7 @@ const Footer = () => {
                   <li>
                     <Link
                       href="#CoursesOffered"
-                      className="text-white hover:text-gray-600 font-inter"
+                      className="text-white hover:text-gray-600 font-inter pr-4"
                     >
                       Courses
                     </Link>
@@ -53,7 +53,7 @@ const Footer = () => {
                   <li>
                     <Link
                       href="#"
-                      className="text-white hover:text-gray-600 font-inter"
+                      className="text-white hover:text-gray-600 font-inter pr-4"
                     >
                       Resources
                     </Link>
@@ -61,7 +61,7 @@ const Footer = () => {
                   <li>
                     <Link
                       href="#"
-                      className="text-white hover:text-gray-600 font-inter"
+                      className="text-white hover:text-gray-600 font-inter pr-4"
                     >
                       Blogs
                     </Link>
@@ -69,7 +69,7 @@ const Footer = () => {
                   <li>
                     <Link
                       href="#"
-                      className="text-white hover:text-gray-600 font-inter"
+                      className="text-white hover:text-gray-600 font-inter pr-4"
                     >
                       Events
                     </Link>
@@ -77,7 +77,7 @@ const Footer = () => {
                   <li>
                     <Link
                       href="#about"
-                      className="text-white hover:text-gray-600 font-inter"
+                      className="text-white hover:text-gray-600 font-inter pr-4"
                     >
                       About Us
                     </Link>
@@ -85,7 +85,7 @@ const Footer = () => {
                   <li>
                     <Link
                       href="#faq"
-                      className="text-white hover:text-gray-600 font-inter"
+                      className="text-white hover:text-gray-600 font-inter pr-4"
                     >
                       FAQs
                     </Link>
@@ -93,7 +93,7 @@ const Footer = () => {
                   <li>
                     <Link
                       href="#contact"
-                      className="text-white hover:text-gray-600 font-inter"
+                      className="text-white hover:text-gray-600 font-inter pr-4"
                     >
                       Contact
                     </Link>
