@@ -16,7 +16,7 @@ const Number = () => {
       </div>
 
       <div className="nums-con lg:flex lg:flex-row lg:mx-0 lg:ml-12 sm:flex sm:flex-row sm:mx-12 flex flex-row mx-8 ml-5">
-        <div className="nums-con1 lg:mb-10 lg:flex lg:flex-row lg:mr-0 sm:flex sm:flex-col sm:mb-10 sm:mr-20 flex flex-col mb-10 mr-16 ">
+        <div className="nums-con1 lg:mb-10 lg:flex lg:flex-row lg:mr-0 sm:flex sm:flex-col sm:mb-10 sm:mr-20 flex flex-col mb-10 mr-12 ">
           <div className="lg:flex lg:flex-col lg:mr-10 sm:flex sm:flex-col sm:justify-items-center sm:content-center sm:pb-5 flex flex-col justify-items-center content-center pb-5">
             <div className="lg:flex lg:flex-row lg:ml-0  sm:flex sm:flex-row flex flex-row  ">
               <div className="lg:text-6xl lg:font-bold lg:font-poppins sm:text-4xl sm:font-bold sm:font-poppins sm:text-white lg:text-white text-6xl font-bold font-poppins text-white">
