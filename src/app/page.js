@@ -8,6 +8,7 @@ import Banner from '../components/banner'
 import BestChoiceContainer from "../components/BestChoice"
 import Carousel from '@/components/Carousel'
 import TestimonialsContainer from '@/components/Testimonials'
+import MediumArticles from '@/components/mediumarticles'
 export default function Home() {
   return (
     <main>
@@ -20,6 +21,7 @@ export default function Home() {
       <About />
       <TestimonialsContainer />
       <Contact />
+      <MediumArticles/>
     </main>
     
   )

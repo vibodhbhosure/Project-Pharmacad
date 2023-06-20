@@ -2,12 +2,14 @@ import React from "react";
 
 const BlogHero = () => {
     return (
-      <div className="bg-[#f2fff0] py-20">
-        <div className="container flex-col mx-auto px-6">
-        
-          <h1 className="text-4xl font-bold text-black">Welcome to Our Blog</h1>
-          <p className="text-lg text-black mt-4">Stay updated with the latest articles from our classes</p>
-          
+      <div className="container mx-auto max-w-screen-xl px-4 py-8 mt-10">
+        <div className="text-black font-inter font-bold text-4xl">
+          Blogs
+        </div>
+        <div className="text-black font-inter text-xl my-2 lg:text-black lg:font-inter lg:text-lg sm:text-[##4F4F4F] flex flex-row">
+          {" "}
+          <span className="px-2">━━ </span>{" "}
+          <span> Welcome to our blog. Stay updated with the latest articles from our classes.</span>
         </div>
       </div>
     );

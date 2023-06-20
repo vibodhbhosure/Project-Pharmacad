@@ -5,11 +5,11 @@ import Abtpage from '../../public/Pharmacad1-1536x864.png';
 
 const About3 = () => {
     return (
-        <div className="xl:container xl:mx-14 lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
+        <div className="lg:container xl:mx-14 lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
         
             <div className="flex lg:flex-row flex-col lg:gap-8 sm:gap-10 gap-12">
                 <div className="w-full lg:w-6/12">
-                    <h2 className="w-full font-bold font-sans lg:text-5xl text-3xl lg:leading-10 leading-9 font-inter">ABOUT PHARMACAD</h2>
+                    <h2 className="w-full font-bold lg:text-5xl text-3xl lg:leading-10 leading-9 font-inter">ABOUT PHARMACAD</h2>
                     <p className="font-light font-montserrat text-xl leading-7 text-justify text-gray-600 mt-6">
 Founded in 2016, Pharmacad is a leading coaching institute for GPAT, NIPER, and other M pharmacy, and MBA entrance exams that provide industrial training, B pharmacy / D pharmacy semester coaching, customized library, and relevant certificate courses via online and offline platforms.
 

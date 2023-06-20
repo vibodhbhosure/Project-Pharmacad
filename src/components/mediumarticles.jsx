@@ -20,7 +20,7 @@ const MediumArticles = () => {
     <div className="flex flex-wrap mt-2">
         
       {articles.map((article, index) => (
-        <div key={index} className="w-full lg:w-1/2 mb-4">
+        <div key={index} className="w-full lg:w-1/2 mb-4 p-2 ">
           <MediumCard article={article} />
         </div>
       ))}
