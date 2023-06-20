@@ -12,7 +12,7 @@ const MENU_LIST = [
   { text: "Certificate Courses", href: "/" },
   { text: "Abroad Studies", href: "/" },
   { text: "Youtube", href: "/" },
-  { text: "Testimonials", href: "/" },
+  { text: "Testimonials", href: "/testimonials" },
   { text: "About Us", href: "/about" },
   { text: "Contact", href: "#contact" },
 ];
