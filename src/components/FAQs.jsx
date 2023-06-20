@@ -10,7 +10,7 @@ const Faq = () => {
   const [open5, setOpen5] = useState(false);
 
   return (
-    <div className="container mx-auto max-w-screen-xl px-4 py-8">
+    <div className="container mx-auto max-w-screen-xl px-4 py-8" id="faq">
       <div className="flex flex-wrap items-center justify-between">
         <h1 className="text-4xl font-bold font-inter">
           Your FAQs - answered by us
