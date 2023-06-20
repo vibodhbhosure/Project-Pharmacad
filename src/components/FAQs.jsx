@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 
 const Faq = () => {
+
   const [open, setOpen] = useState(false);
   const [open2, setOpen2] = useState(false);
   const [open3, setOpen3] = useState(false);
@@ -9,9 +10,11 @@ const Faq = () => {
   const [open5, setOpen5] = useState(false);
 
   return (
-    <div className="container mx-auto max-w-screen-xl px-4 py-8">
+    <div className="container mx-auto max-w-screen-xl px-4 py-8" id="faq">
       <div className="flex flex-wrap items-center justify-between">
-        <h1 className="text-4xl font-bold">Your FAQs - answered by us</h1>
+        <h1 className="text-4xl font-bold font-inter">
+          Your FAQs - answered by us
+        </h1>
       </div>
 
       <div className="w-full mx-auto">
@@ -24,9 +27,7 @@ const Faq = () => {
             className="flex justify-between items-center w-full"
           >
             <div className=" ">
-              <p className="flex justify-center items-center font-medium text-lg leading-6 md:leading-4 text-gray-800">
-                {" "}
-                <span className="  lg:mr-6 mr-4 lg:text-2xl md:text-xl text-lg leading-6 md:leading-5 lg:leading-4 font-semibold text-gray-800"></span>{" "}
+              <p className="flex font-inter justify-center items-center font-medium text-lg leading-6 md:leading-4 text-black">
                 When is the right time to start my prep for GPAT/NIPER?
               </p>
             </div>
@@ -57,7 +58,7 @@ const Faq = () => {
             id="menu"
             className={"mt-6 w-full " + (open ? "block" : "hidden")}
           >
-            <p className="text-lg leading-6 text-gray-600 font-normal">
+            <p className="text-lg leading-6 text-gray-600 font-thin font-montserrat">
               Usually, students who have aspirations to gain a Master’s degree
               from India itself, start their preparations for GPAT/NIPER from
               the second year or third year. The sooner you join, the better it
@@ -77,9 +78,7 @@ const Faq = () => {
             className="flex justify-between items-center w-full"
           >
             <div className="">
-              <p className="flex justify-center items-center font-medium text-lg leading-6 lg:leading-4 text-gray-800">
-                {" "}
-                <span className="  lg:mr-6 mr-4 lg:text-2xl md:text-xl text-lg leading-6 md:leading-5 lg:leading-4 font-semibold text-gray-800"></span>
+              <p className="flex font-inter justify-center items-center font-medium text-lg leading-6 lg:leading-4 text-black">
                 If I am a second-year B.Pharm Student, would I be able to cope
                 up with the advanced syllabus of GPAT?
               </p>
@@ -111,7 +110,7 @@ const Faq = () => {
             id="menu"
             className={"mt-6 w-full " + (open2 ? "block" : "hidden")}
           >
-            <p className="text-lg leading-6 text-gray-600 font-normal">
+            <p className="text-lg leading-6 text-gray-600 font-thin font-montserrat">
               We will teach the second-year students to study smart. Our
               teachers work sincerely on simplifying the learnings, they’ll also
               motivate you to aspire big. In fact, after the first year of the
@@ -131,9 +130,7 @@ const Faq = () => {
             className="flex justify-between items-center w-full"
           >
             <div className="">
-              <p className="flex justify-center items-center font-medium text-lg leading-6 lg:leading-4 text-gray-800">
-                {" "}
-                <span className="  lg:mr-6 mr-4 lg:text-2xl md:text-xl text-lg leading-6 md:leading-5 lg:leading-4 font-semibold text-gray-800"></span>
+              <p className="flex font-inter justify-center items-center font-medium text-lg leading-6 lg:leading-4 text-black">
                 Do you conduct career counseling sessions? If yes, is there an
                 additional charge?
               </p>
@@ -165,7 +162,7 @@ const Faq = () => {
             id="menu"
             className={"mt-6 w-full " + (open3 ? "block" : "hidden")}
           >
-            <p className="text-lg leading-6 text-gray-600 font-normal">
+            <p className="text-lg font-montserrat leading-6 text-gray-600 font-thin">
               Yes, we take pride in guiding and molding our students in the
               right direction because that’s how a learning institute should
               operate. Always thinking about the student’s betterment. Besides,
@@ -184,11 +181,10 @@ const Faq = () => {
             className="flex justify-between items-center w-full"
           >
             <div className="">
-              <p className="flex justify-center items-center font-medium text-lg leading-6 lg:leading-4 text-gray-800">
-                {" "}
-                <span className="  lg:mr-6 mr-4 lg:text-2xl md:text-xl text-lg leading-6 md:leading-5 lg:leading-4 font-semibold text-gray-800"></span>
+              <p className="flex font-inter justify-center items-center font-medium text-lg leading-6 lg:leading-4 text-black">
                 Do you have online platforms for continuous learning?
               </p>
+
             </div>
             <button
               aria-label="toggler"
@@ -217,8 +213,8 @@ const Faq = () => {
             id="menu"
             className={"mt-6 w-full " + (open4 ? "block" : "hidden")}
           >
-            <p className="text-lg leading-6 text-gray-600 font-normal">
-              RYes, we do have a mobile application where a student can revisit
+            <p className="text-lg font-montserrat leading-6 text-gray-600 font-thin">
+              Yes, we do have a mobile application where a student can revisit
               the concepts. Those are pre-recorded videos recorded by our
               faculty. Online test series for GPAT, NIPER, and all entrance
               exams covering over 10,000 MCQs are included in the application.
@@ -240,9 +236,7 @@ const Faq = () => {
             className="flex justify-between items-center w-full"
           >
             <div className="">
-              <p className="flex justify-center items-center font-medium text-lg leading-6 lg:leading-4 text-gray-800">
-                {" "}
-                <span className="  lg:mr-6 mr-4 lg:text-2xl md:text-xl text-lg leading-6 md:leading-5 lg:leading-4 font-semibold text-gray-800"></span>
+              <p className="flex font-inter justify-center items-center font-medium text-lg leading-6 lg:leading-4 text-black">
                 Do you provide coaching for semesters?
               </p>
             </div>
@@ -273,7 +267,7 @@ const Faq = () => {
             id="menu"
             className={"mt-6 w-full " + (open5 ? "block" : "hidden")}
           >
-            <p className="text-lg leading-6 text-gray-600 font-normal">
+            <p className="text-lg font-montserrat leading-6 text-gray-600 font-thin">
               Yes, we have a dedicated faculty for semester coaching for
               B.Pharmacy, D.Pharmacy as per the PCI syllabus.{" "}
               <a href="#" className="text-sky-500">

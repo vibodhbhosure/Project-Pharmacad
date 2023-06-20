@@ -6,31 +6,6 @@ import Card2 from "./CarousalCards/Card2"
 
 const AdCarousal = () => {
 
-    const slides = [
-        {
-          url: 'https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2620&q=80',
-        },
-        {
-          url: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80',
-        },
-        {
-          url: 'https://images.unsplash.com/photo-1661961112951-f2bfd1f253ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2672&q=80',
-        },
-    
-        {
-          url: 'https://images.unsplash.com/photo-1512756290469-ec264b7fbf87?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2253&q=80',
-        },
-        {
-          url: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2671&q=80',
-        },
-        // {
-        //   card:<Card1/>
-        // },
-        // {
-        //   card:<Card2/>
-        // },
-      ];
-
       const [currentIndex, setCurrentIndex] = useState(0)
       const [MaxIndex, setMaxIndex] = useState(1)
       const prevSlide = () => {
@@ -49,7 +24,7 @@ const AdCarousal = () => {
   return (
     
     // style={{ backgroundImage: `url(${slides[currentIndex].url})` }} 
-    <div className='max-w-[1321px] h-[145px] m-auto mt-28 relative group'>
+    <div className='hidden xl:block max-w-[1321px] h-[145px] m-auto mt-28 relative group'>
         <div className='w-full h-full bg-center bg-cover duration-500'>
           { currentIndex === 0 ? <Card1/> : (currentIndex === 1 ? <Card2/> : "")}
         </div>

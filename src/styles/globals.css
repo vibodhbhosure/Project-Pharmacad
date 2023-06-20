@@ -2,6 +2,16 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&display=swap');
+@import url('https://rsms.me/inter/inter.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Raleway&display=swap');
+
+.contact {
+    background-color: #EAFFD9;
+}
 
 .contact{
     background-color: #EAFFD9;
@@ -19,16 +29,15 @@
 
 * {
     font-family: 'Montserrat', sans-serif;
-}
 
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap');
-
-* {
     margin: 0;
     padding: 0;
     outline: none;
     box-sizing: border-box;
 }
+
+
+
 
 a {
     text-decoration: none;
@@ -72,7 +81,6 @@ nav {
     right: -288px;
     padding: 24px 16px;
     transition: all 0.2s;
-    /* min-height: calc(100vh - 60px); */
     background-color: white;
 }
 
@@ -95,9 +103,11 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-} 
+}
+
 
 /* @media screen and (min-width: 768px) {
+
     .nav__menu-bar {
         display: none;
     }
@@ -125,4 +135,6 @@ nav {
     .nav__link:hover:before {
         width: 100%;
     }
+
 } */
+
