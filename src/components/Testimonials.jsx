@@ -27,7 +27,7 @@ const TestimonialsContainer = () => {
         </div>
         <div>
           <button className="rounded-md px-4 py-2 mx-2 my-4 bg-[#3A47FB] text-raleway font-semibold shadow-xl text-white">
-            Read all testimonials
+            <Link href="/testimonials">Read all testimonials</Link>
           </button>
         </div>
       </div>
