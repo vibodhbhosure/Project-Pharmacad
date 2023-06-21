@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const MediumCard = ({ article }) => {
   return (
     <div className="bg-[#f2fff0] rounded-lg p-8 shadow-lg w-full">
@@ -6,9 +8,9 @@ const MediumCard = ({ article }) => {
         className="text-gray-600 mb-4 break-all"
         dangerouslySetInnerHTML={{ __html: article.description }}
       />
-      <a href={article.link} className="text-blue-500 inline-block">
+      <Link href={article.link} className="text-blue-500 inline-block">
         Read more
-      </a>
+      </Link>
     </div>
   );
 };
