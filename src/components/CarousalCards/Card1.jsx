@@ -1,7 +1,7 @@
 import React from "react";
 import "../../styles/globals.css";
-import svg1 from "../../../public/bg1.svg";
-import svg2 from "../../../public/arrow.svg";
+// import svg1 from "../../../public/bg1.svg";
+// import svg2 from "../../../public/arrow.svg";
 import Image from "next/image";
 const Card1 = () => {
   return (

@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import "../../styles/globals.css";
-import svg1 from "../../../public/bg2.svg";
-import svg2 from "../../../public/arrow2.svg";
+// import svg1 from "../../../public/bg2.svg";
+// import svg2 from "../../../public/arrow2.svg";
 const Card2 = () => {
   return (
     <div className="gradient max-w-[1321px] h-[145px] flex border-2">
