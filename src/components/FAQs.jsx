@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 
 const Faq = () => {
+
   const [open, setOpen] = useState(false);
   const [open2, setOpen2] = useState(false);
   const [open3, setOpen3] = useState(false);
@@ -183,6 +184,7 @@ const Faq = () => {
               <p className="flex font-inter justify-center items-center font-medium text-lg leading-6 lg:leading-4 text-black">
                 Do you have online platforms for continuous learning?
               </p>
+
             </div>
             <button
               aria-label="toggler"

@@ -18,7 +18,7 @@ const MENU_LIST = [
   { text: "Contact", href: "#contact" },
 ];
 const Navbars = () => {
-  const [navActive, setNavActive] = useState(null);
+  const [navActive, setNavActive] = useState(false);
   const [activeIdx, setActiveIdx] = useState(-1);
 
   return (

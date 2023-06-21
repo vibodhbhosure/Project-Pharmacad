@@ -8,18 +8,21 @@ import Banner from '../components/banner'
 import BestChoiceContainer from "../components/BestChoice"
 import Carousel from '@/components/Carousel'
 import TestimonialsContainer from '@/components/Testimonials'
+import Courses from '@/components/Courses'
 export default function Home() {
   return (
     <main>
-      <Banner />
-      <Carousel />
+      {/* <Banner />
+      <Carousel /> */}
       {/* <CheckoutForm /> */}
-      <CoursesOffered />
+      {/* <CoursesOffered />
       <BestChoiceContainer />
       <FAQs />
       <About />
       <TestimonialsContainer />
-      <Contact />
+      <Contact /> */}
+      <Courses/>
     </main>
+    
   )
 }
