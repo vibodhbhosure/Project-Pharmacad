@@ -1,6 +1,6 @@
 
 import React from "react";
-
+import Link from "next/link";
 const CoursesOffered = () => {
   const courses = [
     {
@@ -44,13 +44,12 @@ const CoursesOffered = () => {
             <p className="mt-2 text-gray-700 font-light font-montserrat mb-2">
               {course.description}
             </p>
-            <a
+            <Link
               href="#"
               className="text-black font-semibold font-raleway mt-4 inline-block"
             >
               Learn More
-            </a>
-
+            </Link>
           </div>
         ))}
       </div>
@@ -63,12 +62,12 @@ const CoursesOffered = () => {
           <div className="mt-2 flex-col items-left md:flex-col md:items-left md:mt-2">
             <p className="text-semibold mb-2 md:mb-0 font-raleway">
               To book a free demo ,{" "}
-              <a
+              <Link
                 href="#"
                 className="text-black font-raleway font-bold underline"
               >
                 Click here!
-              </a>
+              </Link>
             </p>
           </div>
         </div>

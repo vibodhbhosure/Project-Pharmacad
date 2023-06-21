@@ -11,6 +11,7 @@ const MENU_LIST = [
   { text: "Courses", href: "/" },
   { text: "Certificate Courses", href: "/" },
   { text: "Abroad Studies", href: "/" },
+  { text: "Blogs", href: "/blog" },
   { text: "Youtube", href: "/" },
   { text: "Testimonials", href: "/testimonials" },
   { text: "About Us", href: "/about" },
@@ -22,7 +23,7 @@ const Navbars = () => {
 
   return (
     <header className="mb-24">
-      <nav className={`nav flex sticky bg-white top-0 shadow-2xl h-min`}>
+      <nav className={`nav flex sticky bg-white top-0 shadow-xl h-min`}>
         {/* <Link legacyBehavior href={"/"}>
           <a>
             <h1 className="logo">CodeWithMarish</h1>
@@ -44,8 +45,8 @@ const Navbars = () => {
             alt="logo bg"
           />
         </div>
-        <div className="top-3 bg-white md:mt-14 lg:fixed lg:left-0 lg:bg-white lg:w-full lg:z-10 lg:mt-10 xl:bg-white xl:fixed xl:left-0 xl:w-full xl:z-10">
-          <div className="hidden lg:flex lg:px-2 lg:bg-white lg:text-black lg:justify-end lg:mr-1 lg:shadow-2xl xl:w-full xl:flex xl:px-4 xl:py-2 xl:text-black xl:justify-end xl:shadow-2xl xl:bg-white">
+        <div className="bg-white md:mt-14 lg:fixed lg:left-0 lg:bg-white lg:w-full lg:z-10 lg:mt-5 xl:bg-white xl:fixed xl:left-0 xl:w-full xl:z-10">
+          <div className="hidden lg:flex lg:px-2 lg:bg-white lg:text-black lg:justify-end lg:mr-1 lg:shadow-xl xl:w-full xl:flex xl:px-4 xl:py-2 xl:text-black xl:justify-end xl:shadow-xl xl:bg-white">
             <div
               className={`${
                 navActive ? "active" : ""

@@ -63,8 +63,9 @@ const Footer = () => {
                   </li>
                   <li className="mb-2">
                     <Link
-                      href="#"
+                      href="/blog"
                       className="text-white hover:text-gray-600 font-inter pr-4"
+                      scroll
                     >
                       Blogs
                     </Link>
@@ -209,7 +210,10 @@ const Footer = () => {
                 </Link>
               </span>
               <div className="w-full mt-6 text-left">
-                <Link href="https://play.google.com/store/apps/details?id=co.loki.pharmac">
+                <Link
+                  href="https://play.google.com/store/apps/details?id=co.loki.pharmac"
+                  target="_blank"
+                >
                   <button className="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

@@ -5,8 +5,6 @@ import "../../styles/globals.css";
 
 export default function TestimonialsPage() {
     const testimonialDataArray = Object.values(data);
-
-    // console.log(testimonialDataArray);
     return (
         <div className="w-full  bg-white  lg:w-full pb-10 lg:bg-white  ">
             <div className="mx-10 pt-10 lg:mx-56 lg:pt-20">
