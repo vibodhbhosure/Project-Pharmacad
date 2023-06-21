@@ -142,9 +142,7 @@ const Contact = () => {
                   <li>
                     <div className="flex space-x-3">
                       <span className="mt-1">
-                        <Link href="/">
-                          <FaPhoneAlt />
-                        </Link>
+                        <FaPhoneAlt />
                       </span>
                       <span className="font-inter">(+91) 9967 163 961</span>
                     </div>
@@ -158,9 +156,7 @@ const Contact = () => {
                     {" "}
                     <div className="flex space-x-3">
                       <span className="mt-1">
-                        <Link href="">
-                          <FaRegEnvelope />
-                        </Link>
+                        <FaRegEnvelope />
                       </span>
                       <span className="font-inter">
                         pharmacad.india@gmail.com
@@ -176,9 +172,7 @@ const Contact = () => {
                     {" "}
                     <div className="flex space-x-3">
                       <span className="mt-1">
-                        <Link href="/">
-                          <FaMapMarkerAlt />
-                        </Link>
+                        <FaMapMarkerAlt />
                       </span>
                       <span className="font-inter">
                         Shishu Vihar Mandal, High School, opp. King George, near
@@ -194,9 +188,7 @@ const Contact = () => {
                   <li>
                     <div className="flex space-x-3">
                       <span className="mt-1">
-                        <Link href="/">
-                          <FaMapMarkerAlt />
-                        </Link>
+                        <FaMapMarkerAlt />
                       </span>{" "}
                       <p className="font-inter">
                         CET King Classroom, Ground Floor and Basement, Thakur
