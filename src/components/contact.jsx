@@ -183,7 +183,7 @@ const Contact = () => {
                       <span className="font-inter">
                         Shishu Vihar Mandal, High School, opp. King George, near
                         Ruia College, Matunga Central Railway Workshop, Dadar
-                        East, Dadar, Mumbai, Maharashtra-400014
+                        East, Dadar, Mumbai, Maharashtra - 400014
                       </span>
                     </div>
                   </li>
@@ -199,9 +199,9 @@ const Contact = () => {
                         </Link>
                       </span>{" "}
                       <p className="font-inter">
-                        G.E.I.S,M.H. High school and Junior College, Shivaji
-                        Path, near Talaopali, Naupada, Thane West, Thane,
-                        Maharashtra-400601
+                        CET King Classroom, Ground Floor and Basement, Thakur
+                        Nivas, Next to TipTop Sweets Opp Thane West Station,
+                        Maharashtra - 400601
                       </p>
                     </div>
                   </li>
