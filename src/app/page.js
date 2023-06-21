@@ -8,6 +8,7 @@ import Banner from '../components/banner'
 import BestChoiceContainer from "../components/BestChoice"
 import Carousel from '@/components/Carousel'
 import TestimonialsContainer from '@/components/Testimonials'
+import MediumArticles from '@/components/mediumarticles'
 export default function Home() {
   return (
     <main>

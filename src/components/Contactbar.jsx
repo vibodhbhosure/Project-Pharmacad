@@ -20,7 +20,9 @@ function Contactbar() {
           <li>
             <div className="flex space-x-3">
               <span className="mt-1">
-                <FaMapMarkerAlt />
+                <Link href="/">
+                  <FaMapMarkerAlt />
+                </Link>
               </span>
               <span>Dadar, Mumbai-14</span>
             </div>
@@ -28,7 +30,9 @@ function Contactbar() {
           <li>
             <div className="flex space-x-3">
               <span className="mt-1">
-                <FaRegEnvelope />
+                <Link href="/">
+                  <FaRegEnvelope />
+                </Link>
               </span>
               <span>pharmacad.india@gmail.com</span>
             </div>
@@ -36,7 +40,9 @@ function Contactbar() {
           <li>
             <div className="flex space-x-3">
               <span className="mt-1">
-                <FaPhoneAlt />
+                <Link href="/">
+                  <FaPhoneAlt />
+                </Link>
               </span>
               <span>(+91) 9967 163 961</span>
             </div>
@@ -44,40 +50,19 @@ function Contactbar() {
         </ul>
         <ul className="flex space-x-4">
           <li className="mt-1">
-            <Link target="_blank" href="https://m.facebook.com/pharmacad/">
-              <FaFacebookF />
-            </Link>
+           <a href="#"> <FaFacebookF /></a>
           </li>
           <li className="mt-1">
-            <Link
-              target="_blank"
-              href="https://www.linkedin.com/company/pharmacad"
-            >
-              <FaLinkedinIn />
-            </Link>
+          <a href="#"><FaLinkedinIn /></a>
           </li>
           <li className="mt-1">
-            <Link target="_blank" href="">
-              <FaYoutube />
-            </Link>
+          <a href="#"><FaYoutube /></a>
           </li>
           <li className="mt-1">
-            <Link
-              target="_blank"
-              href="https://instagram.com/pharmacad_india?utm_medium=copy_link"
-            >
-              <FaInstagram />
-            </Link>
+          <a href="#"><FaInstagram /></a>
           </li>
           <li className="mt-1">
-            <Link target="_blank" href="">
-              <Link
-                target="_blank"
-                href="https://play.google.com/store/apps/details?id=co.loki.pharmac"
-              >
-                <FaGooglePlay />
-              </Link>
-            </Link>
+          <a href="#"><FaGooglePlay /></a>
           </li>
         </ul>
       </div>
