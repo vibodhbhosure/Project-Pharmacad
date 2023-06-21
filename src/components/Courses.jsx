@@ -30,7 +30,9 @@ const Courses = () => {
                         <span className='uppercase m-auto px-3 py-2 ml-[11px] font-medium text-xs bg-[#E8F0FC]'>Admissions started</span>
                     </div>
                     <div className='w-[490px] bg-[#F5F5F5] mt-5'>
-
+                        <div>
+                            
+                        </div>
                     </div>
                 </div>
                 <div className=' mt-7 border-2 border-cyan-500 h-[478px] w-[572px] shadow-xl'>
