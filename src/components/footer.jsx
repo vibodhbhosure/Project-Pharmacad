@@ -62,6 +62,7 @@ const Footer = () => {
                     <Link
                       href="/blog"
                       className="text-white hover:text-gray-600 font-inter pr-4"
+                      scroll
                     >
                       Blogs
                     </Link>

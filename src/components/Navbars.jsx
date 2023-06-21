@@ -11,6 +11,7 @@ const MENU_LIST = [
   { text: "Courses", href: "/" },
   { text: "Certificate Courses", href: "/" },
   { text: "Abroad Studies", href: "/" },
+  { text: "Blogs", href: "/blog" },
   { text: "Youtube", href: "/" },
   { text: "Testimonials", href: "/testimonials" },
   { text: "About Us", href: "/about" },

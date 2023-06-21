@@ -21,9 +21,13 @@ const Card1 = () => {
           <div className="w-[366px] h-[56px] ml-[42px] mt-[34px] z-10 flex">
             <div className="flex flex-col">
               <span>
-                <span className="textcolour font-bold text-lg">GPAT '24</span>
+                <span className="textcolour font-bold text-lg">
+                  GPAT &apos;24
+                </span>
                 <span className="text-lg text-white ml-1">and</span>
-                <span className="textcolour font-bold text-lg ml-1">'25</span>
+                <span className="textcolour font-bold text-lg ml-1">
+                  &apos;25
+                </span>
                 <span className="text-lg text-white ml-1">
                   admissions have now
                 </span>
@@ -34,11 +38,11 @@ const Card1 = () => {
               Enroll Now!!
             </button>
             <div className="absolute h-[15px] w-[72px] mt-16 ml-8">
-              <Image src={svg2} />
+              <Image src={svg2} alt="Carousel Image 1" />
             </div>
           </div>
           <div className="absolute h-[145px] bg-center bg-cover duration-500 w-[631px] ml-[220px]">
-            <Image src={svg1} />
+            <Image src={svg1} alt="Carousel Image 2" />
           </div>
         </div>
       </div>
