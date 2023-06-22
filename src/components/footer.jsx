@@ -50,30 +50,16 @@ const Footer = () => {
                       Courses
                     </Link>
                   </li>
+                  
                   <li className="mb-2">
                     <Link
-                      href="#"
-                      className="text-white hover:text-gray-600 font-inter pr-4"
-                    >
-                      Resources
-                    </Link>
-                  </li>
-                  <li className="mb-2">
-                    <Link
-                      href="#"
+                      href="/blog"
                       className="text-white hover:text-gray-600 font-inter pr-4"
                     >
                       Blogs
                     </Link>
                   </li>
-                  <li className="mb-2">
-                    <Link
-                      href="#"
-                      className="text-white hover:text-gray-600 font-inter pr-4"
-                    >
-                      Events
-                    </Link>
-                  </li>
+                  
                   <li className="mb-2">
                     <Link
                       href="#about"
@@ -161,16 +147,7 @@ const Footer = () => {
                   className="ml-5 text-gray-500"
                   target="_blank"
                 >
-                  <svg
-                    fill="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    className="w-5 h-5"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                  </svg>
+                 <svg width="24px" height="24px" viewBox="0 -3.5 24 24" id="meteor-icon-kit__solid-youtube" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.4593 2.63137C23.1843 1.59561 22.3738 0.77987 21.3447 0.50304C19.4795 0 12 0 12 0C12 0 4.52059 0 2.65529 0.50304C1.62622 0.77991 0.815739 1.59561 0.540659 2.63137C0.040863 4.50876 0.040863 8.4258 0.040863 8.4258C0.040863 8.4258 0.040863 12.3427 0.540659 14.2201C0.815739 15.2559 1.62622 16.0376 2.65529 16.3145C4.52059 16.8175 12 16.8175 12 16.8175C12 16.8175 19.4794 16.8175 21.3447 16.3145C22.3738 16.0376 23.1843 15.2559 23.4593 14.2201C23.9591 12.3427 23.9591 8.4258 23.9591 8.4258C23.9591 8.4258 23.9591 4.50876 23.4593 2.63137zM9.5538 11.9821V4.86942L15.8051 8.4258L9.5538 11.9821z" fill="#758CA3"/></svg>
                 </Link>
                 <Link
                   href="https://www.instagram.com/pharmacad_gpat_niper_mba/"
