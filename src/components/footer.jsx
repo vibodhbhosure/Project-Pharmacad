@@ -36,7 +36,7 @@ const Footer = () => {
                 <ul className="list-none text-left mb-10">
                   <li className="mb-2">
                     <Link
-                      href="/"
+                      href="#"
                       className="text-white hover:text-gray-600 font-inter pr-4"
                     >
                       Home
@@ -94,7 +94,7 @@ const Footer = () => {
               </h2>
               <div className="list-none text-left mb-10">
                 <ul className="list-none text-left mb-10">
-                  <li>
+                  <li className="mb-2">
                     <Link
                       href="https://goo.gl/maps/d4p6P2kJyqkqA6V79"
                       target="_blank"
@@ -103,7 +103,7 @@ const Footer = () => {
                       Dadar, Mumbai-14
                     </Link>
                   </li>
-                  <li>
+                  <li className="mb-2">
                     <Link
                       href="mailto:pharmacad.india@gmail.com"
                       target="_blank"
@@ -112,7 +112,7 @@ const Footer = () => {
                       pharmacad.india@gmail.com
                     </Link>
                   </li>
-                  <li>
+                  <li className="mb-2">
                     <Link
                       href="tel:+919967163961"
                       className="text-white hover:text-gray-600 font-inter"
