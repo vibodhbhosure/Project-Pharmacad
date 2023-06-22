@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import a1 from "../../public/a.webp";
 import googleplay from "../../public/googleplay.svg";
 const Banner = () => {
@@ -30,14 +31,18 @@ const Banner = () => {
               <p className="text-sm sm:text-base lg:text-lg text-[#393939]">
                 Pharmacad is also available on the Playstore!
               </p>
-
-              <Image
-                className="px-3 py-1.5 flex gap-2 items-center rounded-xl"
-                src={googleplay}
-                width={200}
-                height={90}
-                alt="Google Play Button"
-              />
+              <Link
+                target="_blank"
+                href="https://play.google.com/store/apps/details?id=co.loki.pharmac"
+              >
+                <Image
+                  className="px-3 py-1.5 flex gap-2 items-center rounded-xl"
+                  src={googleplay}
+                  width={200}
+                  height={90}
+                  alt="Google Play Button"
+                />
+              </Link>
             </div>
             <div>
               <Image

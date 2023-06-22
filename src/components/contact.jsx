@@ -142,11 +142,13 @@ const Contact = () => {
                   <li>
                     <div className="flex space-x-3">
                       <span className="mt-1">
-                        <Link href="/">
+                        <Link href="tel:+919967163961">
                           <FaPhoneAlt />
                         </Link>
                       </span>
-                      <span className="font-inter">(+91) 9967 163 961</span>
+                      <Link href="tel:+919967163961">
+                        <span className="font-inter">(+91) 9967 163 961</span>
+                      </Link>
                     </div>
                   </li>
                 </ul>
@@ -158,13 +160,21 @@ const Contact = () => {
                     {" "}
                     <div className="flex space-x-3">
                       <span className="mt-1">
-                        <Link href="">
+                        <Link
+                          href="mailto:pharmacad.india@gmail.com"
+                          target="_blank"
+                        >
                           <FaRegEnvelope />
                         </Link>
                       </span>
-                      <span className="font-inter">
-                        pharmacad.india@gmail.com
-                      </span>
+                      <Link
+                        href="mailto:pharmacad.india@gmail.com"
+                        target="_blank"
+                      >
+                        <span className="font-inter">
+                          pharmacad.india@gmail.com
+                        </span>
+                      </Link>
                     </div>
                   </li>
                 </ul>
@@ -176,15 +186,23 @@ const Contact = () => {
                     {" "}
                     <div className="flex space-x-3">
                       <span className="mt-1">
-                        <Link href="/">
+                        <Link
+                          href="https://goo.gl/maps/d4p6P2kJyqkqA6V79"
+                          target="_blank"
+                        >
                           <FaMapMarkerAlt />
                         </Link>
                       </span>
-                      <span className="font-inter">
-                        Shishu Vihar Mandal, High School, opp. King George, near
-                        Ruia College, Matunga Central Railway Workshop, Dadar
-                        East, Dadar, Mumbai, Maharashtra-400014
-                      </span>
+                      <Link
+                        href="https://goo.gl/maps/d4p6P2kJyqkqA6V79"
+                        target="_blank"
+                      >
+                        <span className="font-inter">
+                          Shishu Vihar Mandal, High School, opp. King George,
+                          near Ruia College, Matunga Central Railway Workshop,
+                          Dadar East, Dadar, Mumbai, Maharashtra-400014
+                        </span>
+                      </Link>
                     </div>
                   </li>
                 </ul>
@@ -194,15 +212,23 @@ const Contact = () => {
                   <li>
                     <div className="flex space-x-3">
                       <span className="mt-1">
-                        <Link href="/">
+                        <Link
+                          href="https://goo.gl/maps/n5jrNWrxTxQFwS5K7"
+                          target="_blank"
+                        >
                           <FaMapMarkerAlt />
                         </Link>
                       </span>{" "}
-                      <p className="font-inter">
-                        G.E.I.S,M.H. High school and Junior College, Shivaji
-                        Path, near Talaopali, Naupada, Thane West, Thane,
-                        Maharashtra-400601
-                      </p>
+                      <Link
+                        href="https://goo.gl/maps/n5jrNWrxTxQFwS5K7"
+                        target="_blank"
+                      >
+                        <p className="font-inter">
+                          G.E.I.S,M.H. High school and Junior College, Shivaji
+                          Path, near Talaopali, Naupada, Thane West, Thane,
+                          Maharashtra-400601
+                        </p>
+                      </Link>
                     </div>
                   </li>
                 </ul>

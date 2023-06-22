@@ -12,7 +12,7 @@ const MENU_LIST = [
   { text: "Certificate Courses", href: "/" },
   { text: "Abroad Studies", href: "/" },
   { text: "Blogs", href: "/blog" },
-  { text: "Youtube", href: "/" },
+  { text: "Youtube", href: "https://www.youtube.com/@Pharmacad" },
   { text: "Testimonials", href: "/testimonials" },
   { text: "About Us", href: "/about" },
   { text: "Contact", href: "#contact" },
@@ -22,7 +22,7 @@ const Navbars = () => {
   const [activeIdx, setActiveIdx] = useState(-1);
 
   return (
-    <header className="mb-24">
+    <header>
       <nav className={`nav flex sticky bg-white top-0 shadow-xl h-min`}>
         {/* <Link legacyBehavior href={"/"}>
           <a>
