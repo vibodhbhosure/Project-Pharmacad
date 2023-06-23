@@ -13,7 +13,7 @@ const coursesdata = [
             "Classwork MCQs + Practice MCQs Books More than 10,000 MCQs to practice",
             "Complementary Certificate Course - Advanced Diploma in Pharmacovigilance @50% off",
             "Regular Interactive & Motivational sessions for performance analysis, college & course selection"],
-        "price": ""
+        "price": null
 
     },
     {
@@ -30,7 +30,7 @@ const coursesdata = [
             "Classwork MCQs + Practice MCQs Books More than 10,000 MCQs to practice",
             "Complementary Certificate Course - Advanced Diploma in Pharmacovigilance @50% off",
             "Regular Interactive & Motivational sessions for performance analysis, college & course selection"],
-        "price": ""
+        "price": null
 
     },
     {
@@ -44,7 +44,7 @@ const coursesdata = [
         "50 UNIT TESTS",
         "10 FULL SYLLABUS MOCK TESTS",
         "10 FULL SYLLABUS SUBJECT TESTS"],
-        "price": ""
+        "price": null
 
     },
     {

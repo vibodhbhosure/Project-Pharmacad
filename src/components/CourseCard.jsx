@@ -27,6 +27,7 @@ const CourseCard = ({ cardData }) => {
         <div className='ml-10 mt-7'>
             <button className=' box-border bg-[#3A47FB] shadow-xl m-auto p-3 font-semibold text-sm text-white rounded-lg'>Book a demo</button>
             <button className=' box-border border-2 border-[#3A47FB] text-[#3A47FB] shadow-xl m-auto p-3 font-semibold text-sm rounded-lg ml-5'><div className="flex flex-row"><span>Enquire now</span><span> <FaWhatsapp className='mx-1.5 text-lg'/></span></div></button>
+            <button className={`${price === null ? 'hidden' : ''} box-border bg-[#3A47FB] text-[white] shadow-xl m-auto p-3 font-semibold text-sm rounded-lg ml-12 `}>Buy now <span className="text-[#3A47FB] ml-2">|</span><span className=" font-bold italic text-[15px]">{price}</span></button>
         </div>
     </div>
 
