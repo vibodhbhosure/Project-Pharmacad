@@ -19,8 +19,8 @@ export default function RootLayout({ children }) {
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
       </head>
       <body className={inter.className}>
-        <Contactbar />
-        <Navbars />
+        {/* <Contactbar /> */}
+        {/* <Navbars /> */}
         {children}
         <Footer />
       </body>
