@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import Link from "next/link";
 
 const Faq = () => {
   const [open, setOpen] = useState(false);
@@ -7,6 +8,7 @@ const Faq = () => {
   const [open3, setOpen3] = useState(false);
   const [open4, setOpen4] = useState(false);
   const [open5, setOpen5] = useState(false);
+  const [open6, setOpen6] = useState(false);
 
   return (
     <div className="container mx-auto max-w-screen-xl px-4 py-8" id="faq">
@@ -27,7 +29,8 @@ const Faq = () => {
           >
             <div className=" ">
               <p className="flex font-inter justify-center items-center font-medium text-lg leading-6 md:leading-4 text-black">
-                When is the right time to start my prep for GPAT/NIPER?
+               What is the GPAT syllabus?
+
               </p>
             </div>
             <button
@@ -57,13 +60,13 @@ const Faq = () => {
             id="menu"
             className={"mt-6 w-full " + (open ? "block" : "hidden")}
           >
-            <p className="text-lg leading-6 text-gray-600 font-thin font-montserrat">
-              Usually, students who have aspirations to gain a Master’s degree
-              from India itself, start their preparations for GPAT/NIPER from
-              the second year or third year. The sooner you join, the better it
-              is because practicing concepts over and over helps you gain a
-              competitive advantage.
-            </p>
+           
+            <Link href="/gpat-syllabus.pdf " download className="text-lg leading-6 text-[#3A47FB] font-thin font-montserrat">
+        
+          Download GPAT Syllabus (PDF)
+        
+      </Link>
+            
           </div>
         </div>
 
@@ -78,8 +81,8 @@ const Faq = () => {
           >
             <div className="">
               <p className="flex font-inter justify-center items-center font-medium text-lg leading-6 lg:leading-4 text-black">
-                If I am a second-year B.Pharm Student, would I be able to cope
-                up with the advanced syllabus of GPAT?
+              What is the paper pattern and exam time for GPAT?
+
               </p>
             </div>
             <button
@@ -110,11 +113,8 @@ const Faq = () => {
             className={"mt-6 w-full " + (open2 ? "block" : "hidden")}
           >
             <p className="text-lg leading-6 text-gray-600 font-thin font-montserrat">
-              We will teach the second-year students to study smart. Our
-              teachers work sincerely on simplifying the learnings, they’ll also
-              motivate you to aspire big. In fact, after the first year of the
-              struggle, the second-year students score better in the later
-              semesters.
+            Consists of around 125 questions carrying 4 marks for each correct answer, with a negative marking of 1 mark for each incorrect answer. Duration of the exam is 3 hours.
+
             </p>
           </div>
         </div>
@@ -130,8 +130,8 @@ const Faq = () => {
           >
             <div className="">
               <p className="flex font-inter justify-center items-center font-medium text-lg leading-6 lg:leading-4 text-black">
-                Do you conduct career counseling sessions? If yes, is there an
-                additional charge?
+              What are the other entrance for M Pharmacy?
+
               </p>
             </div>
             <button
@@ -162,10 +162,12 @@ const Faq = () => {
             className={"mt-6 w-full " + (open3 ? "block" : "hidden")}
           >
             <p className="text-lg font-montserrat leading-6 text-gray-600 font-thin">
-              Yes, we take pride in guiding and molding our students in the
-              right direction because that’s how a learning institute should
-              operate. Always thinking about the student’s betterment. Besides,
-              we do this voluntarily and do not charge for it.
+            NIPER JEE: National Institute of Pharmaceutical Education and Research Joint Entrance Examination
+, BITS HD Pharmacy: Birla Institute of Technology and Science Higher Degree Pharmacy Entrance Exam
+, MANIPAL MET: Manipal University Online Entrance Test for Pharmacy
+, NMAT/ATMA
+, NIRMA
+
             </p>
           </div>
         </div>
@@ -181,7 +183,8 @@ const Faq = () => {
           >
             <div className="">
               <p className="flex font-inter justify-center items-center font-medium text-lg leading-6 lg:leading-4 text-black">
-                Do you have online platforms for continuous learning?
+              When should I start preparing for Masters program?
+
               </p>
             </div>
             <button
@@ -212,14 +215,8 @@ const Faq = () => {
             className={"mt-6 w-full " + (open4 ? "block" : "hidden")}
           >
             <p className="text-lg font-montserrat leading-6 text-gray-600 font-thin">
-              Yes, we do have a mobile application where a student can revisit
-              the concepts. Those are pre-recorded videos recorded by our
-              faculty. Online test series for GPAT, NIPER, and all entrance
-              exams covering over 10,000 MCQs are included in the application.
-              So, head on to the play store and check it out.{" "}
-              <a href="#" className="text-sky-500">
-                Download our App now!
-              </a>
+            End of the second year and start of the third year is the best time to start the preparation for any entrance exam, since the the syllabus is vast and practice is must for national level exams.
+
             </p>
           </div>
         </div>
@@ -235,7 +232,8 @@ const Faq = () => {
           >
             <div className="">
               <p className="flex font-inter justify-center items-center font-medium text-lg leading-6 lg:leading-4 text-black">
-                Do you provide coaching for semesters?
+              What are the other courses we provide?
+
               </p>
             </div>
             <button
@@ -266,11 +264,57 @@ const Faq = () => {
             className={"mt-6 w-full " + (open5 ? "block" : "hidden")}
           >
             <p className="text-lg font-montserrat leading-6 text-gray-600 font-thin">
-              Yes, we have a dedicated faculty for semester coaching for
-              B.Pharmacy, D.Pharmacy as per the PCI syllabus.{" "}
-              <a href="#" className="text-sky-500">
-                Download our App now!
-              </a>
+            Apart from GPAT, we provide NIPER, BITS, MANIPAL, MBA (NMAT/CET/SNAP/CAT), B Pharmacy Semester coaching, and  certificate courses
+
+            </p>
+          </div>
+        </div>
+
+        <hr className=" w-full lg:mt-10 my-8" />
+
+        {/* <!-- Question 6 --> */}
+
+        <div className="w-full md:px-6 ">
+          <div
+            id="mainHeading"
+            className="flex justify-between items-center w-full"
+          >
+            <div className="">
+              <p className="flex font-inter justify-center items-center font-medium text-lg leading-6 lg:leading-4 text-black">
+              Can you give GPAT in the 3rd year?
+
+              </p>
+            </div>
+            <button
+              aria-label="toggler"
+              className="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800"
+              onClick={() => setOpen6(!open6)}
+            >
+              <svg
+                className={"transform " + (open6 ? "rotate-180" : "rotate-0")}
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6 9L12 15L18 9"
+                  stroke="black"
+                  strokeWidth="1.33333"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+          <div
+            id="menu"
+            className={"mt-6 w-full " + (open6 ? "block" : "hidden")}
+          >
+            <p className="text-lg font-montserrat leading-6 text-gray-600 font-thin">
+            Yes, you can give GPAT in third year but you will not be eligible for NIPER or for taking admission for masters program as only final year student are eligible for GPAT
+
             </p>
           </div>
         </div>
