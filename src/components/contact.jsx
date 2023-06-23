@@ -213,20 +213,19 @@ const Contact = () => {
                     <div className="flex space-x-3">
                       <span className="mt-1">
                         <Link
-                          href="https://goo.gl/maps/n5jrNWrxTxQFwS5K7"
+                          href="https://goo.gl/maps/hZm4UohLaAKekps27"
                           target="_blank"
                         >
                           <FaMapMarkerAlt />
                         </Link>
                       </span>{" "}
                       <Link
-                        href="https://goo.gl/maps/n5jrNWrxTxQFwS5K7"
+                        href="https://goo.gl/maps/hZm4UohLaAKekps27"
                         target="_blank"
                       >
                         <p className="font-inter">
-                          G.E.I.S,M.H. High school and Junior College, Shivaji
-                          Path, near Talaopali, Naupada, Thane West, Thane,
-                          Maharashtra-400601
+                          
+                          CET King Classroom, Ground Floor and Basement, Thakur Nivas, Next to TipTop Sweets Opp Thane West Station, Maharashtra 400601.
                         </p>
                       </Link>
                     </div>
