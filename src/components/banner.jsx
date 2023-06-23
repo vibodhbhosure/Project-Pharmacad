@@ -20,10 +20,14 @@ const Banner = () => {
                 OUR Mission.
               </p>
               <div className="flex flex-row space-x-4">
-                <button className="flex flex-row justify-center items-center py-3 px-3 gap-2 w-25 h-12 border-solid border-2 border-indigo-600 bg-blue-700 shadow-md rounded-md text-white">
-                  Book Free demo
-                </button>
-
+                <Link
+                  target="_blank"
+                  href="https://forms.gle/hoorBi1QweLwA7Nt5"
+                >
+                  <button className="flex flex-row justify-center items-center py-3 px-3 gap-2 w-25 h-12 border-solid border-2 border-indigo-600 bg-blue-700 shadow-md rounded-md text-white">
+                    Book Free demo
+                  </button>
+                </Link>
                 <button className="flex flex-row justify-center items-center py-3 px-3 gap-2 w-25 h-12 border-solid border-2 border-indigo-600 bg-white text-blue-600 shadow-md rounded-md ">
                   View all courses
                 </button>
