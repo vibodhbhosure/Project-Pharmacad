@@ -23,15 +23,15 @@ const Courses = () => {
             <span className='hidden md:block font-bold text-3xl '>
                 Upcoming Batches
             </span>
-            <div className='hidden md:block border-2 border-[#DBDBDB] w-[1278px] h-[271px] mt-7 shadow-[0_3px_10px_rgb(0,0,0,0.2)]'>
-                <div className=' mt-12 ml-[52px]'>
-                    <div className='flex flex-row'>
-                        <span className='uppercase text-3xl'>
-                            <span className='font-medium'>PHARMACAD'S<span className='font-bold italic ml-2'>STEPS2SUCCESS</span></span>
+            <div className='border-2 border-[#DBDBDB] w-[310px] md:w-[1278px] h-[271px] mt-7 shadow-[0_3px_10px_rgb(0,0,0,0.2)] mx-auto md:mx-0'>
+                <div className='mt-6 md:mt-12 ml-7 md:ml-[52px]'>
+                    <div className='flex flex-col md:flex-row md:w-max'>
+                        <span className='uppercase text-2xl md:text-3xl flex  flex-col md:flex-row'>
+                            <span className='font-medium '>PHARMACAD'S</span><span className='font-bold italic ml-0 md:ml-2'>STEPS2SUCCESS</span>
                         </span>
-                        <span className='box-border uppercase font-bold text-base bg-[#CD00A0] text-[#F5F5F5] ml-12 m-auto px-2 py-1 rounded-md'>mcq booklets</span>
+                        <span className='box-border uppercase font-bold text-sm md:text-base bg-[#CD00A0] text-[#F5F5F5] ml-0 md:ml-12 mt-3 md:mt-0 m-auto px-2 py-1 rounded-md'>mcq booklets</span>
                     </div>
-                    <div className=' mt-4 flex flex-row'>
+                    <div className='hidden mt-4 md:flex flex-row'>
                         <div className='h-[27px] flex flex-col max-w-fit'>
                             <div className='w-1/8 flex'>
                                 <span className=' box-border h-[39px] w-[39px] rounded-full shadow-md z-10 flex justify-center align-middle p-2 mt-[6px] bg-white font-semibold text-base'>01.</span>
