@@ -8,12 +8,12 @@ import Banner from '../components/banner'
 import BestChoiceContainer from "../components/BestChoice"
 import Carousel from '@/components/Carousel'
 import TestimonialsContainer from '@/components/Testimonials'
-// import AdCarousal from '@/components/AdCarousal'
+import AdCarousal from '@/components/AdCarousal'
 
 export default function Home() {
   return (
     <main>
-      {/* <AdCarousal /> */}
+      <AdCarousal />
       <Banner />
       <Carousel />
       {/* <CheckoutForm /> */}

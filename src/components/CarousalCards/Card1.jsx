@@ -1,7 +1,8 @@
 import React from "react";
+import Link from "next/link";
 import "../../styles/globals.css";
-import svg1 from "../../../public/bg1.svg";
-import svg2 from "../../../public/arrow.svg";
+import svg1 from "../../../public/bg1.webp";
+import svg2 from "../../../public/arrow.webp";
 import Image from "next/image";
 const Card1 = () => {
   return (
@@ -35,7 +36,9 @@ const Card1 = () => {
               <span className="text-lg text-white">started!</span>
             </div>
             <button className="absolute font-semibold text-sm bg-blue-700 text-white p-3 mt-[44px] ml-[116px] cursor-pointer rounded-md">
-              Enroll Now!!
+              <Link target="_blank" href="https://forms.gle/hoorBi1QweLwA7Nt5">
+                Enroll Now!!
+              </Link>
             </button>
             <div className="absolute h-[15px] w-[72px] mt-16 ml-8">
               <Image src={svg2} alt="Carousel Image 1" />

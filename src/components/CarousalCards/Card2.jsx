@@ -1,8 +1,9 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import "../../styles/globals.css";
-import svg1 from "../../../public/bg2.svg";
-import svg2 from "../../../public/arrow2.svg";
+import svg1 from "../../../public/bg2.webp";
+import svg2 from "../../../public/arrow2.webp";
 const Card2 = () => {
   return (
     <div className="gradient max-w-[1321px] h-[145px] flex border-2">
@@ -19,7 +20,9 @@ const Card2 = () => {
           <Image src={svg2} alt="Card 2 Image" />
         </div>
         <button className="absolute ml-[680px] mt-14 text-xs font-semibold text-blue-700 bg-white py-1 px-2">
-          Certificate Courses
+          <Link target="_blank" href="#">
+            Certificate Courses
+          </Link>
         </button>
       </div>
       <div className="bg absolute w-[517px] h-[143px] ml-[804px]"></div>

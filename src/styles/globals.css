@@ -6,19 +6,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Raleway&display=swap');
 
 .contact {
     background-color: #EAFFD9;
 }
 
+.contact {
+    background-color: #EAFFD9;
+}
+
+.textcolour {
+    color: #50FCB2;
+}
+
+.gradient {
+    background: linear-gradient(to right, #8800AA, #620090);
+}
+
+.bg {
+    background-image: url("../../public/bg2.webp");
+
+}
+
 * {
     font-family: 'Montserrat', sans-serif;
+
     margin: 0;
     padding: 0;
     outline: none;
     box-sizing: border-box;
 }
+
+
 
 
 a {
@@ -30,14 +51,13 @@ header {
     position: sticky;
     z-index: 30;
     top: 0;
+    background-color: white;
 }
 
 nav {
-    display: flex;
     padding: 16px;
     justify-content: space-between;
     align-items: center;
-    background-color: #f1f1f1;
 }
 
 .nav__menu-bar {
@@ -58,13 +78,13 @@ nav {
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: 60px;
+    top: 150px;
     width: 288px;
     row-gap: 24px;
     right: -288px;
     padding: 24px 16px;
     transition: all 0.2s;
-    background-color: #f1f1f1;
+    background-color: white;
 }
 
 .nav__menu-list.active {
@@ -88,7 +108,9 @@ nav {
     align-items: center;
 }
 
+
 /* @media screen and (min-width: 768px) {
+
     .nav__menu-bar {
         display: none;
     }
@@ -116,4 +138,5 @@ nav {
     .nav__link:hover:before {
         width: 100%;
     }
+
 } */
