@@ -8,7 +8,7 @@ import { FaBars, FaWindowClose } from "react-icons/fa";
 
 const MENU_LIST = [
   { text: "Home", href: "#" },
-  { text: "Courses", href: "#" },
+  { text: "Courses", href: "/courses" },
   { text: "Certificate Courses", href: "/courseCertificate" },
   { text: "Abroad Studies", href: "#" },
   { text: "Blogs", href: "/blog" },
