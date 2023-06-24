@@ -4,11 +4,11 @@ import Image from "next/image";
 
 export default function aboutPage() {
   return (
-    <div className="xl:container xl:mx-14 lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
+    <div className="container mx-auto max-w-screen-xl px-4 py-8 mt-10">
 
       <div className="flex lg:flex-row flex-col lg:gap-8 sm:gap-10 gap-12">
         <div className="w-full lg:w-6/12">
-          <h2 className="w-full font-bold font-sans lg:text-5xl text-3xl lg:leading-10 leading-9 font-inter">ABOUT PHARMACAD</h2>
+          <h2 className="w-full font-bold lg:text-5xl text-3xl lg:leading-10 leading-9 font-inter">ABOUT PHARMACAD</h2>
           <p className="font-light font-montserrat text-xl leading-7 text-justify text-gray-600 mt-6">
             Founded in 2016, Pharmacad is a leading coaching institute for GPAT, NIPER, and other M pharmacy, and MBA entrance exams that provide industrial training, B pharmacy / D pharmacy semester coaching, customized library, and relevant certificate courses via online and offline platforms.
 
@@ -25,9 +25,9 @@ export default function aboutPage() {
 
       <div className="flex md:gap-14 gap-16 justify-between lg:mt-10 mt-10">
         <div className="w-full">
-          <h2 className="font-bold font-sans lg:text-4xl text-2xl lg:leading-9 leading-7 text-gray-800 font-inter">Our Mission & Vision</h2>
-          <p className="font-normal font-sans text-lg leading-6 text-gray-600 mt-6 w-full text-justify font-montserrat">We possess strong tie-ups and partnerships with leading industry professionals for certificate courses, job placements, and internship opportunities.</p>
-          <p className="font-normal font-sans text-lg leading-6 text-gray-600 w-full mt-2 text-justify font-montserrat">We aim to deepen and extend knowledge in the field of pharmacy by creating a one-stop solution for all pharmacy students to help them achieve academic excellence and professional leadership.</p>
+          <h2 className="font-bold lg:text-4xl text-2xl lg:leading-9 leading-7 text-gray-800 font-inter">Our Mission & Vision</h2>
+          <p className="font-normal text-lg leading-6 text-gray-600 mt-6 w-full text-justify font-montserrat">We possess strong tie-ups and partnerships with leading industry professionals for certificate courses, job placements, and internship opportunities.</p>
+          <p className="font-normal text-lg leading-6 text-gray-600 w-full mt-2 text-justify font-montserrat">We aim to deepen and extend knowledge in the field of pharmacy by creating a one-stop solution for all pharmacy students to help them achieve academic excellence and professional leadership.</p>
         </div>
 
       </div>

@@ -7,7 +7,7 @@ const BlogHero = () => {
       <div className="text-black font-inter text-xl my-2 lg:text-black lg:font-inter lg:text-lg sm:text-[##4F4F4F] flex flex-row">
         {" "}
         <span className="px-2">━━ </span>{" "}
-        <span>
+        <span id="heroid">
           {" "}
           Welcome to our blog. Stay updated with the latest articles from our
           classes.

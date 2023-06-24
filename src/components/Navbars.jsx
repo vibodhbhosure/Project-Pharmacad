@@ -7,10 +7,10 @@ import svg2 from "../../public/Rectangle408.svg";
 import { FaBars, FaWindowClose } from "react-icons/fa";
 
 const MENU_LIST = [
-  { text: "Home", href: "/" },
-  { text: "Courses", href: "/" },
+  { text: "Home", href: "#" },
+  { text: "Courses", href: "#" },
   { text: "Certificate Courses", href: "/courseCertificate" },
-  { text: "Abroad Studies", href: "/" },
+  { text: "Abroad Studies", href: "#" },
   { text: "Blogs", href: "/blog" },
   { text: "Youtube", href: "https://www.youtube.com/@Pharmacad" },
   { text: "Testimonials", href: "/testimonials" },
