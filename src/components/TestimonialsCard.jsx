@@ -1,22 +1,19 @@
+// Import all SVG files in the directory
 import React from "react";
 import Image from "next/image";
-import svg1 from "../../public/cardimages/Burhanuddin_Kagalwala.webp";
-import svg2 from "../../public/cardimages/Nichiket_Dandekar.webp";
-import svg3 from "../../public/cardimages/Archana_Rajadhyax.webp";
-
-const svgMap = {
-  1: svg1,
-  2: svg2,
-  3: svg3,
-};
 
 const TestimonialsCard = ({ cardData }) => {
   if (!cardData) {
-    return null; // Return null or handle the case when cardData is undefined
+    return null;
   }
 
+ 
   const { id, testimonial, name, rank } = cardData;
-  const svg = svgMap[id];
+  // const str = id.toString();
+  const svg = require(`../../public/testimonialsImages/${id}${name}.svg`).default;
+  
+
+  // const svg = svgMap[id];
 
   return (
     <div className="bg-white border border-gray-300 border-opacity-60 shadow-md rounded-lg h-max-45 text-black flex flex-row m-2 pb-4 ">
@@ -48,6 +45,7 @@ const TestimonialsCard = ({ cardData }) => {
             className=" rounded-md mt-4 border-gray-600    shadow-lg "
             src={svg}
             alt={name}
+            
           />
         </div>
       </div>

@@ -20,6 +20,16 @@ const data = [
         "rank": "AIR 56 – NIPER 2018 | AIR 85 – GPAT 2018"
 
     },
+    {
+        "id": 4,
+        "testimonial": "Pharmacad has been a great journey.They not only focus on GPAT/NIPER oriented lectures but also on the overall development of students by arranging motivational lectures, industrial visits and various online courses. I'm very thankful to Pranav Sir,Jigyasa ma'am, Kruti ma'am and all teachers at Pharmacad for their constant guidance and support.THANK YOU TEAM PHARMACAD!!!",
+        "name": "Vrushali Sadhu",
+        "rank": "AIR 279 - NIPER 2019 | AIR 326 - GPAT 2019"
+
+    },
+     
+
+
 ]
 
 export default data;

@@ -2,6 +2,8 @@ import React from 'react'
 import { FaAngleLeft,FaWhatsapp} from "react-icons/fa";
 import coursesdata from './coursesdata';
 import CourseCard from './CourseCard'
+import NationalOlympiad from './NationalOlympiad';
+
 const Courses = () => {
     const courseDataArray = Object.values(coursesdata);
   return (
@@ -16,7 +18,7 @@ const Courses = () => {
                 <span className=' mt-4 font-normal text-sm w-[291px] md:w-[552px]'>Hurry up, enrollment process for <span className=' font-semibold'>’24</span> and <span className=' font-semibold'>’25</span> batches for GPAT has started.</span>
             </div>
             <div className='h-[204px] w-[536px]'>
-
+<NationalOlympiad/>
             </div>
         </div>
         <div className=' mt-11 md:mt-[91px] mx-6 md:ml-[131px]'>
