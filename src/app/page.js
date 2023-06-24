@@ -19,8 +19,9 @@ export default function Home() {
       <BestChoiceContainer />
       <FAQs />
       <About />
-      <TestimonialsContainer />
       <Contact /> */}
+      
+      {/* <TestimonialsContainer /> */}
       <Courses/>
     </main>
     

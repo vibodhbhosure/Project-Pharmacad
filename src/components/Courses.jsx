@@ -14,8 +14,8 @@ const Courses = () => {
         <div className='flex flex-col md:flex-row ml-6 md:ml-[135px] mt-36 md:mt-[156px] space-x-[80px]'>
             <div className='h-[200px] w-[552px] flex flex-col'>
                 <span className=' text-3xl md:text-5xl font-bold'>Courses</span>
-                <span className=' mt-6 md:mt-12 font-normal text-sm w-[291px] md:w-[552px]'>Check out the various courses <span className=' font-semibold'>(ONLINE and OFFLINE)</span> offered by Pharmacad and make your pharmaceutical career a reality.</span>
-                <span className=' mt-4 font-normal text-sm w-[291px] md:w-[552px]'>Hurry up, enrollment process for <span className=' font-semibold'>’24</span> and <span className=' font-semibold'>’25</span> batches for GPAT has started.</span>
+                <span className=' mt-6 md:mt-12 font-normal text-lg w-[291px] md:w-[552px]'>Check out the various courses <span className=' font-semibold'>(ONLINE and OFFLINE)</span> offered by Pharmacad and make your pharmaceutical career a reality.</span>
+                <span className=' mt-4 font-normal text-lg w-[291px] md:w-[552px]'>Hurry up, enrollment process for <span className=' font-semibold'>’24</span> and <span className=' font-semibold'>’25</span> batches for GPAT has started.</span>
             </div>
             <div className='h-[204px] w-[536px]'>
 <NationalOlympiad/>
