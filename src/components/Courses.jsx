@@ -2,10 +2,12 @@ import React from 'react'
 import { FaAngleLeft,FaWhatsapp} from "react-icons/fa";
 import coursesdata from './coursesdata';
 import CourseCard from './CourseCard'
-import NationalOlympiad from './NationalOlympiad';
+import Annoucements from './Annoucements';
+import Annoucement_data from './Annoucement_data';
 
 const Courses = () => {
     const courseDataArray = Object.values(coursesdata);
+    const Annoucements_data = Object.values(Annoucement_data);
   return (
     <div className='w-full border-2 border-white mb-[109px]'>
         <div className='h-[38px] w-[42px] ml-7 md:ml-[131px] mt-14 md:mt-[57px] border-2 border-gray-300 bg-white items-center justify-center absolute rounded-sm p-2 cursor-pointer -z-50'>
@@ -17,9 +19,13 @@ const Courses = () => {
                 <span className=' mt-6 md:mt-12 font-normal text-lg w-[291px] md:w-[552px]'>Check out the various courses <span className=' font-semibold'>(ONLINE and OFFLINE)</span> offered by Pharmacad and make your pharmaceutical career a reality.</span>
                 <span className=' mt-4 font-normal text-lg w-[291px] md:w-[552px]'>Hurry up, enrollment process for <span className=' font-semibold'>’24</span> and <span className=' font-semibold'>’25</span> batches for GPAT has started.</span>
             </div>
-            <div className='h-[204px] w-[536px]'>
-<NationalOlympiad/>
-            </div>
+         
+            {Annoucements_data.map((cardData) => (
+                <div className='h-[204px] w-[536px]'>
+                            <Annoucements cardData={cardData} />
+                            </div>   
+                    ))}
+           
         </div>
         <div className=' mt-11 md:mt-[91px] mx-6 md:ml-[131px]'>
             <span className='hidden md:block font-bold text-3xl '>
