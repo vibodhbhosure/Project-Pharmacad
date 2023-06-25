@@ -34,7 +34,7 @@ const Courses = () => {
           <div className="mt-6 lg:mt-12 ml-7 lg:ml-[52px]">
             <div className="flex flex-col lg:flex-row lg:w-max">
               <span className="uppercase text-2xl md:text-3xl flex flex-col lg:flex-row">
-                <span className="font-medium ">PHARMACAD'S</span>
+                <span className="font-medium ">PHARMACAD&apos;S</span>
                 <span className="font-bold italic ml-0 lg:ml-2">
                   STEPS2SUCCESS
                 </span>
