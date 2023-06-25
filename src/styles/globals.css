@@ -13,17 +13,20 @@
     background-color: #EAFFD9;
 }
 
-.contact{
+.contact {
     background-color: #EAFFD9;
 }
-.textcolour{
+
+.textcolour {
     color: #50FCB2;
 }
-.gradient{
+
+.gradient {
     background: linear-gradient(to right, #8800AA, #620090);
 }
-.bg{
-    background-image: url("../../public/bg2.svg");
+
+.bg {
+    background-image: url("../../public/bg2.webp");
 
 }
 
@@ -137,4 +140,3 @@ nav {
     }
 
 } */
-

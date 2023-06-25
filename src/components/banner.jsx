@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import a1 from "../../public/a.webp";
 import googleplay from "../../public/googleplay.svg";
 const Banner = () => {
@@ -19,10 +20,14 @@ const Banner = () => {
                 OUR Mission.
               </p>
               <div className="flex flex-row space-x-4">
-                <button className="flex flex-row justify-center items-center py-3 px-3 gap-2 w-25 h-12 border-solid border-2 border-indigo-600 bg-blue-700 shadow-md rounded-md text-white">
-                  Book Free demo
-                </button>
-
+                <Link
+                  target="_blank"
+                  href="https://forms.gle/hoorBi1QweLwA7Nt5"
+                >
+                  <button className="flex flex-row justify-center items-center py-3 px-3 gap-2 w-25 h-12 border-solid border-2 border-indigo-600 bg-blue-700 shadow-md rounded-md text-white">
+                    Book Free demo
+                  </button>
+                </Link>
                 <button className="flex flex-row justify-center items-center py-3 px-3 gap-2 w-25 h-12 border-solid border-2 border-indigo-600 bg-white text-blue-600 shadow-md rounded-md ">
                   View all courses
                 </button>
@@ -30,14 +35,18 @@ const Banner = () => {
               <p className="text-sm sm:text-base lg:text-lg text-[#393939]">
                 Pharmacad is also available on the Playstore!
               </p>
-
-              <Image
-                className="px-3 py-1.5 flex gap-2 items-center rounded-xl"
-                src={googleplay}
-                width={200}
-                height={90}
-                alt="Google Play Button"
-              />
+              <Link
+                target="_blank"
+                href="https://play.google.com/store/apps/details?id=co.loki.pharmac"
+              >
+                <Image
+                  className="px-3 py-1.5 flex gap-2 items-center rounded-xl"
+                  src={googleplay}
+                  width={200}
+                  height={90}
+                  alt="Google Play Button"
+                />
+              </Link>
             </div>
             <div>
               <Image

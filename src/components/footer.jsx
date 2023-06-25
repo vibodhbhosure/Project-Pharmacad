@@ -39,7 +39,7 @@ const Footer = () => {
                 <ul className="list-none text-left mb-10">
                   <li className="mb-2">
                     <Link
-                      href="/"
+                      href="#"
                       className="text-white hover:text-gray-600 font-inter pr-4"
                     >
                       Home
@@ -53,30 +53,16 @@ const Footer = () => {
                       Courses
                     </Link>
                   </li>
+
                   <li className="mb-2">
                     <Link
-                      href="#"
-                      className="text-white hover:text-gray-600 font-inter pr-4"
-                    >
-                      Resources
-                    </Link>
-                  </li>
-                  <li className="mb-2">
-                    <Link
-                      href="#"
+                      href="/blog"
                       className="text-white hover:text-gray-600 font-inter pr-4"
                     >
                       Blogs
                     </Link>
                   </li>
-                  <li className="mb-2">
-                    <Link
-                      href="#"
-                      className="text-white hover:text-gray-600 font-inter pr-4"
-                    >
-                      Events
-                    </Link>
-                  </li>
+
                   <li className="mb-2">
                     <Link
                       href="#about"
@@ -111,25 +97,27 @@ const Footer = () => {
               </h2>
               <div className="list-none text-left mb-10">
                 <ul className="list-none text-left mb-10">
-                  <li>
+                  <li className="mb-2">
                     <Link
-                      href="#"
+                      href="https://goo.gl/maps/d4p6P2kJyqkqA6V79"
+                      target="_blank"
                       className="text-white hover:text-gray-600font-inter"
                     >
                       Dadar, Mumbai-14
                     </Link>
                   </li>
-                  <li>
+                  <li className="mb-2">
                     <Link
-                      href="#"
+                      href="mailto:pharmacad.india@gmail.com"
+                      target="_blank"
                       className="text-white break-all hover:text-gray-600 font-inter"
                     >
                       pharmacad.india@gmail.com
                     </Link>
                   </li>
-                  <li>
+                  <li className="mb-2">
                     <Link
-                      href="#"
+                      href="tel:+919967163961"
                       className="text-white hover:text-gray-600 font-inter"
                     >
                       (+91) 9967163961
@@ -141,7 +129,11 @@ const Footer = () => {
                 Socials
               </h2>
               <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-                <Link href="#" className=" text-gray-500">
+                <Link
+                  href="https://m.facebook.com/pharmacad/"
+                  className=" text-gray-500"
+                  target="_blank"
+                >
                   <svg
                     fill="currentColor"
                     strokeLinecap="round"
@@ -154,20 +146,32 @@ const Footer = () => {
                     <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
                   </svg>
                 </Link>
-                <Link href="#" className="ml-5 text-gray-500">
+                <Link
+                  href="https://www.youtube.com/@Pharmacad"
+                  className="ml-5 text-gray-500"
+                  target="_blank"
+                >
                   <svg
-                    fill="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    className="w-5 h-5"
-                    viewBox="0 0 24 24"
+                    width="24px"
+                    height="24px"
+                    viewBox="0 -3.5 24 24"
+                    id="meteor-icon-kit__solid-youtube"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
                   >
-
-                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M23.4593 2.63137C23.1843 1.59561 22.3738 0.77987 21.3447 0.50304C19.4795 0 12 0 12 0C12 0 4.52059 0 2.65529 0.50304C1.62622 0.77991 0.815739 1.59561 0.540659 2.63137C0.040863 4.50876 0.040863 8.4258 0.040863 8.4258C0.040863 8.4258 0.040863 12.3427 0.540659 14.2201C0.815739 15.2559 1.62622 16.0376 2.65529 16.3145C4.52059 16.8175 12 16.8175 12 16.8175C12 16.8175 19.4794 16.8175 21.3447 16.3145C22.3738 16.0376 23.1843 15.2559 23.4593 14.2201C23.9591 12.3427 23.9591 8.4258 23.9591 8.4258C23.9591 8.4258 23.9591 4.50876 23.4593 2.63137zM9.5538 11.9821V4.86942L15.8051 8.4258L9.5538 11.9821z"
+                      fill="#758CA3"
+                    />
                   </svg>
                 </Link>
-                <Link href="#" className="ml-5 text-gray-500">
+                <Link
+                  href="https://www.instagram.com/pharmacad_gpat_niper_mba/"
+                  className="ml-5 text-gray-500"
+                  target="_blank"
+                >
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -189,7 +193,11 @@ const Footer = () => {
                     <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
                   </svg>
                 </Link>
-                <Link href="#" className="ml-5 text-gray-500">
+                <Link
+                  href="https://www.linkedin.com/company/pharmacad"
+                  className="ml-5 text-gray-500"
+                  target="_blank"
+                >
                   <svg
                     fill="currentColor"
                     stroke="currentColor"
