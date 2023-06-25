@@ -37,7 +37,7 @@ const CourseCard = ({ cardData }) => {
           {desc.map((item) => (
             <li
               key={id}
-              className="font-medium font-montserrat text-xs mt-[6px]"
+              className="font-semibold font-montserrat text-sm mt-[6px]"
             >
               {item}
             </li>
