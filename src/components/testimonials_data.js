@@ -1,4 +1,4 @@
-export default [
+const data = [
     {
         "id": 1,
         "testimonial": "Pharmacad – A place that has changed my journey towards being a Pharmacist. At Pharmacad it’s not just about qualifying for GPAT but in all being an employable & knowledgeable person who can make a difference in this world. As they say, “I am a Pharmacist, and I am proud to be one”.",
@@ -21,3 +21,5 @@ export default [
 
     },
 ]
+
+export default data;

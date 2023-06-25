@@ -19,9 +19,8 @@ const Footer = () => {
             />
             <div>
               <p className="mt-2 text-md text-justify font-inter text-white">
-
-                Dedicated to providing a transformative learning experience and
-                shaping the next generation of pharmaceutical leaders with
+                Dedicated to providing Link transformative learning experience
+                and shaping the next generation of pharmaceutical leaders with
                 cutting-edge curriculum, innovative research, and hands-on
                 training.
 
@@ -37,110 +36,104 @@ const Footer = () => {
                 Navigate
               </h2>
               <div className="list-none text-left mb-10">
-                <li>
-                  <a
-                    href="#"
-                    className="text-white hover:text-gray-600 font-inter"
-                  >
-                    Home
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-white hover:text-gray-600 font-inter"
-                  >
-                    Courses
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-white hover:text-gray-600 font-inter"
-                  >
-                    Resources
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-white hover:text-gray-600 font-inter"
-                  >
-                    Blogs
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-white hover:text-gray-600 font-inter"
-                  >
-                    Events
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/about"
-                    className="text-white hover:text-gray-600 font-inter"
-                  >
-                    About Us
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-white hover:text-gray-600 font-inter"
-                  >
-                    FAQs
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-white hover:text-gray-600 font-inter"
-                  >
-                    Contact
-                  </a>
+                <ul className="list-none text-left mb-10">
+                  <li className="mb-2">
+                    <Link
+                      href="#"
+                      className="text-white hover:text-gray-600 font-inter pr-4"
+                    >
+                      Home
+                    </Link>
+                  </li>
+                  <li className="mb-2">
+                    <Link
+                      href="#CoursesOffered"
+                      className="text-white hover:text-gray-600 font-inter pr-4"
+                    >
+                      Courses
+                    </Link>
+                  </li>
 
-                </li>
+                  <li className="mb-2">
+                    <Link
+                      href="/blog"
+                      className="text-white hover:text-gray-600 font-inter pr-4"
+                    >
+                      Blogs
+                    </Link>
+                  </li>
+
+                  <li className="mb-2">
+                    <Link
+                      href="#about"
+                      className="text-white hover:text-gray-600 font-inter pr-4"
+                    >
+                      About Us
+                    </Link>
+                  </li>
+                  <li className="mb-2">
+                    <Link
+                      href="#faq"
+                      className="text-white hover:text-gray-600 font-inter pr-4"
+                    >
+                      FAQs
+                    </Link>
+                  </li>
+                  <li className="mb-2">
+                    <Link
+                      href="#contact"
+                      className="text-white hover:text-gray-600 font-inter pr-4"
+                    >
+                      Contact
+                    </Link>
+                  </li>
+                </ul>
               </div>
             </div>
 
-            <div className="w-1/2 md:w-1/2">
-
+            <div className="w-1/2 md:w-1/2 ">
               <h2 className="title-font font-bold text-white tracking-widest text-xl mb-3 font-inter">
                 Contact
               </h2>
               <div className="list-none text-left mb-10">
-                <li>
-                  <a
-                    href="#"
-                    className="text-white hover:text-gray-600font-inter"
-                  >
-                    Dadar, Mumbai-14
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-white break-words text-sm hover:text-gray-600 font-inter"
-                  >
-                    pharmacad.india@gmail.com
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-white hover:text-gray-600 font-inter"
-                  >
-                    (+91) 9967163961
-                  </a>
-                </li>
+                <ul className="list-none text-left mb-10">
+                  <li className="mb-2">
+                    <Link
+                      href="https://goo.gl/maps/d4p6P2kJyqkqA6V79"
+                      target="_blank"
+                      className="text-white hover:text-gray-600font-inter"
+                    >
+                      Dadar, Mumbai-14
+                    </Link>
+                  </li>
+                  <li className="mb-2">
+                    <Link
+                      href="mailto:pharmacad.india@gmail.com"
+                      target="_blank"
+                      className="text-white break-all hover:text-gray-600 font-inter"
+                    >
+                      pharmacad.india@gmail.com
+                    </Link>
+                  </li>
+                  <li className="mb-2">
+                    <Link
+                      href="tel:+919967163961"
+                      className="text-white hover:text-gray-600 font-inter"
+                    >
+                      (+91) 9967163961
+                    </Link>
+                  </li>
+                </ul>
               </div>
-              <h2 className="title-font font-bold font-sans text-white tracking-widest text-xl mb-3 font-inter">
+              <h2 className="title-font font-bold text-white tracking-widest text-xl mb-3 font-inter">
                 Socials
               </h2>
               <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-                <a href="#" className=" text-gray-500">
+                <Link
+                  href="https://m.facebook.com/pharmacad/"
+                  className=" text-gray-500"
+                  target="_blank"
+                >
                   <svg
                     fill="currentColor"
                     strokeLinecap="round"
@@ -152,23 +145,33 @@ const Footer = () => {
 
                     <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
                   </svg>
-                </a>
-                <a href="#" className="ml-5 text-gray-500">
-
+                </Link>
+                <Link
+                  href="https://www.youtube.com/@Pharmacad"
+                  className="ml-5 text-gray-500"
+                  target="_blank"
+                >
                   <svg
-                    fill="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    className="w-5 h-5"
-                    viewBox="0 0 24 24"
+                    width="24px"
+                    height="24px"
+                    viewBox="0 -3.5 24 24"
+                    id="meteor-icon-kit__solid-youtube"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
                   >
-
-                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M23.4593 2.63137C23.1843 1.59561 22.3738 0.77987 21.3447 0.50304C19.4795 0 12 0 12 0C12 0 4.52059 0 2.65529 0.50304C1.62622 0.77991 0.815739 1.59561 0.540659 2.63137C0.040863 4.50876 0.040863 8.4258 0.040863 8.4258C0.040863 8.4258 0.040863 12.3427 0.540659 14.2201C0.815739 15.2559 1.62622 16.0376 2.65529 16.3145C4.52059 16.8175 12 16.8175 12 16.8175C12 16.8175 19.4794 16.8175 21.3447 16.3145C22.3738 16.0376 23.1843 15.2559 23.4593 14.2201C23.9591 12.3427 23.9591 8.4258 23.9591 8.4258C23.9591 8.4258 23.9591 4.50876 23.4593 2.63137zM9.5538 11.9821V4.86942L15.8051 8.4258L9.5538 11.9821z"
+                      fill="#758CA3"
+                    />
                   </svg>
-                </a>
-                <a href="#" className="ml-5 text-gray-500">
-
+                </Link>
+                <Link
+                  href="https://www.instagram.com/pharmacad_gpat_niper_mba/"
+                  className="ml-5 text-gray-500"
+                  target="_blank"
+                >
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -189,9 +192,12 @@ const Footer = () => {
 
                     <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
                   </svg>
-                </a>
-                <a href="#" className="ml-5 text-gray-500">
-
+                </Link>
+                <Link
+                  href="https://www.linkedin.com/company/pharmacad"
+                  className="ml-5 text-gray-500"
+                  target="_blank"
+                >
                   <svg
                     fill="currentColor"
                     stroke="currentColor"
@@ -208,11 +214,10 @@ const Footer = () => {
 
                     <circle cx="4" cy="4" r="2" stroke="none"></circle>
                   </svg>
-                </a>
+                </Link>
               </span>
               <div className="w-full mt-6 text-left">
-
-                <a href="https://play.google.com/store/apps/details?id=co.loki.pharmac">
+                <Link href="https://play.google.com/store/apps/details?id=co.loki.pharmac">
                   <button className="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -232,7 +237,7 @@ const Footer = () => {
 
                     </span>
                   </button>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

@@ -1,4 +1,4 @@
-export default [
+const data = [
     {
         "id": 1,
         "url": "../public/cardimages/card1.svg",
@@ -31,3 +31,5 @@ export default [
     }
 
 ]
+
+export default data;
