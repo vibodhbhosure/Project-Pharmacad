@@ -2,8 +2,12 @@ import React from "react";
 import { FaAngleLeft, FaWhatsapp } from "react-icons/fa";
 import coursesdata from "./coursesdata";
 import CourseCard from "./CourseCard";
+import Annoucements from "./announcements";
+import Annoucement_data from "./announcement_data";
+
 const Courses = () => {
   const courseDataArray = Object.values(coursesdata);
+  const Annoucements_data = Object.values(Annoucement_data);
   return (
     <div className="w-full border-2 border-white mb-[109px]">
       <div className="h-[38px] w-[42px] ml-7 lg:ml-[131px] mt-14 md:mt-[57px] border-2 border-gray-300 bg-white items-center justify-center absolute rounded-sm p-2 cursor-pointer -z-50">
@@ -24,7 +28,12 @@ const Courses = () => {
             started.
           </span>
         </div>
-        <div className="h-[204px] w-0 lg:w-[536px]"></div>
+
+        {Annoucements_data.map((cardData) => (
+          <div className="h-[204px] w-[536px]">
+            <Annoucements cardData={cardData} />
+          </div>
+        ))}
       </div>
       <div className=" mt-11 md:mt-[91px] mx-6 lg:ml-[131px]">
         <span className="hidden lg:block font-bold text-3xl ">
@@ -34,7 +43,7 @@ const Courses = () => {
           <div className="mt-6 lg:mt-12 ml-7 lg:ml-[52px]">
             <div className="flex flex-col lg:flex-row lg:w-max">
               <span className="uppercase text-2xl md:text-3xl flex flex-col lg:flex-row">
-                <span className="font-medium ">PHARMACAD&apos;S</span>
+                <span className="font-medium ">PHARMACAD'S</span>
                 <span className="font-bold italic ml-0 lg:ml-2">
                   STEPS2SUCCESS
                 </span>
