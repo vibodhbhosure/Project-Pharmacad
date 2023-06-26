@@ -27,6 +27,29 @@ const data = [
         "rank": "AIR 279 - NIPER 2019 | AIR 326 - GPAT 2019"
 
     },
+    {
+        "id": 5,
+        "testimonial": "I would like to thank the entire team of Pharmacad for the efforts they put in which helped me in securing such a good score. I would specially thank the team for the constant motivation, positivity and belief which played an important role in me performing well.The classroom filled with dynamic and competent energy brought out the spark in me.Thank you Team Pharmacad ! I'am a Pharmacist and I am proud to be one",
+        "name": "Kanan Panchal",
+        "rank": "AIR 142 - NIPER 2018 | AIR 227 - GPAT 2018"
+
+    },
+    {
+        "id": 6,
+        "testimonial": "It has been very nice experience to be part of Pharmacad.The study material provided by them and regular test was very helpful. I would like to thank all the faculty members and a very special thanks to Pranav sir and Jigyasa ma'am for their consistent support,guidance and motivation.Proud to be PHARMACADIAN.",
+        "name": "Shubhangi Dwivedi",
+        "rank": "AIR 208 - NIPER 2019 | AIR 270 - GPAT 2019"
+
+    },
+    {
+        "id": 7,
+        "testimonial": "Pharmacad has showed me the right direction to understand my subjects and grasp the basics well. It formed the strong pillars on which my GPAT/NIPER preparations were done smoothly and efficiently. I am highly obliged and thank Team Pharmacad for helping me achieve my goal.",
+        "name": "Sanjana Nayak",
+        "rank": "AIR 80 - NIPER 2018 | AIR 175 - GPAT 2018"
+
+    }
+
+
      
 
 

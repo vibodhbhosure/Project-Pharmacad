@@ -19,8 +19,8 @@ const CourseCard = ({ cardData }) => {
         </div>
         <div className=" w-[272px] md:w-[490px] bg-[#F5F5F5] mt-5 mx-auto md:ml-10">
         <ul className="list-disc ml-5 p-5">
-          {desc.map((item) => (
-            <li key={id} className="font-semibold font-montserrat text-xs mt-[6px]">
+          {desc.map((item,index) => (
+            <li key={index} className="font-semibold font-montserrat text-xs mt-[6px]">
               {item}
             </li>
           ))}
