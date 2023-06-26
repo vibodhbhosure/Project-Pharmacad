@@ -12,8 +12,8 @@ export default function CourseCertificate() {
     // <div className="container mx-auto max-w-screen-xl px-4 py-8">
     <>
       <div>
-      <div className="absolute w-full sm:w-[461px] h-[35px] left-5 lg:left-[212px] md:left-[212px] sm:left-[40px] top-[269px] lg:top-[279px]">
-        <h1 className="font-inter font-bold text-2xl sm:text-4xl leading-tight">
+      <div className="absolute w-full sm:w-[461px] h-[35px] left-[45px] lg:left-[212px] md:left-[212px] sm:left-[45px] top-[269px] lg:top-[279px]">
+        <h1 className="font-inter font-bold text-3xl sm:text-4xl md:text-4xl lg:text-4xl leading-tight">
           Certificate Courses
         </h1>
       </div>
@@ -24,22 +24,22 @@ export default function CourseCertificate() {
         <div className="absolute top-[379.5px] left-[656.5px] box-border w-[39px] h-px border-t-[1px] border-dashed border-gray-800" />
         <div className="absolute top-[379.5px] left-[813.5px] box-border w-[39px] h-px border-t-[1px] border-dashed border-gray-800" />
         <div className="absolute top-[379.5px] left-[1051.5px] box-border w-10 h-px border-t-[1px] border-dashed border-gray-800" />
-        <div className="absolute top-[350px] left-[212px] shadow-green-400 rounded-md text-center bg-whitesmoke-500  box-border w-[126px] h-[58px] border-[2px] border-solid border-green-400">
+        <div className="absolute top-[350px]  font-bold left-[212px] shadow-green-400 rounded-md text-center bg-whitesmoke-500  box-border w-[126px] h-[58px] border-[2px] border-solid border-green-400">
           100% online courses
         </div>
-        <div className="absolute top-[350px] left-[376px] shadow-green-400 rounded-md text-center bg-whitesmoke-500  box-border w-[137px] h-[58px] border-[2px] border-solid border-green-400">
+        <div className="absolute top-[350px] font-bold left-[376px] shadow-green-400 rounded-md text-center bg-whitesmoke-500  box-border w-[137px] h-[58px] border-[2px] border-solid border-green-400">
           Certificate on completion
         </div>
-        <div className="absolute top-[350px] left-[551px] shadow-green-400 rounded-md text-center bg-whitesmoke-200  box-border w-[106px] h-[58px] border-[2px] border-solid border-green-400">
+        <div className="absolute top-[350px] font-bold left-[551px] shadow-green-400 rounded-md text-center bg-whitesmoke-200  box-border w-[106px] h-[58px] border-[2px] border-solid border-green-400">
           Flexible schedule
         </div>
-        <div className="absolute top-[350px] left-[695px] shadow-green-400 rounded-md text-center bg-whitesmoke-500  box-border w-[119px] h-[58px] border-[2px] border-solid border-green-400">
+        <div className="absolute top-[350px] font-bold left-[695px] shadow-green-400 rounded-md text-center bg-whitesmoke-500  box-border w-[119px] h-[58px] border-[2px] border-solid border-green-400">
           Learn from expert
         </div>
-        <div className="absolute top-[350px] left-[852px] shadow-green-400 rounded-md text-center bg-whitesmoke-500  box-border w-[200px] h-[58px] border-[2px] border-solid border-green-400">
+        <div className="absolute top-[350px] font-bold left-[852px] shadow-green-400 rounded-md text-center bg-whitesmoke-500  box-border w-[200px] h-[58px] border-[2px] border-solid border-green-400">
           Job / Internship placement assistance
         </div>
-        <div className="absolute top-[350px] left-[1091px] shadow-green-400 rounded-md text-center bg-whitesmoke-500 box-border w-36 h-[58px] border-[2px] border-solid border-green-400">
+        <div className="absolute top-[350px] font-bold left-[1091px] shadow-green-400 rounded-md text-center bg-whitesmoke-500 box-border w-36 h-[58px] border-[2px] border-solid border-green-400">
           Doubt solving by expert
         </div>
       </div>
@@ -341,7 +341,7 @@ export default function CourseCertificate() {
         </div>
       </div>
 
-      <div className="box-border sm:block lg:hidden md:block absolute w-[290px] h-[896px] left-[10px] top-[350px] bg-white border border-opacity-60 border-gray-300 shadow-md rounded-2xl">
+      <div className="box-border sm:block lg:hidden md:block absolute w-[290px] h-[896px] left-[45px] top-[350px] bg-white border border-opacity-60 border-gray-300 shadow-md rounded-2xl">
         <div className="absolute -mt-[1px] left-[16px] rounded-tl-none rounded-tr-5xs-3 rounded-b-5xs-3 [background:linear-gradient(93.54deg,_#020a78,_#8e00fd)] shadow-[0px_5.473354339599609px_9.12px_rgba(0,_0,_0,_0.25)] w-[265px] h-[230.23px]" />
         <Image
           className="-ml-0"
@@ -493,7 +493,7 @@ export default function CourseCertificate() {
           </div>
         </div>
       </div>
-      <div className="box-border sm:block lg:hidden md:block absolute w-[290px] h-[896px] left-[10px] top-[1300px] sm:left-[400px] md:left-[400px] sm:top-[350px] md:top-[350px]  bg-white border border-opacity-60 border-gray-300 shadow-md rounded-2xl">
+      <div className="box-border sm:block lg:hidden md:block absolute w-[290px] h-[896px] left-[45px] top-[1300px] sm:left-[400px] md:left-[400px] sm:top-[350px] md:top-[350px]  bg-white border border-opacity-60 border-gray-300 shadow-md rounded-2xl">
         <div className="absolute -mt-[1px] left-[16px] rounded-tl-none rounded-tr-5xs-3 rounded-b-5xs-3 [background:linear-gradient(93.54deg,_#780902,_#fd5b00)]  shadow-[0px_5.473354339599609px_9.12px_rgba(0,_0,_0,_0.25)] w-[265px] h-[230px]" />
 
         <Image
@@ -503,7 +503,7 @@ export default function CourseCertificate() {
           height={11}
           alt="Other Small Image"
         ></Image>
-        <div className="absolute top-[8px] left-[45px] text-white text-[22.81px] leading-[141%] font-extrabold font-inter text-card-background inline-block w-[248px]">
+        <div className="absolute top-[8px] left-[40px] text-white text-[22.81px] leading-[141%] font-extrabold font-inter text-card-background inline-block w-[248px]">
           Intellectual Patent Rights (IPR)
         </div>
         <div className="absolute top-[80px] left-[45px] text-white text-[13px] tracking-[0.04em] leading-[163.5%] text-card-background inline-block w-[222.58px]">
@@ -537,12 +537,13 @@ export default function CourseCertificate() {
             </span>
           </p>
         </div>
-
-        <p className="mt-[240px] ml-5 text-[12px]">
+       
+        <p className="mt-[240px] text-[12px]">
           According to WIPO, numbers of patents file<br></br>
           in India in 2018 was 2.5 greater than 2009, the<br></br>
           economy in the same period was doubled.<br></br>
         </p>
+        
         <div className="absolute top-[340px] ml-5 w-[258.25px] h-[191.28px] text-[12px]">
           <div className="absolute  left-[32.25px] leading-[183.5%] font-semibold">
             <p className="m-0">Safeguard the Unique Ideas</p>
