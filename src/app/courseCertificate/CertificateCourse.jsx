@@ -12,7 +12,7 @@ export default function CourseCertificate() {
     // <div className="container mx-auto max-w-screen-xl px-4 py-8">
     <>
       <div>
-      <div className="absolute w-full sm:w-[461px] h-[35px] left-[45px] lg:left-[212px] md:left-[212px] sm:left-[45px] top-[269px] lg:top-[279px]">
+      <div className="absolute w-full sm:w-[461px] h-[35px] left-[35px] lg:left-[212px] md:left-[212px] sm:left-[45px] top-[269px] lg:top-[279px]">
         <h1 className="font-inter font-bold text-3xl sm:text-4xl md:text-4xl lg:text-4xl leading-tight">
           Certificate Courses
         </h1>
@@ -45,7 +45,7 @@ export default function CourseCertificate() {
       </div>
 
       <div className="box-border sm:hidden lg:block md:hidden hidden absolute w-[1037px] h-[410px] left-[212px] top-[465px] bg-white border border-opacity-60 border-gray-300 shadow-md rounded-2xl">
-        <div className="absolute -mt-3 left-[38px] rounded-tl-none rounded-tr-5xs-3 rounded-b-5xs-3 [background:linear-gradient(93.54deg,_#020a78,_#8e00fd)] shadow-[0px_5.473354339599609px_9.12px_rgba(0,_0,_0,_0.25)] w-[276.4px] h-[226.23px]">
+        <div className="absolute -mt-3 left-[38px] rounded-bl-xl rounded-tr-xl rounded-br-xl [background:linear-gradient(93.54deg,_#020a78,_#8e00fd)] shadow-[0px_5.473354339599609px_9.12px_rgba(0,_0,_0,_0.25)] w-[276.4px] h-[218.23px]">
           <Image
             className="-ml-5"
             src={small}
@@ -61,13 +61,13 @@ export default function CourseCertificate() {
               <li>
                 <strong>12</strong> MODULES (PRE-RECORDED)
               </li>
-              <li className="my-2">
+              <li className="my-1">
                 <strong>1 </strong> LIVE INTERACTIVE SESSION
               </li>
-              <li className="my-2">ASSESSMENT TEST</li>
-              <li className="my-2">100% PLACEMENT ASSISTANCE</li>
-              <li className="my-2">COURSE COMPLETION CERTIFICATE</li>
-              <li className="my-2">LIFETIME ACCESS</li>
+              <li className="my-1">ASSESSMENT TEST</li>
+              <li className="my-1">100% PLACEMENT ASSISTANCE</li>
+              <li className="my-1">COURSE COMPLETION CERTIFICATE</li>
+              <li className="my-1">LIFETIME ACCESS</li>
             </ul>
           </div>
         </div>
@@ -192,7 +192,7 @@ export default function CourseCertificate() {
       </div>
 
       <div className="box-border absolute sm:hidden lg:block md:hidden hidden w-[1037px] h-[410px] left-[212px] top-[932px] bg-white border border-opacity-60 border-gray-300 shadow-md rounded-2xl">
-        <div className="absolute -mt-3 left-[38px] rounded-tl-none rounded-tr-5xs-3 rounded-b-5xs-3 [background:linear-gradient(93.54deg,_#780902,_#FD5B00)] shadow-[0px_5.473354339599609px_9.12px_rgba(0,_0,_0,_0.25)] w-[276.4px] h-[228.23px]">
+        <div className="absolute -mt-6 left-[38px] rounded-bl-xl rounded-tr-xl rounded-br-xl [background:linear-gradient(93.54deg,_#780902,_#FD5B00)] shadow-[0px_5.473354339599609px_9.12px_rgba(0,_0,_0,_0.25)] w-[276.4px] h-[232.23px]">
           <Image
             className="-ml-5"
             src={orsmall}
@@ -204,17 +204,17 @@ export default function CourseCertificate() {
             Intellectual Patent Rights (IPR)
           </div>
           <div className="absolute top-[50px] left-[35px] font-montserrat font-semibold text-xs leading-snug leading-trim text-capitalize tracking-widest text-white">
-            <ul className="list-none my-5">
+            <ul className="list-none my-7">
               <li>
                 <strong>12</strong> MODULES (PRE-RECORDED)
               </li>
-              <li className="my-2">
+              <li className="my-1">
                 <strong>1 </strong> LIVE INTERACTIVE SESSION
               </li>
-              <li className="my-2">ASSESSMENT TEST</li>
-              <li className="my-2">INTERNSHIP PROVIDED</li>
-              <li className="my-2">COURSE COMPLETION CERTIFICATE</li>
-              <li className="my-1">LIFETIME ACCESS</li>
+              <li className="my-1">ASSESSMENT TEST</li>
+              <li className="my-1">INTERNSHIP PROVIDED</li>
+              <li className="my-1">COURSE COMPLETION CERTIFICATE</li>
+              <li className="my-0">LIFETIME ACCESS</li>
             </ul>
           </div>
         </div>
@@ -238,15 +238,15 @@ export default function CourseCertificate() {
               Rubicon (1 year). <br></br>
             </p>
           </div>
-          <div className="mt-[30px] ml-8">
+          <div className="mt-[30px] ml-[55px]">
             <p>
               According to WIPO, numbers of patents file in India in 2018 was{" "}
               <br></br>
               2.5 greater than 2009,the economy in the same period was doubled.
             </p>
           </div>
-          <div className="absolute top-[110px] left-[440px] w-[258.25px] h-[191.28px] text-sm">
-            <div className="absolute -mt-2 left-[32.25px] font-semibold">
+          <div className="absolute top-[112px] left-[440px] w-[258.25px] h-[191.28px] text-sm">
+            <div className="absolute -mt-1.5 left-[32.25px] font-semibold">
               <p className="m-0 my-2 whitespace-nowrap">
                 Safeguard the Unique Ideas
               </p>
@@ -263,10 +263,10 @@ export default function CourseCertificate() {
                 Improve Business Exports
               </p>
               <p className="m-0 my-2 whitespace-nowrap">Technology Transfer</p>
-              <p className="m-0 my-2 whitespace-nowrap">
+              <p className="m-0 my-1.5 whitespace-nowrap">
                 100% placement assistance to students for PV/CR related Jobs
               </p>
-              <p className="m-0 my-2 whitespace-nowrap">
+              <p className="m-0 my-1.5 whitespace-nowrap">
                 Create High- Income Job
               </p>
             </div>
@@ -341,8 +341,8 @@ export default function CourseCertificate() {
         </div>
       </div>
 
-      <div className="box-border sm:block lg:hidden md:block absolute w-[290px] h-[896px] left-[45px] top-[350px] bg-white border border-opacity-60 border-gray-300 shadow-md rounded-2xl">
-        <div className="absolute -mt-[1px] left-[16px] rounded-tl-none rounded-tr-5xs-3 rounded-b-5xs-3 [background:linear-gradient(93.54deg,_#020a78,_#8e00fd)] shadow-[0px_5.473354339599609px_9.12px_rgba(0,_0,_0,_0.25)] w-[265px] h-[230.23px]" />
+      <div className="box-border sm:block lg:hidden md:block absolute w-[290px] h-[896px] left-[35px] sm:left-[45px] md:left-[45px] top-[350px] bg-white border border-opacity-60 border-gray-300 shadow-md rounded-2xl">
+        <div className="absolute -mt-[1px] left-[16px] rounded-bl-xl rounded-tr-xl rounded-br-xl [background:linear-gradient(93.54deg,_#020a78,_#8e00fd)] shadow-[0px_5.473354339599609px_9.12px_rgba(0,_0,_0,_0.25)] w-[265px] h-[230.23px]" />
         <Image
           className="-ml-0"
           src={small}
@@ -493,8 +493,8 @@ export default function CourseCertificate() {
           </div>
         </div>
       </div>
-      <div className="box-border sm:block lg:hidden md:block absolute w-[290px] h-[896px] left-[45px] top-[1300px] sm:left-[400px] md:left-[400px] sm:top-[350px] md:top-[350px]  bg-white border border-opacity-60 border-gray-300 shadow-md rounded-2xl">
-        <div className="absolute -mt-[1px] left-[16px] rounded-tl-none rounded-tr-5xs-3 rounded-b-5xs-3 [background:linear-gradient(93.54deg,_#780902,_#fd5b00)]  shadow-[0px_5.473354339599609px_9.12px_rgba(0,_0,_0,_0.25)] w-[265px] h-[230px]" />
+      <div className="box-border sm:block lg:hidden md:block absolute w-[290px] h-[896px] left-[35px] sm:left-[45px] md:left-[45px] top-[1300px] sm:top-[350px] md:top-[350px]  bg-white border border-opacity-60 border-gray-300 shadow-md rounded-2xl">
+        <div className="absolute -mt-[1px] left-[16px] rounded-bl-xl rounded-tr-xl rounded-br-xl [background:linear-gradient(93.54deg,_#780902,_#fd5b00)]  shadow-[0px_5.473354339599609px_9.12px_rgba(0,_0,_0,_0.25)] w-[265px] h-[230px]" />
 
         <Image
           className="-ml-0"
@@ -538,7 +538,7 @@ export default function CourseCertificate() {
           </p>
         </div>
        
-        <p className="mt-[240px] text-[12px]">
+        <p className="mt-[240px] ml-5 text-[12px]">
           According to WIPO, numbers of patents file<br></br>
           in India in 2018 was 2.5 greater than 2009, the<br></br>
           economy in the same period was doubled.<br></br>
