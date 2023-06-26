@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    image:{
-        domains: ["www.svgrepo.com"],
+    trailingSlash: true,
+    output: "export",
+    images: {
+        unoptimized: true,
     },
 };
 
