@@ -9,6 +9,7 @@ import BestChoiceContainer from "../components/BestChoice"
 import Carousel from '@/components/Carousel'
 import TestimonialsContainer from '@/components/Testimonials'
 import AdCarousal from '@/components/AdCarousal'
+import Footer from '@/components/footer'
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <About />
       <TestimonialsContainer />
       <Contact />
+      <Footer />
     </main>
   )
 }
