@@ -10,18 +10,18 @@ const Courses = () => {
   const Annoucements_data = Object.values(Annoucement_data);
   return (
     <div className="w-full border-2 border-white mb-[109px]">
-      <div className="h-[38px] w-[42px] ml-7 md:ml-[131px] mt-14 md:mt-[57px] border-2 border-gray-300 bg-white items-center justify-center absolute rounded-sm p-2 cursor-pointer -z-50">
+      <div className="h-[38px] w-[42px] ml-7 lg:ml-[131px] mt-14 md:mt-[57px] border-2 border-gray-300 bg-white items-center justify-center absolute rounded-sm p-2 cursor-pointer -z-50">
         <FaAngleLeft className="ml-1" />
       </div>
-      <div className="flex flex-col md:flex-row ml-6 md:ml-[135px] mt-36 md:mt-[156px] space-x-[80px]">
-        <div className="h-[200px] w-[552px] flex flex-col">
+      <div className="flex flex-col xl:flex-row ml-6 lg:ml-[135px] mt-36 lg:mt-[156px] space-x-0 xl:space-x-[40px]">
+        <div className="h-[200px] w-[291px] md:w-[400px] lg:w-[570px] flex flex-col">
           <span className=" text-3xl md:text-5xl font-bold">Courses</span>
-          <span className=" mt-6 md:mt-12 font-normal text-lg w-[291px] md:w-[552px]">
+          <span className=" mt-6 lg:mt-12 font-normal text-sm lg:text-base w-[291px] md:w-[440px] lg:w-[552px]">
             Check out the various courses{" "}
             <span className=" font-semibold">(ONLINE and OFFLINE)</span> offered
             by Pharmacad and make your pharmaceutical career a reality.
           </span>
-          <span className=" mt-4 font-normal text-lg w-[291px] md:w-[552px]">
+          <span className=" mt-4 font-normal text-sm lg:text-base w-[291px] md:w-[440px] lg:w-[570px]">
             Hurry up, enrollment process for{" "}
             <span className=" font-semibold">’24</span> and{" "}
             <span className=" font-semibold">’25</span> batches for GPAT has
@@ -30,29 +30,32 @@ const Courses = () => {
         </div>
 
         {Annoucements_data.map((cardData, index) => (
-          <div className="h-[204px] w-[536px]" key={index}>
+          <div
+            className="h-[204px] w-[310px] sm:w-[600px] md:w-[536px] mt-10 xl:mt-0 mx-auto sm:mx-0"
+            key={index}
+          >
             <Annoucements cardData={cardData} />
           </div>
         ))}
       </div>
-      <div className=" mt-11 md:mt-[91px] mx-6 md:ml-[131px]">
-        <span className="hidden md:block font-bold text-3xl ">
+      <div className=" mt-96 sm:mt-40 xl:mt-[91px] mx-6 lg:ml-[131px]">
+        <span className="hidden lg:block font-bold text-3xl ">
           Upcoming Batches
         </span>
-        <div className="border-2 border-[#DBDBDB] w-[310px] md:w-[1278px] h-[271px] mt-7 shadow-[0_3px_10px_rgb(0,0,0,0.2)] mx-auto md:mx-0">
-          <div className="mt-6 md:mt-12 ml-7 md:ml-[52px]">
-            <div className="flex flex-col md:flex-row md:w-max">
-              <span className="uppercase text-2xl md:text-3xl flex  flex-col md:flex-row">
+        <div className="border-2 border-[#DBDBDB] w-[310px] sm:w-[400px] md:[600px] lg:w-[975px] xl:w-[1278px] h-[271px] mt-7 shadow-[0_3px_10px_rgb(0,0,0,0.2)] mx-auto lg:mx-0">
+          <div className="mt-6 lg:mt-12 ml-7 lg:ml-[52px]">
+            <div className="flex flex-col lg:flex-row lg:w-max">
+              <span className="uppercase text-2xl md:text-3xl flex flex-col lg:flex-row">
                 <span className="font-medium ">PHARMACAD&apos;S</span>
-                <span className="font-bold italic ml-0 md:ml-2">
+                <span className="font-bold italic ml-0 lg:ml-2">
                   STEPS2SUCCESS
                 </span>
               </span>
-              <span className="box-border uppercase font-bold text-sm md:text-base bg-[#CD00A0] text-[#F5F5F5] ml-0 md:ml-12 mt-3 md:mt-0 m-auto px-2 py-1 rounded-md">
+              <span className="box-border uppercase font-bold text-sm md:text-base bg-[#CD00A0] text-[#F5F5F5] ml-0 lg:ml-12 mt-3 lg:mt-0 m-auto px-2 py-1 rounded-md">
                 mcq booklets
               </span>
             </div>
-            <div className="hidden mt-4 md:flex flex-row">
+            <div className="hidden mt-4 xl:flex flex-row">
               <div className="h-[27px] flex flex-col max-w-fit">
                 <div className="w-1/8 flex">
                   <span className=" box-border h-[39px] w-[39px] rounded-full shadow-md z-10 flex justify-center align-middle p-2 mt-[6px] bg-white font-semibold text-base">
@@ -125,7 +128,7 @@ const Courses = () => {
             </div>
           </div>
         </div>
-        <div className="grid-cols-1 grid md:grid-cols-2 grid-flow-row gap-9 ">
+        <div className="grid-cols-1 grid lg:grid-cols-2 grid-flow-row gap-9 ">
           {courseDataArray.slice(0, 4).map((cardData) => (
             <div key={cardData.id} className="lg:w-full ">
               <CourseCard cardData={cardData} />
