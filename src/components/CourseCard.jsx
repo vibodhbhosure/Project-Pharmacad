@@ -1,6 +1,6 @@
 import React from "react";
 import { FaAngleLeft, FaWhatsapp } from "react-icons/fa";
-import Image from "next/image";
+import Link from "next/link";
 const CourseCard = ({ cardData }) => {
   if (!cardData) {
     return null; // Return null or handle the case when cardData is undefined
@@ -45,26 +45,34 @@ const CourseCard = ({ cardData }) => {
         </ul>
       </div>
       <div className="ml-5 sm:ml-16 xl:ml-10 mt-7">
-        <button className=" box-border bg-[#3A47FB] shadow-xl m-auto p-3 font-semibold text-sm text-white rounded-lg">
-          Book a demo
-        </button>
-        <button className=" box-border border-2 border-[#3A47FB] text-[#3A47FB] shadow-xl m-auto p-3 font-semibold text-sm rounded-lg ml-5">
-          <div className="flex flex-row">
-            <span>Enquire now</span>
-            <span>
-              {" "}
-              <FaWhatsapp className="ml-1.5 text-lg" />
+        <Link href="https://forms.gle/hoorBi1QweLwA7Nt5" target="_blank">
+          <button className=" box-border bg-[#3A47FB] shadow-xl m-auto p-3 font-semibold text-sm text-white rounded-lg">
+            Book a demo
+          </button>
+        </Link>
+        <Link href="http://wa.me/+917020433566" target="_blank">
+          <button className=" box-border border-2 border-[#3A47FB] text-[#3A47FB] shadow-xl m-auto p-3 font-semibold text-sm rounded-lg ml-5">
+            <div className="flex flex-row">
+              <span>Enquire now</span>
+              <span>
+                {" "}
+                <FaWhatsapp className="ml-1.5 text-lg" />
+              </span>
+            </div>
+          </button>
+        </Link>
+        <Link href="/#contact">
+          <button
+            className={`${
+              price === null ? "hidden" : ""
+            } box-border bg-[#3A47FB] text-[white] shadow-xl m-auto p-3 font-semibold text-sm rounded-lg ml-12 mt-3 xl:mt-[0px]`}
+          >
+            Buy now <span className="text-[#f1f1f2] ml-1">|</span>
+            <span className=" font-bold italic text-[15px] ml-1.5">
+              {price}
             </span>
-          </div>
-        </button>
-        <button
-          className={`${
-            price === null ? "hidden" : ""
-          } box-border bg-[#3A47FB] text-[white] shadow-xl m-auto p-3 font-semibold text-sm rounded-lg ml-12 mt-3 xl:mt-[0px]`}
-        >
-          Buy now <span className="text-[#f1f1f2] ml-1">|</span>
-          <span className=" font-bold italic text-[15px] ml-1.5">{price}</span>
-        </button>
+          </button>
+        </Link>
       </div>
     </div>
   );
