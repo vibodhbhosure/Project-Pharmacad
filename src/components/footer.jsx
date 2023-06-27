@@ -1,4 +1,5 @@
 import React from "react";
+
 import Image from "next/image";
 import Logo from "../../public/logo.webp";
 import Link from "next/link";
@@ -22,6 +23,7 @@ const Footer = () => {
                 and shaping the next generation of pharmaceutical leaders with
                 cutting-edge curriculum, innovative research, and hands-on
                 training.
+
               </p>
             </div>
           </div>
@@ -29,6 +31,7 @@ const Footer = () => {
           {/* Right Side */}
           <div className="flex-grow flex flex-wrap md:pl-40">
             <div className="w-1/2 md:w-1/2 md:pr-8">
+
               <h2 className="title-font font-bold text-white tracking-widest text-xl mb-3 font-inter">
                 Navigate
               </h2>
@@ -139,6 +142,7 @@ const Footer = () => {
                     className="w-5 h-5"
                     viewBox="0 0 24 24"
                   >
+
                     <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
                   </svg>
                 </Link>
@@ -230,6 +234,7 @@ const Footer = () => {
                       <span className="title-font font-bold text-md text-left font-inter">
                         Google Play
                       </span>
+
                     </span>
                   </button>
                 </Link>
@@ -252,6 +257,8 @@ const Footer = () => {
       </div>
     </footer>
   );
+
 };
+
 
 export default Footer;

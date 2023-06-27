@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 // import gpat from "./gpat-syllabus.pdf";
 const Faq = () => {
+
   const [open, setOpen] = useState(false);
   const [open2, setOpen2] = useState(false);
   const [open3, setOpen3] = useState(false);
@@ -201,6 +202,7 @@ const Faq = () => {
               >
                 When should I start preparing for Masters program?
               </p>
+
             </div>
             <button
               aria-label="toggler"

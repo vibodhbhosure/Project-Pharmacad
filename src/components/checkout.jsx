@@ -32,6 +32,7 @@ const states = [
 ];
 
 const CheckoutForm = () => {
+
   return (
     <div className="mx-auto max-w-screen-xl p-4">
       <h2 className="text-4xl font-semibold pt-10 mb-8">Payment Checkout</h2>
@@ -100,6 +101,7 @@ const CheckoutForm = () => {
               <option value="course3">Course 3</option>
             </select>
           </div>
+
         </div>
         <div className="flex flex-col mb-4 md:w-1/2 md:ml-4">
           <div>

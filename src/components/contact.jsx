@@ -5,6 +5,7 @@ import Link from "next/link";
 import emailjs from "emailjs-com";
 
 import {
+
   FaMapMarkerAlt,
   FaRegEnvelope,
   FaPhoneAlt,
@@ -328,5 +329,6 @@ const Contact = () => {
     </div>
   );
 };
+
 
 export default Contact;
