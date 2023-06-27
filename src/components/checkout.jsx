@@ -103,7 +103,7 @@ const CheckoutForm = () => {
         </div>
         <div className="flex flex-col mb-4 md:w-1/2 md:ml-4">
           <div>
-            <label className="block mb-4 font-normal">
+            <label className="block mb-2 font-normal">
               Education<span className="text-red-500">*</span>
             </label>
             <input

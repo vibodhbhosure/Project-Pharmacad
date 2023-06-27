@@ -2,25 +2,29 @@ import Image from 'next/image'
 import FAQs from '@/components/FAQs'
 import Contact from '@/components/contact'
 import About from '@/components/about'
-import CheckoutForm from '@/components/checkout'
+// import CheckoutForm from '@/components/checkout'
 import CoursesOffered from '@/components/coursesoffered'
 import Banner from '../components/banner'
-import AdCarousal from '../components/AdCarousal'
-import Card1 from '../components/CarousalCards/Card1'
-import Card2 from '../components/CarousalCards/Card2'
+import BestChoiceContainer from "../components/BestChoice"
+import Carousel from '@/components/Carousel'
+import TestimonialsContainer from '@/components/Testimonials'
+import AdCarousal from '@/components/AdCarousal'
+import Footer from '@/components/footer'
 
 export default function Home() {
   return (
     <main>
-      {/* <Banner />
-      <CheckoutForm />
+      <AdCarousal />
+      <Banner />
+      <Carousel />
+      {/* <CheckoutForm /> */}
       <CoursesOffered />
-      <About />
+      <BestChoiceContainer />
       <FAQs />
-      <Contact /> */}
-      <AdCarousal/>
-      {/* <Card1/> */}
-      {/* <Card2/> */}
+      <About />
+      <TestimonialsContainer />
+      <Contact />
+      <Footer />
     </main>
   )
 }
