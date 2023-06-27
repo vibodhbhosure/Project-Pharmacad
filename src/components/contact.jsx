@@ -22,7 +22,7 @@ const Contact = () => {
   const [college, setCollege] = useState("");
   const [course, setCourse] = useState("");
   const [message, setMessage] = useState("");
-
+  const [isError, setIsError] = useState(null);
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -34,11 +34,13 @@ const Contact = () => {
         "lgscseDAAyHiDJEbz"
       )
       .then((result) => {
-        console.log(result.text);
+        // console.log(result.text);
+        setIsError(false);
         // Optionally, you can show a success message to the user or redirect them to a thank you page
       })
       .catch((error) => {
-        console.error(error.text);
+        // console.error(error.text);
+        setIsError(true);
         // Optionally, you can show an error message to the user
       });
 
@@ -184,13 +186,32 @@ const Contact = () => {
               </div>
               <button
                 type="submit"
-                className="bg-[#3a47fb] text-white py-2 px-4 shadow-xl rounded"
+                className="bg-[#3a47fb] text-white py-2 px-4 shadow-xl rounded mb-4"
               >
                 Send Message
               </button>
+              <div className="mb-4">
+                {isError === true && (
+                  <div>
+                    <p className="text-gray-900 font-bold text-red-500">
+                      Looks like there is an error! Don&apos;t worry, contact us
+                      on mobile or email.
+                    </p>
+                  </div>
+                )}
+                {isError === false && (
+                  <div>
+                    <p className="text-gray-900 font-bold text-green-500">
+                      We have received your submission. We will reach out to you
+                      at the earliest.
+                    </p>
+                  </div>
+                )}
+              </div>
               <div className="mb-12"></div>
             </form>
           </div>
+          <div></div>
           <div className=" bg-[#f2fff0] flex-1 -ml-8">
             {/* Map & Address Details Content */}
             <div className=" md:block mt-0">

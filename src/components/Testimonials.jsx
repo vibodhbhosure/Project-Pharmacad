@@ -5,8 +5,6 @@ import "../styles/globals.css";
 import Link from "next/link";
 const TestimonialsContainer = () => {
   const testimonialDataArray = Object.values(data);
-
-  // console.log(testimonialDataArray);
   return (
     <div className="w-full  bg-white  lg:w-full pb-10 lg:bg-white  ">
       <div className="container mx-auto max-w-screen-xl px-4 py-8 mt-10">
