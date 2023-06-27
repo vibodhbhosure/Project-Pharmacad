@@ -20,7 +20,7 @@ const Card2 = () => {
           <Image src={svg2} alt="Card 2 Image" />
         </div>
         <button className="absolute ml-[680px] mt-12 text-sm font-semibold text-blue-700 bg-white py-2 px-3">
-          <Link target="_blank" href="#">
+          <Link target="_blank" href="/courseCertificate">
             Certificate Courses
           </Link>
         </button>

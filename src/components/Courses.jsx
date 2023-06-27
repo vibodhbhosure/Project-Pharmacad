@@ -4,15 +4,16 @@ import coursesdata from "./coursesdata";
 import CourseCard from "./CourseCard";
 import Annoucements from "./announcements";
 import Annoucement_data from "./announcement_data";
+import Link from "next/link";
 
 const Courses = () => {
   const courseDataArray = Object.values(coursesdata);
   const Annoucements_data = Object.values(Annoucement_data);
   return (
     <div className="w-full border-2 border-white mb-[109px]">
-      <div className="h-[38px] w-[42px] ml-7 lg:ml-[131px] mt-14 md:mt-[57px] border-2 border-gray-300 bg-white items-center justify-center absolute rounded-sm p-2 cursor-pointer -z-50">
+      {/* <div className="h-[38px] w-[42px] ml-7 lg:ml-[131px] mt-14 md:mt-[57px] border-2 border-gray-300 bg-white items-center justify-center absolute rounded-sm p-2 cursor-pointer -z-50">
         <FaAngleLeft className="ml-1" />
-      </div>
+      </div> */}
       <div className="flex flex-col xl:flex-row ml-6 lg:ml-[135px] mt-36 lg:mt-[156px] space-x-0 xl:space-x-[40px]">
         <div className="h-[200px] w-[291px] md:w-[400px] lg:w-[570px] flex flex-col">
           <span className=" text-3xl md:text-5xl font-bold">Courses</span>
@@ -30,7 +31,10 @@ const Courses = () => {
         </div>
 
         {Annoucements_data.map((cardData, index) => (
-          <div className="h-[204px] w-[310px] sm:w-[600px] md:w-[536px] mt-10 xl:mt-0 mx-auto sm:mx-0" key={index}>
+          <div
+            className="h-[204px] w-[310px] sm:w-[600px] md:w-[536px] mt-10 xl:mt-0 mx-auto sm:mx-0"
+            key={index}
+          >
             <Annoucements cardData={cardData} />
           </div>
         ))}
@@ -39,11 +43,11 @@ const Courses = () => {
         <span className="hidden lg:block font-bold text-3xl ">
           Upcoming Batches
         </span>
-        <div className="border-2 border-[#DBDBDB] w-[310px] sm:w-[400px] md:[600px] lg:w-[975px] xl:w-[1278px] h-[271px] mt-7 shadow-[0_3px_10px_rgb(0,0,0,0.2)] mx-auto lg:mx-0">
+        <div className="border-2 border-[#DBDBDB] w-[310px] sm:w-[500px] md:w-[700px] lg:w-[975px] xl:w-[1278px] h-[271px] mt-7 shadow-[0_3px_10px_rgb(0,0,0,0.2)] mx-auto lg:mx-0">
           <div className="mt-6 lg:mt-12 ml-7 lg:ml-[52px]">
             <div className="flex flex-col lg:flex-row lg:w-max">
               <span className="uppercase text-2xl md:text-3xl flex flex-col lg:flex-row">
-                <span className="font-medium ">PHARMACAD'S</span>
+                <span className="font-medium ">PHARMACAD&apos;S</span>
                 <span className="font-bold italic ml-0 lg:ml-2">
                   STEPS2SUCCESS
                 </span>
@@ -110,18 +114,22 @@ const Courses = () => {
               </div>
             </div>
             <div className="mt-10">
-              <button className=" box-border bg-[#3A47FB] shadow-xl m-auto p-3 font-semibold text-sm text-white rounded-lg">
-                Book now
-              </button>
-              <button className=" box-border border-2 border-[#3A47FB] text-[#3A47FB] shadow-xl m-auto p-3 font-semibold text-sm rounded-lg ml-5">
-                <div className="flex flex-row">
-                  <span>Enquire now</span>
-                  <span>
-                    {" "}
-                    <FaWhatsapp className="mx-1.5 text-lg" />
-                  </span>
-                </div>
-              </button>
+              <Link href="https://forms.gle/hoorBi1QweLwA7Nt5" target="_blank">
+                <button className=" box-border bg-[#3A47FB] shadow-xl m-auto p-3 font-semibold text-sm text-white rounded-lg">
+                  Book now
+                </button>
+              </Link>
+              <Link href="http://wa.me/+917020433566" target="_blank">
+                <button className=" box-border border-2 border-[#3A47FB] text-[#3A47FB] shadow-xl m-auto p-3 font-semibold text-sm rounded-lg ml-5">
+                  <div className="flex flex-row">
+                    <span>Enquire now</span>
+                    <span>
+                      {" "}
+                      <FaWhatsapp className="mx-1.5 text-lg" />
+                    </span>
+                  </div>
+                </button>
+              </Link>
             </div>
           </div>
         </div>

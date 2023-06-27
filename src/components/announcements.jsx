@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 const NationalOlympiad = ({ cardData }) => {
   if (!cardData) {
     return null;
@@ -23,9 +23,11 @@ const NationalOlympiad = ({ cardData }) => {
                 {desc2}
               </div>
             </div>
-            <button class="bg-white hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-              Register Now
-            </button>
+            <Link href="/#contact">
+              <button class="bg-white hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+                Register Now
+              </button>
+            </Link>
           </div>
         </div>
       </div>
