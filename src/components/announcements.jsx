@@ -10,7 +10,7 @@ const NationalOlympiad = ({ cardData }) => {
     <div className="flex flex-col font-poppins font-semibold">
       <div>ANNOUNCEMENTS</div>
       <div>
-        <div class="box w-[670px] h-[267px] rounded-lg">
+        <div class="box mx-auto sm:mx-0 w-[310px] sm:w-[600px] md:w-[660px] lg:w-[975px] xl:w-[660px] h-[500px] sm:h-[267px] rounded-lg">
           <div className="mx-12 my-6 py-6">
             <div className="text-3xl font-semibold font-inter w-5/6 text-white">
               {heading}

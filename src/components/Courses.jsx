@@ -13,7 +13,7 @@ const Courses = () => {
       <div className="h-[38px] w-[42px] ml-7 lg:ml-[131px] mt-14 md:mt-[57px] border-2 border-gray-300 bg-white items-center justify-center absolute rounded-sm p-2 cursor-pointer -z-50">
         <FaAngleLeft className="ml-1" />
       </div>
-      <div className="flex flex-col md:flex-row ml-6 lg:ml-[135px] mt-36 lg:mt-[156px] space-x-[80px]">
+      <div className="flex flex-col xl:flex-row ml-6 lg:ml-[135px] mt-36 lg:mt-[156px] space-x-0 xl:space-x-[40px]">
         <div className="h-[200px] w-[291px] md:w-[400px] lg:w-[570px] flex flex-col">
           <span className=" text-3xl md:text-5xl font-bold">Courses</span>
           <span className=" mt-6 lg:mt-12 font-normal text-sm lg:text-base w-[291px] md:w-[440px] lg:w-[552px]">
@@ -30,12 +30,12 @@ const Courses = () => {
         </div>
 
         {Annoucements_data.map((cardData, index) => (
-          <div className="h-[204px] w-[536px]" key={index}>
+          <div className="h-[204px] w-[310px] sm:w-[600px] md:w-[536px] mt-10 xl:mt-0 mx-auto sm:mx-0" key={index}>
             <Annoucements cardData={cardData} />
           </div>
         ))}
       </div>
-      <div className=" mt-11 md:mt-[91px] mx-6 lg:ml-[131px]">
+      <div className=" mt-96 sm:mt-40 xl:mt-[91px] mx-6 lg:ml-[131px]">
         <span className="hidden lg:block font-bold text-3xl ">
           Upcoming Batches
         </span>
