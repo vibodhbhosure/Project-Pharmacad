@@ -5,13 +5,13 @@ import orsmall from "../../../public/orsmall.webp";
 import Almas from "../../../public/Almas.webp";
 import Sammaam from "../../../public/Sammaam.webp";
 import Vector from "../../../public/Vector.webp";
-import Footer from '@/components/footer'
+import Footer from '@/components/footer';
 
 export default function CourseCertificate() {
   return (
     // <div className="container mx-auto max-w-screen-xl px-4 py-8">
     <>
-      <div>
+      
       <div className="absolute w-full sm:w-[461px] h-[35px] left-[35px] lg:left-[212px] md:left-[212px] sm:left-[45px] top-[269px] lg:top-[279px]">
         <h1 className="font-inter font-bold text-3xl sm:text-4xl md:text-4xl lg:text-4xl leading-tight">
           Certificate Courses
@@ -185,7 +185,9 @@ export default function CourseCertificate() {
           </button>
         </div>
         <div className="ml-[750px]   -mt-[38px]">
-          <button className="bg-[#3A47FB] w-[160px] h-[38px] text-sm text-white py-2 px-4 rounded whitespace-nowrap">
+          <button className="bg-[#3A47FB] w-[160px] h-[38px] text-sm text-white py-2 px-4 rounded whitespace-nowrap"
+          
+          >
             Download Brochure
           </button>
         </div>
@@ -493,7 +495,7 @@ export default function CourseCertificate() {
           </div>
         </div>
       </div>
-      <div className="box-border sm:block lg:hidden md:block absolute w-[290px] h-[896px] left-[35px] sm:left-[45px] md:left-[45px] top-[1300px] sm:top-[350px] md:top-[350px]  bg-white border border-opacity-60 border-gray-300 shadow-md rounded-2xl">
+      <div className="box-border sm:block lg:hidden md:block absolute w-[290px] h-[830px] md:h-[900px] left-[35px] sm:left-[45px] md:left-[450px] top-[1300px] sm:top-[350px] md:top-[350px]  bg-white border border-opacity-60 border-gray-300 shadow-md rounded-2xl">
         <div className="absolute -mt-[1px] left-[16px] rounded-bl-xl rounded-tr-xl rounded-br-xl [background:linear-gradient(93.54deg,_#780902,_#fd5b00)]  shadow-[0px_5.473354339599609px_9.12px_rgba(0,_0,_0,_0.25)] w-[265px] h-[230px]" />
 
         <Image
@@ -628,7 +630,7 @@ export default function CourseCertificate() {
           </p>
         </div>
 
-        <div className="flex space-x-2 sm:mt-[44px] md:mt-[44px]">
+        <div className="flex space-x-2 my-4 sm:mt-[44px] md:mt-[44px]">
           <div>
             <button className="bg-[#D9D9D9] mt-8 ml-1 w-[125px] text-[12px] h-[33px] py-2 px-4 rounded ">
               Pay now
@@ -641,7 +643,7 @@ export default function CourseCertificate() {
           </div>
         </div>
       </div>
-      </div>
+    
       <div className="mt-[2200px] lg:mt-[1400px] sm:mt-[1250px] md:mt-[1250px]">
          <Footer />
       </div>
