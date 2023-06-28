@@ -43,7 +43,7 @@ const Courses = () => {
         <span className="hidden lg:block font-bold text-3xl ">
           Upcoming Batches
         </span>
-        <div className="border-2 border-[#DBDBDB] w-[310px] sm:w-[400px] md:[600px] lg:w-[975px] xl:w-[1278px] h-[271px] mt-7 shadow-[0_3px_10px_rgb(0,0,0,0.2)] mx-auto lg:mx-0">
+        <div className="border-2 border-[#DBDBDB] w-[310px] sm:w-[500px] md:w-[700px] lg:w-[975px] xl:w-[1278px] h-[271px] mt-7 shadow-[0_3px_10px_rgb(0,0,0,0.2)] mx-auto lg:mx-0">
           <div className="mt-6 lg:mt-12 ml-7 lg:ml-[52px]">
             <div className="flex flex-col lg:flex-row lg:w-max">
               <span className="uppercase text-2xl md:text-3xl flex flex-col lg:flex-row">
