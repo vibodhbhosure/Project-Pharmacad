@@ -72,14 +72,14 @@ nav {
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: 80px;
-    width: 100%;
+    top: 85px;
+    width: 288px ;
     row-gap: 24px;
     right: -100%;
     padding: 24px 16px;
     transition: all 0.2s;
     background-color: white;
-    height: 100%;
+    height: fit-content;
     z-index: 0;
 }
 
