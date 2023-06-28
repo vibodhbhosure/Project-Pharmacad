@@ -17,12 +17,12 @@ const Courses = () => {
       <div className="flex flex-col ml-6 lg:ml-[135px] mr-[10px] lg:mr-[185px] xl:mr-[135px] mt-36 lg:mt-[156px] space-x-0">
         <div className="h-[200px] w-full flex flex-col">
           <span className=" text-3xl md:text-5xl font-bold">Courses</span>
-          <span className=" mt-6 lg:mt-12 font-normal text-base lg:text-2xl w-full mr-[10px] lg:mr-[185px] xl:mr-[135px]">
+          <span className=" mt-6 lg:mt-12 font-normal text-base md:text-lg lg:text-2xl w-full mr-[10px] lg:mr-[185px] xl:mr-[135px]">
             Check out the various courses{" "}
             <span className=" font-semibold">(ONLINE and OFFLINE)</span> offered
             by Pharmacad and make your pharmaceutical career a reality.
           </span>
-          <span className=" mt-4 font-normal text-base lg:text-2xl w-full sm:mr-[10px] lg:mr-[135px]">
+          <span className=" mt-4 font-normal text-base md:text-lg lg:text-2xl w-full sm:mr-[10px] lg:mr-[135px]">
             Hurry up, enrollment process for{" "}
             <span className=" font-semibold">’24</span> and{" "}
             <span className=" font-semibold">’25</span> batches for GPAT has
