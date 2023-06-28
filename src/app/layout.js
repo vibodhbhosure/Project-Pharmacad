@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
         <Contactbar />
         <Navbars />
         {children}
-        
+
       </body>
 
     </html>

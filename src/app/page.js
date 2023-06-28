@@ -24,7 +24,7 @@ export default function Home() {
       <About />
       <TestimonialsContainer />
       <Contact />
-      <Footer/>
+      <Footer />
     </main>
   )
 }

@@ -4,8 +4,8 @@ import Footer from "@/components/footer";
 export default function coursePage() {
     return (
         <>
-        <Courses />
-        <Footer/>
+            <Courses />
+            <Footer />
         </>
     );
 }

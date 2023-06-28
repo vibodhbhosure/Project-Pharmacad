@@ -11,39 +11,40 @@ export default function CourseCertificate() {
   return (
     // <div className="container mx-auto max-w-screen-xl px-4 py-8">
     <>
-      
-      <div className="absolute w-full sm:w-[461px] h-[35px] left-[35px] lg:left-[212px] md:left-[212px] sm:left-[45px] top-[269px] lg:top-[279px]">
+       
+      <div className="absolute w-full sm:w-[461px] h-[35px] left-[45px] lg:left-[212px] md:left-[212px] sm:left-[55px] top-[140px] sm:top-[180px] md:top-[240px] lg:top-[230px]">
         <h1 className="font-inter font-bold text-3xl sm:text-4xl md:text-4xl lg:text-4xl leading-tight">
           Certificate Courses
         </h1>
       </div>
 
       <div className="hidden sm:hidden lg:block md:hidden">
-        <div className="absolute top-[379.5px] left-[337.5px] box-border w-[39px] h-px border-t-[1px] border-dashed border-gray-800" />
-        <div className="absolute top-[379.5px] left-[512.5px] box-border w-[39px] h-px border-t-[1px] border-dashed border-gray-800" />
-        <div className="absolute top-[379.5px] left-[656.5px] box-border w-[39px] h-px border-t-[1px] border-dashed border-gray-800" />
-        <div className="absolute top-[379.5px] left-[813.5px] box-border w-[39px] h-px border-t-[1px] border-dashed border-gray-800" />
-        <div className="absolute top-[379.5px] left-[1051.5px] box-border w-10 h-px border-t-[1px] border-dashed border-gray-800" />
-        <div className="absolute top-[350px]  font-bold left-[212px] shadow-green-400 rounded-md text-center bg-whitesmoke-500  box-border w-[126px] h-[58px] border-[2px] border-solid border-green-400">
+        <div className="absolute top-[345px] left-[337.5px] box-border w-[39px] h-px border-t-[1px] border-dashed border-gray-800" />
+        <div className="absolute top-[345px] left-[512.5px] box-border w-[39px] h-px border-t-[1px] border-dashed border-gray-800" />
+        <div className="absolute top-[345px] left-[656.5px] box-border w-[39px] h-px border-t-[1px] border-dashed border-gray-800" />
+        <div className="absolute top-[345px] left-[813.5px] box-border w-[39px] h-px border-t-[1px] border-dashed border-gray-800" />
+        <div className="absolute top-[345px] left-[1051.5px] box-border w-10 h-px border-t-[1px] border-dashed border-gray-800" />
+        <div className="absolute top-[315px]  font-bold left-[212px] shadow-green-400 rounded-md text-center bg-whitesmoke-500  box-border w-[126px] h-[58px] border-[2px] border-solid border-green-400">
           100% online courses
         </div>
-        <div className="absolute top-[350px] font-bold left-[376px] shadow-green-400 rounded-md text-center bg-whitesmoke-500  box-border w-[137px] h-[58px] border-[2px] border-solid border-green-400">
+        <div className="absolute top-[315px] font-bold left-[376px] shadow-green-400 rounded-md text-center bg-whitesmoke-500  box-border w-[137px] h-[58px] border-[2px] border-solid border-green-400">
           Certificate on completion
         </div>
-        <div className="absolute top-[350px] font-bold left-[551px] shadow-green-400 rounded-md text-center bg-whitesmoke-200  box-border w-[106px] h-[58px] border-[2px] border-solid border-green-400">
+        <div className="absolute top-[315px] font-bold left-[551px] shadow-green-400 rounded-md text-center bg-whitesmoke-200  box-border w-[106px] h-[58px] border-[2px] border-solid border-green-400">
           Flexible schedule
         </div>
-        <div className="absolute top-[350px] font-bold left-[695px] shadow-green-400 rounded-md text-center bg-whitesmoke-500  box-border w-[119px] h-[58px] border-[2px] border-solid border-green-400">
+        <div className="absolute top-[315px] font-bold left-[695px] shadow-green-400 rounded-md text-center bg-whitesmoke-500  box-border w-[119px] h-[58px] border-[2px] border-solid border-green-400">
           Learn from expert
         </div>
-        <div className="absolute top-[350px] font-bold left-[852px] shadow-green-400 rounded-md text-center bg-whitesmoke-500  box-border w-[200px] h-[58px] border-[2px] border-solid border-green-400">
+        <div className="absolute top-[315px] font-bold left-[852px] shadow-green-400 rounded-md text-center bg-whitesmoke-500  box-border w-[200px] h-[58px] border-[2px] border-solid border-green-400">
           Job / Internship placement assistance
         </div>
-        <div className="absolute top-[350px] font-bold left-[1091px] shadow-green-400 rounded-md text-center bg-whitesmoke-500 box-border w-36 h-[58px] border-[2px] border-solid border-green-400">
+        <div className="absolute top-[315px] font-bold left-[1091px] shadow-green-400 rounded-md text-center bg-whitesmoke-500 box-border w-36 h-[58px] border-[2px] border-solid border-green-400">
           Doubt solving by expert
         </div>
       </div>
-
+      <div>
+      <div className="-mt-[40px]">
       <div className="box-border sm:hidden lg:block md:hidden hidden absolute w-[1037px] h-[410px] left-[212px] top-[465px] bg-white border border-opacity-60 border-gray-300 shadow-md rounded-2xl">
         <div className="absolute -mt-3 left-[38px] rounded-bl-xl rounded-tr-xl rounded-br-xl [background:linear-gradient(93.54deg,_#020a78,_#8e00fd)] shadow-[0px_5.473354339599609px_9.12px_rgba(0,_0,_0,_0.25)] w-[276.4px] h-[218.23px]">
           <Image
@@ -194,9 +195,9 @@ export default function CourseCertificate() {
       </div>
 
       <div className="box-border absolute sm:hidden lg:block md:hidden hidden w-[1037px] h-[410px] left-[212px] top-[932px] bg-white border border-opacity-60 border-gray-300 shadow-md rounded-2xl">
-        <div className="absolute -mt-6 left-[38px] rounded-bl-xl rounded-tr-xl rounded-br-xl [background:linear-gradient(93.54deg,_#780902,_#FD5B00)] shadow-[0px_5.473354339599609px_9.12px_rgba(0,_0,_0,_0.25)] w-[276.4px] h-[232.23px]">
+        <div className="absolute -mt-3 left-[38px] rounded-bl-xl rounded-tr-xl rounded-br-xl [background:linear-gradient(93.54deg,_#780902,_#FD5B00)] shadow-[0px_5.473354339599609px_9.12px_rgba(0,_0,_0,_0.25)] w-[276.4px] h-[232.23px]">
           <Image
-            className="-ml-5"
+            className="-ml-5 "
             src={orsmall}
             width={23}
             height={11}
@@ -223,14 +224,14 @@ export default function CourseCertificate() {
         <div className="flex">
           <div className="flex flex-col">
             <Image
-              className="mt-[230px] ml-10 hidden sm:hidden md:hidden lg:block"
+              className="mt-[238px] ml-10 hidden sm:hidden md:hidden lg:block"
               src={Sammaam}
               width={112}
               height={140}
               alt="Ms. Almas Sayed"
             />
           </div>
-          <div className="flex mt-[230px] ml-4">
+          <div className="flex mt-[238px] ml-4">
             <p className="text-sm">
               Expertly created by<br></br>
               <strong>Mrs. Sampada Mehta</strong>
@@ -342,20 +343,22 @@ export default function CourseCertificate() {
           </button>
         </div>
       </div>
-
+      </div>
+      </div>
+      <div className="absolute -mt-[185px] left-[0px] sm:left-[5px] md:left-[25px]">
       <div className="box-border sm:block lg:hidden md:block absolute w-[290px] h-[896px] left-[35px] sm:left-[45px] md:left-[45px] top-[350px] bg-white border border-opacity-60 border-gray-300 shadow-md rounded-2xl">
-        <div className="absolute -mt-[1px] left-[16px] rounded-bl-xl rounded-tr-xl rounded-br-xl [background:linear-gradient(93.54deg,_#020a78,_#8e00fd)] shadow-[0px_5.473354339599609px_9.12px_rgba(0,_0,_0,_0.25)] w-[265px] h-[230.23px]" />
+        <div className="absolute -mt-[6px] left-[14px] rounded-bl-xl rounded-tr-xl rounded-br-xl [background:linear-gradient(93.54deg,_#020a78,_#8e00fd)] shadow-[0px_5.473354339599609px_9.12px_rgba(0,_0,_0,_0.25)] w-[265px] h-[230.23px]" />
         <Image
-          className="-ml-0"
+          className="-ml-1 -mt-1.5"
           src={small}
           width={23}
           height={11}
           alt="Small Image"
         ></Image>
-        <div className="absolute top-[8px] left-[38px] text-white text-[22.81px] leading-[141%] font-extrabold font-inter text-card-background inline-block w-[248px]">
+        <div className="absolute top-[8px] left-[35px] text-white text-[22.81px] leading-[141%] font-extrabold font-inter text-card-background inline-block w-[248px]">
           Pharmacovigilance
         </div>
-        <div className="absolute top-[55px] left-[45px] text-white text-[13px] tracking-[0.04em] leading-[163.5%] text-card-background inline-block w-[222.58px]">
+        <div className="absolute top-[55px] left-[40px] text-white text-[13px] tracking-[0.04em] leading-[163.5%] text-card-background inline-block w-[222.58px]">
           <p className="-mt-1">
             <span className="font-semibold font-montserrat">12</span>
             <span className="font-montserrat"> MODULES (PRE-RECORDED)</span>
@@ -496,10 +499,10 @@ export default function CourseCertificate() {
         </div>
       </div>
       <div className="box-border sm:block lg:hidden md:block absolute w-[290px] h-[830px] md:h-[900px] left-[35px] sm:left-[45px] md:left-[450px] top-[1300px] sm:top-[350px] md:top-[350px]  bg-white border border-opacity-60 border-gray-300 shadow-md rounded-2xl">
-        <div className="absolute -mt-[1px] left-[16px] rounded-bl-xl rounded-tr-xl rounded-br-xl [background:linear-gradient(93.54deg,_#780902,_#fd5b00)]  shadow-[0px_5.473354339599609px_9.12px_rgba(0,_0,_0,_0.25)] w-[265px] h-[230px]" />
+        <div className="absolute -mt-[6px] left-[16px] rounded-bl-xl rounded-tr-xl rounded-br-xl [background:linear-gradient(93.54deg,_#780902,_#fd5b00)]  shadow-[0px_5.473354339599609px_9.12px_rgba(0,_0,_0,_0.25)] w-[265px] h-[230px]" />
 
         <Image
-          className="-ml-0"
+          className="-ml-0 -mt-1.5"
           src={orsmall}
           width={23}
           height={11}
@@ -643,10 +646,11 @@ export default function CourseCertificate() {
           </div>
         </div>
       </div>
-    
-      <div className="mt-[2200px] lg:mt-[1400px] sm:mt-[1250px] md:mt-[1250px]">
+      </div>
+      <div className="mt-[2000px] lg:mt-[1350px] sm:mt-[1150px] md:mt-[1150px]">
          <Footer />
       </div>
+      
     </>
   );
 }

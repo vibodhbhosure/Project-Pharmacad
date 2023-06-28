@@ -28,9 +28,11 @@ const Banner = () => {
                     Book Free demo
                   </button>
                 </Link>
-                <button className="flex flex-row justify-center items-center py-3 px-3 gap-2 w-25 h-12 border-solid border-2 border-indigo-600 bg-white text-blue-600 shadow-md rounded-md ">
-                  View all courses
-                </button>
+                <Link href="/courses">
+                  <button className="flex flex-row justify-center items-center py-3 px-3 gap-2 w-25 h-12 border-solid border-2 border-indigo-600 bg-white text-blue-600 shadow-md rounded-md ">
+                    View all courses
+                  </button>
+                </Link>
               </div>
               <p className="text-sm sm:text-base lg:text-lg text-[#393939]">
                 Pharmacad is also available on the Playstore!
