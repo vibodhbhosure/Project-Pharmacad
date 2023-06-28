@@ -73,14 +73,15 @@ nav {
     flex-direction: column;
     position: fixed;
     top: 85px;
-    width: 288px ;
+    width: 100% ;
     row-gap: 24px;
     right: -100%;
     padding: 24px 16px;
     transition: all 0.2s;
     background-color: white;
-    height: fit-content;
+    height: 100%;
     z-index: 0;
+    align-items: center;
 }
 
 .nav__menu-list.active {

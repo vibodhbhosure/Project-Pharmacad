@@ -98,7 +98,7 @@ const Navbars = () => {
             <div
               className={`${
                 navActive ? "active" : ""
-              } nav__menu-list bg-white z-50 flex flex-col absolute md:top-36 gap-y-2 cursor-pointer w-24 px-6 transition-all lg:hidden`}
+              } nav__menu-list bg-white z-50 flex flex-col absolute md:top-36 gap-y-2 cursor-pointer w-24 px-6 transition-all lg:hidden items-centre ml-36`}
             >
               {MENU_LIST.map((menu, idx) => (
                 <div
