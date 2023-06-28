@@ -9,8 +9,7 @@ import Footer from "@/components/footer";
 import Link from "next/link";
 export default function CourseCertificate() {
   return (
-    // <div className="container mx-auto max-w-screen-xl px-4 py-8">
-    <>
+    <div className="container mx-auto max-w-screen-xl px-4 py-8 overflow-x-hidden">
       <div className="absolute w-full sm:w-[461px] h-[35px] left-[35px] lg:left-[212px] md:left-[212px] sm:left-[45px] top-[269px] lg:top-[279px]">
         <h1 className="font-inter font-bold text-3xl sm:text-4xl md:text-4xl lg:text-4xl leading-tight">
           Certificate Courses
@@ -684,10 +683,9 @@ export default function CourseCertificate() {
           </div>
         </div>
       </div>
-
       <div className="mt-[2200px] lg:mt-[1400px] sm:mt-[1250px] md:mt-[1250px]">
         <Footer />
       </div>
-    </>
+    </div>
   );
 }
