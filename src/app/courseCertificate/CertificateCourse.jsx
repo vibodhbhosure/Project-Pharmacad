@@ -5,13 +5,11 @@ import orsmall from "../../../public/orsmall.webp";
 import Almas from "../../../public/Almas.webp";
 import Sammaam from "../../../public/Sammaam.webp";
 import Vector from "../../../public/Vector.webp";
-import Footer from '@/components/footer'
-
+import Footer from "@/components/footer";
+import Link from "next/link";
 export default function CourseCertificate() {
   return (
-    // <div className="container mx-auto max-w-screen-xl px-4 py-8">
-    <>
-      <div>
+    <div className="container mx-auto max-w-screen-xl px-4 py-8 overflow-x-hidden">
       <div className="absolute w-full sm:w-[461px] h-[35px] left-[35px] lg:left-[212px] md:left-[212px] sm:left-[45px] top-[269px] lg:top-[279px]">
         <h1 className="font-inter font-bold text-3xl sm:text-4xl md:text-4xl lg:text-4xl leading-tight">
           Certificate Courses
@@ -180,14 +178,25 @@ export default function CourseCertificate() {
         </div>
 
         <div className="ml-[600px] -mt-[35px]">
-          <button className="bg-[#D9D9D9] w-[125px] h-[38px] py-2 px-4 rounded text-black">
-            Pay now
-          </button>
+          <Link href="/#contact">
+            <button className="bg-[#D9D9D9] w-[125px] h-[38px] py-2 px-4 rounded text-black">
+              Pay now
+            </button>
+          </Link>
         </div>
         <div className="ml-[750px]   -mt-[38px]">
-          <button className="bg-[#3A47FB] w-[160px] h-[38px] text-sm text-white py-2 px-4 rounded whitespace-nowrap">
-            Download Brochure
-          </button>
+          <Link
+            legacyBehavior
+            href="/pdf/Pharmacad.pdf"
+            className="text-lg leading-6 text-[#3A47FB] font-thin font-montserrat"
+            passHref
+          >
+            <a target="_blank" download>
+              <button className="bg-[#3A47FB] w-[160px] h-[38px] text-sm text-white py-2 px-4 rounded whitespace-nowrap">
+                Download Brochure
+              </button>
+            </a>
+          </Link>
         </div>
       </div>
 
@@ -330,14 +339,25 @@ export default function CourseCertificate() {
         </div>
 
         <div className="ml-[600px] -mt-[10px]">
-          <button className="bg-[#D9D9D9]  w-[125px] h-[38px] py-2 px-4 rounded">
-            Pay now
-          </button>
+          <Link href="/#contact">
+            <button className="bg-[#D9D9D9]  w-[125px] h-[38px] py-2 px-4 rounded">
+              Pay now
+            </button>
+          </Link>
         </div>
         <div className="ml-[750px]   -mt-[38px]">
-          <button className="bg-[#3A47FB] w-[160px] h-[38px] text-sm text-white py-2 px-4 rounded whitespace-nowrap">
-            Download Brochure
-          </button>
+          <Link
+            legacyBehavior
+            href="/pdf/IPR.pdf"
+            className="text-lg leading-6 text-[#3A47FB] font-thin font-montserrat"
+            passHref
+          >
+            <a target="_blank" download>
+              <button className="bg-[#3A47FB] w-[160px] h-[38px] text-sm text-white py-2 px-4 rounded whitespace-nowrap">
+                Download Brochure
+              </button>
+            </a>
+          </Link>
         </div>
       </div>
 
@@ -482,18 +502,29 @@ export default function CourseCertificate() {
 
         <div className="flex space-x-2">
           <div>
-            <button className="bg-[#D9D9D9] mt-8 ml-1 text-[12px] w-[125px] h-[33px] py-2 px-4 rounded">
-              Pay now
-            </button>
+            <Link href="/#contact">
+              <button className="bg-[#D9D9D9] mt-8 ml-1 text-[12px] w-[125px] h-[33px] py-2 px-4 rounded">
+                Pay now
+              </button>
+            </Link>
           </div>
           <div>
-            <button className="bg-[#3A47FB] w-[137px] ml=2 mt-8 h-[33px] text-[11px] text-white py-2 px-4 rounded whitespace-nowrap">
-              Download Brochure
-            </button>
+            <Link
+              legacyBehavior
+              href="/pdf/Pharmacad.pdf"
+              className="text-lg leading-6 text-[#3A47FB] font-thin font-montserrat"
+              passHref
+            >
+              <a target="_blank" download>
+                <button className="bg-[#3A47FB] w-[137px] ml=2 mt-8 h-[33px] text-[11px] text-white py-2 px-4 rounded whitespace-nowrap">
+                  Download Brochure
+                </button>
+              </a>
+            </Link>
           </div>
         </div>
       </div>
-      <div className="box-border sm:block lg:hidden md:block absolute w-[290px] h-[896px] left-[35px] sm:left-[45px] md:left-[45px] top-[1300px] sm:top-[350px] md:top-[350px]  bg-white border border-opacity-60 border-gray-300 shadow-md rounded-2xl">
+      <div className="box-border sm:block lg:hidden md:block absolute w-[290px] h-[830px] md:h-[900px] left-[35px] sm:left-[45px] md:left-[450px] top-[1300px] sm:top-[350px] md:top-[350px]  bg-white border border-opacity-60 border-gray-300 shadow-md rounded-2xl">
         <div className="absolute -mt-[1px] left-[16px] rounded-bl-xl rounded-tr-xl rounded-br-xl [background:linear-gradient(93.54deg,_#780902,_#fd5b00)]  shadow-[0px_5.473354339599609px_9.12px_rgba(0,_0,_0,_0.25)] w-[265px] h-[230px]" />
 
         <Image
@@ -537,13 +568,13 @@ export default function CourseCertificate() {
             </span>
           </p>
         </div>
-       
+
         <p className="mt-[240px] ml-5 text-[12px]">
           According to WIPO, numbers of patents file<br></br>
           in India in 2018 was 2.5 greater than 2009, the<br></br>
           economy in the same period was doubled.<br></br>
         </p>
-        
+
         <div className="absolute top-[340px] ml-5 w-[258.25px] h-[191.28px] text-[12px]">
           <div className="absolute  left-[32.25px] leading-[183.5%] font-semibold">
             <p className="m-0">Safeguard the Unique Ideas</p>
@@ -628,23 +659,33 @@ export default function CourseCertificate() {
           </p>
         </div>
 
-        <div className="flex space-x-2 sm:mt-[44px] md:mt-[44px]">
+        <div className="flex space-x-2 my-4 sm:mt-[44px] md:mt-[44px]">
           <div>
-            <button className="bg-[#D9D9D9] mt-8 ml-1 w-[125px] text-[12px] h-[33px] py-2 px-4 rounded ">
-              Pay now
-            </button>
+            <Link href="/#contact">
+              <button className="bg-[#D9D9D9] mt-8 ml-1 w-[125px] text-[12px] h-[33px] py-2 px-4 rounded ">
+                Pay now
+              </button>
+            </Link>
           </div>
           <div>
-            <button className="bg-[#3A47FB] w-[137px] ml=2 mt-8 h-[33px] text-[11px] text-white py-2 px-4 rounded whitespace-nowrap">
-              Download Brochure
-            </button>
+            <Link
+              legacyBehavior
+              href="/pdf/IPR.pdf"
+              className="text-lg leading-6 text-[#3A47FB] font-thin font-montserrat"
+              passHref
+            >
+              <a target="_blank" download>
+                <button className="bg-[#3A47FB] w-[137px] ml=2 mt-8 h-[33px] text-[11px] text-white py-2 px-4 rounded whitespace-nowrap">
+                  Download Brochure
+                </button>
+              </a>
+            </Link>
           </div>
         </div>
       </div>
-      </div>
       <div className="mt-[2200px] lg:mt-[1400px] sm:mt-[1250px] md:mt-[1250px]">
-         <Footer />
+        <Footer />
       </div>
-    </>
+    </div>
   );
 }

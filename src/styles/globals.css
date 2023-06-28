@@ -36,8 +36,6 @@
 }
 
 
-
-
 a {
     text-decoration: none;
     color: inherit;
@@ -74,13 +72,15 @@ nav {
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: 150px;
-    width: 288px;
+    top: 80px;
+    width: 100%;
     row-gap: 24px;
-    right: -288px;
+    right: -100%;
     padding: 24px 16px;
     transition: all 0.2s;
     background-color: white;
+    height: 100%;
+    z-index: 0;
 }
 
 .nav__menu-list.active {

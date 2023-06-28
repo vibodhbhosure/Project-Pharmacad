@@ -14,15 +14,15 @@ const Courses = () => {
       {/* <div className="h-[38px] w-[42px] ml-7 lg:ml-[131px] mt-14 md:mt-[57px] border-2 border-gray-300 bg-white items-center justify-center absolute rounded-sm p-2 cursor-pointer -z-50">
         <FaAngleLeft className="ml-1" />
       </div> */}
-      <div className="flex flex-col xl:flex-row ml-6 lg:ml-[135px] mt-36 lg:mt-[156px] space-x-0 xl:space-x-[40px]">
-        <div className="h-[200px] w-[291px] md:w-[400px] lg:w-[570px] flex flex-col">
+      <div className="flex flex-col ml-6 lg:ml-[135px] mr-[10px] lg:mr-[185px] xl:mr-[135px] mt-36 lg:mt-[156px] space-x-0">
+        <div className="h-[200px] w-full flex flex-col">
           <span className=" text-3xl md:text-5xl font-bold">Courses</span>
-          <span className=" mt-6 lg:mt-12 font-normal text-sm lg:text-base w-[291px] md:w-[440px] lg:w-[552px]">
+          <span className=" mt-6 lg:mt-12 font-normal text-base lg:text-2xl w-full mr-[10px] lg:mr-[185px] xl:mr-[135px]">
             Check out the various courses{" "}
             <span className=" font-semibold">(ONLINE and OFFLINE)</span> offered
             by Pharmacad and make your pharmaceutical career a reality.
           </span>
-          <span className=" mt-4 font-normal text-sm lg:text-base w-[291px] md:w-[440px] lg:w-[570px]">
+          <span className=" mt-4 font-normal text-base lg:text-2xl w-full sm:mr-[10px] lg:mr-[135px]">
             Hurry up, enrollment process for{" "}
             <span className=" font-semibold">’24</span> and{" "}
             <span className=" font-semibold">’25</span> batches for GPAT has
@@ -32,18 +32,18 @@ const Courses = () => {
 
         {Annoucements_data.map((cardData, index) => (
           <div
-            className="h-[204px] w-[310px] sm:w-[600px] md:w-[536px] mt-10 xl:mt-0 mx-auto sm:mx-0"
+            className="h-[204px] w-[310px] sm:w-[600px] md:w-[536px] mt-12 lg:mt-28 mx-auto sm:mx-0"
             key={index}
           >
             <Annoucements cardData={cardData} />
           </div>
         ))}
       </div>
-      <div className=" mt-96 sm:mt-40 xl:mt-[91px] mx-6 lg:ml-[131px]">
+      <div className=" mt-[440px] sm:mt-48 md:mt-[220px] mx-6 lg:ml-[131px]">
         <span className="hidden lg:block font-bold text-3xl ">
           Upcoming Batches
         </span>
-        <div className="border-2 border-[#DBDBDB] w-[310px] sm:w-[500px] md:w-[700px] lg:w-[975px] xl:w-[1278px] h-[271px] mt-7 shadow-[0_3px_10px_rgb(0,0,0,0.2)] mx-auto lg:mx-0">
+        <div className="border-2 border-[#DBDBDB] w-[310px] sm:w-[500px] md:w-[700px] lg:w-[875px] xl:w-[1150px] h-[271px] mt-7 shadow-[0_3px_10px_rgb(0,0,0,0.2)] mx-auto lg:mx-0">
           <div className="mt-6 lg:mt-12 ml-7 lg:ml-[52px]">
             <div className="flex flex-col lg:flex-row lg:w-max">
               <span className="uppercase text-2xl md:text-3xl flex flex-col lg:flex-row">
@@ -62,51 +62,51 @@ const Courses = () => {
                   <span className=" box-border h-[39px] w-[39px] rounded-full shadow-md z-10 flex justify-center align-middle p-2 mt-[6px] bg-white font-semibold text-base">
                     01.
                   </span>
-                  <div className=" absolute bg-black text-white rounded-3xl p-2 flex flex-col max-w-fit font-semibold text-xs pl-[60px] pr-[30px] justify-center align-middle z-0 ml-3">
+                  <div className=" absolute bg-black text-white rounded-3xl p-2 flex flex-col max-w-fit font-semibold text-xs pl-[40px] pr-[30px] justify-center align-middle z-0 ml-3">
                     <div>Pharmacology +</div>
                     <div>Medicinal Chemistry</div>
                   </div>
                 </div>
               </div>
-              <div className="h-[27px] flex flex-col ml-48 max-w-fit">
+              <div className="h-[27px] flex flex-col ml-44 max-w-fit">
                 <div className="w-1/8 flex">
                   <span className=" box-border h-[39px] w-[39px] rounded-full shadow-md z-10 flex justify-center align-middle p-2 mt-[6px] bg-white font-semibold text-base">
                     02.
                   </span>
-                  <div className=" absolute bg-black text-white rounded-3xl p-2 flex flex-col max-w-fit font-semibold text-xs pl-[60px] pr-[30px] justify-center align-middle z-0 ml-3">
+                  <div className=" absolute bg-black text-white rounded-3xl p-2 flex flex-col max-w-fit font-semibold text-xs pl-[40px] pr-[30px] justify-center align-middle z-0 ml-3">
                     <div>Pharmaceutics +</div>
                     <div>Allied Subjects</div>
                   </div>
                 </div>
               </div>
-              <div className="h-[27px] flex flex-col ml-44 max-w-fit">
+              <div className="h-[27px] flex flex-col ml-40 max-w-fit">
                 <div className="w-1/8 flex">
                   <span className=" box-border h-[39px] w-[39px] rounded-full shadow-md z-10 flex justify-center align-middle p-2 mt-[6px] bg-white font-semibold text-base">
                     03.
                   </span>
-                  <div className=" absolute bg-black text-white rounded-3xl p-2 flex flex-col max-w-fit font-semibold text-xs pl-[60px] pr-[30px] justify-center align-middle z-0 ml-3">
+                  <div className=" absolute bg-black text-white rounded-3xl p-2 flex flex-col max-w-fit font-semibold text-xs pl-[40px] pr-[30px] justify-center align-middle z-0 ml-3">
                     <div>Pharmacognosy</div>
                     <div>Pharm Analysis</div>
                   </div>
                 </div>
               </div>
-              <div className="h-[27px] flex flex-col ml-44 max-w-fit">
+              <div className="h-[27px] flex flex-col ml-40 max-w-fit">
                 <div className="w-1/8 flex">
                   <span className=" box-border h-[39px] w-[39px] rounded-full shadow-md z-10 flex justify-center align-middle p-2 mt-[6px] bg-white font-semibold text-base">
                     04.
                   </span>
-                  <div className=" absolute bg-black text-white rounded-3xl p-2 flex flex-col max-w-fit font-semibold text-xs pl-[60px] pr-[30px] justify-center align-middle z-0 ml-3">
+                  <div className=" absolute bg-black text-white rounded-3xl p-2 flex flex-col max-w-fit font-semibold text-xs pl-[40px] pr-[30px] justify-center align-middle z-0 ml-3">
                     <div>HUMAN Anatomy</div>
                     <div>Organic Chemistry</div>
                   </div>
                 </div>
               </div>
-              <div className="h-[27px] flex flex-col ml-44 max-w-fit">
+              <div className="h-[27px] flex flex-col ml-[168px] max-w-fit">
                 <div className="w-1/8 flex">
                   <span className=" box-border h-[39px] w-[39px] rounded-full shadow-md z-10 flex justify-center align-middle p-2 mt-[6px] bg-white font-semibold text-base">
                     05.
                   </span>
-                  <div className=" absolute bg-black text-white rounded-3xl p-2 flex flex-col max-w-fit font-semibold text-xs pl-[60px] pr-[30px] justify-center align-middle z-0 ml-3">
+                  <div className=" absolute bg-black text-white rounded-3xl p-2 flex flex-col max-w-fit font-semibold text-xs pl-[40px] pr-[30px] justify-center align-middle z-0 ml-3">
                     <div>Biotechnology, Biochemistry</div>
                     <div>Microbiology, Jurisprudence</div>
                   </div>
