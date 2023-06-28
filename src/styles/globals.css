@@ -36,8 +36,6 @@
 }
 
 
-
-
 a {
     text-decoration: none;
     color: inherit;
@@ -71,7 +69,6 @@ nav {
 }
 
 .nav__menu-list {
-    margin-top: 2px;
     display: flex;
     flex-direction: column;
     position: fixed;
