@@ -133,49 +133,49 @@ export default function CourseCertificate() {
                   alt="greentick"
                   src={Vector}
                   width={22}
-                  height={20}
+                  height={22}
                 />
                 <Image
                   className="absolute h-[10.68%] w-[8.32%] top-[16%] right-[91.68%] bottom-[76.56%] left-[0%] max-w-full overflow-hidden max-h-full"
                   alt="greentick"
                   src={Vector}
                   width={22}
-                  height={20}
+                  height={22}
                 />
                 <Image
                   className="absolute h-[10.68%] w-[8.32%] top-[30%] right-[91.68%] bottom-[63.8%] left-[0%] max-w-full overflow-hidden max-h-full"
                   alt="greentick"
                   src={Vector}
                   width={22}
-                  height={20}
+                  height={22}
                 />
                 <Image
                   className="absolute h-[10.68%] w-[8.32%] top-[44%] right-[91.68%] bottom-[51.04%] left-[0%] max-w-full overflow-hidden max-h-full"
                   alt="greentick"
                   src={Vector}
                   width={22}
-                  height={20}
+                  height={22}
                 />
                 <Image
                   className="absolute h-[10.68%] w-[8.32%] top-[59%] right-[91.68%] bottom-[38.28%] left-[0%] max-w-full overflow-hidden max-h-full"
                   alt="greentick"
                   src={Vector}
                   width={22}
-                  height={20}
+                  height={22}
                 />
                 <Image
                   className="absolute h-[10.68%] w-[8.32%] top-[74%] right-[91.68%] bottom-[25.52%] left-[0%] max-w-full overflow-hidden max-h-full"
                   alt="greentick"
                   src={Vector}
                   width={22}
-                  height={20}
+                  height={22}
                 />
                 <Image
                   className="absolute h-[10.68%] w-[8.32%] top-[88%] right-[91.68%] bottom-[12.76%] left-[0%] max-w-full overflow-hidden max-h-full"
                   alt="greentick"
                   src={Vector}
                   width={22}
-                  height={20}
+                  height={22}
                 />
               </div>
             </div>
@@ -290,56 +290,56 @@ export default function CourseCertificate() {
                   alt="greentick"
                   src={Vector}
                   width={22}
-                  height={20}
+                  height={22}
                 />
                 <Image
                   className="absolute h-[10.68%] w-[8.32%] top-[16%] right-[91.68%] bottom-[76.56%] left-[0%] max-w-full overflow-hidden max-h-full"
                   alt="greentick"
                   src={Vector}
                   width={22}
-                  height={20}
+                  height={22}
                 />
                 <Image
                   className="absolute h-[10.68%] w-[8.32%] top-[30%] right-[91.68%] bottom-[63.8%] left-[0%] max-w-full overflow-hidden max-h-full"
                   alt="greentick"
                   src={Vector}
                   width={22}
-                  height={20}
+                  height={22}
                 />
                 <Image
                   className="absolute h-[10.68%] w-[8.32%] top-[44%] right-[91.68%] bottom-[51.04%] left-[0%] max-w-full overflow-hidden max-h-full"
                   alt="greentick"
                   src={Vector}
                   width={22}
-                  height={20}
+                  height={22}
                 />
                 <Image
                   className="absolute h-[10.68%] w-[8.32%] top-[59%] right-[91.68%] bottom-[38.28%] left-[0%] max-w-full overflow-hidden max-h-full"
                   alt="greentick"
                   src={Vector}
                   width={22}
-                  height={20}
+                  height={22}
                 />
                 <Image
                   className="absolute h-[10.68%] w-[8.32%] top-[74%] right-[91.68%] bottom-[25.52%] left-[0%] max-w-full overflow-hidden max-h-full"
                   alt="greentick"
                   src={Vector}
                   width={22}
-                  height={20}
+                  height={22}
                 />
                 <Image
                   className="absolute h-[10.68%] w-[8.32%] top-[88%] right-[91.68%] bottom-[12.76%] left-[0%] max-w-full overflow-hidden max-h-full"
                   alt="greentick"
                   src={Vector}
                   width={22}
-                  height={20}
+                  height={22}
                 />
                 <Image
                   className="absolute h-[10.68%] w-[8.32%] top-[102.5%] right-[91.68%] bottom-[12.76%] left-[0%] max-w-full overflow-hidden max-h-full"
                   alt="greentick"
                   src={Vector}
                   width={22}
-                  height={20}
+                  height={22}
                 />
               </div>
             </div>
@@ -448,49 +448,49 @@ export default function CourseCertificate() {
                 alt="greentick"
                 src={Vector}
                 width={22}
-                height={20}
+                height={22}
               />
               <Image
                 className="mt-[24px]"
                 alt="greentick"
                 src={Vector}
                 width={22}
-                height={20}
+                height={22}
               />
               <Image
                 className="mt-[20px]"
                 alt="greentick"
                 src={Vector}
                 width={22}
-                height={20}
+                height={22}
               />
               <Image
                 className="mt-[23px]"
                 alt="greentick"
                 src={Vector}
                 width={22}
-                height={20}
+                height={22}
               />
               <Image
                 className="mt-[23px]"
                 alt="greentick"
                 src={Vector}
                 width={22}
-                height={20}
+                height={22}
               />
               <Image
                 className="mt-[18px]"
                 alt="greentick"
                 src={Vector}
                 width={22}
-                height={20}
+                height={22}
               />
               <Image
                 className="mt-[8px]"
                 alt="greentick"
                 src={Vector}
                 width={22}
-                height={20}
+                height={22}
               />
             </div>
           </div>
@@ -603,56 +603,56 @@ export default function CourseCertificate() {
                 alt="greentick"
                 src={Vector}
                 width={22}
-                height={20}
+                height={22}
               />
               <Image
                 className="mt-1"
                 alt="greentick"
                 src={Vector}
                 width={22}
-                height={20}
+                height={22}
               />
               <Image
                 className="mt-1.5"
                 alt="greentick"
                 src={Vector}
                 width={22}
-                height={20}
+                height={22}
               />
               <Image
                 className="mt-2"
                 alt="greentick"
                 src={Vector}
                 width={22}
-                height={20}
+                height={22}
               />
               <Image
                 className="mt-2"
                 alt="greentick"
                 src={Vector}
                 width={22}
-                height={20}
+                height={22}
               />
               <Image
                 className="mt-1.5"
                 alt="greentick"
                 src={Vector}
                 width={22}
-                height={20}
+                height={22}
               />
               <Image
                 className="mt-2.5"
                 alt="greentick"
                 src={Vector}
                 width={22}
-                height={20}
+                height={22}
               />
               <Image
                 className="mt-5"
                 alt="greentick"
                 src={Vector}
                 width={22}
-                height={20}
+                height={22}
               />
             </div>
           </div>

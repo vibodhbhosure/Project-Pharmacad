@@ -61,7 +61,7 @@ const CourseCard = ({ cardData }) => {
             </div>
           </button>
         </Link>
-        <Link href="/#contact">
+        <Link href="/#contact" aria-label="Buy Now">
           <button
             className={`${
               price === null ? "hidden" : ""
