@@ -1,10 +1,15 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+import { WithPWA } from 'next-pwa';
+
+module.exports = WithPWA({
     trailingSlash: true,
     output: "export",
     images: {
         unoptimized: true,
     },
-};
-
-module.exports = nextConfig
+    pwa: {
+        dest: "public",
+        register: true,
+        skipWaiting: true,
+    },
+})
