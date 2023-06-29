@@ -46,7 +46,7 @@ const Navbars = () => {
             alt="logo bg"
           />
         </div>
-        <div className="bg-white md:mt-14 lg:fixed lg:left-0 lg:bg-white lg:w-full lg:z-10 lg:mt-5 xl:bg-white xl:fixed xl:left-0 xl:w-full xl:z-10">
+        <div className="bg-white md:mt-14 lg:fixed lg:left-0 lg:bg-white lg:w-full lg:z-10 lg:mt-0 lg:pt-6 xl:bg-white xl:fixed xl:left-0 xl:w-full xl:z-10">
           <div className="hidden lg:flex lg:pl-2 lg:bg-white lg:text-black lg:justify-end lg:shadow-xl xl:w-full xl:flex xl:pl-4 xl:py-2 xl:text-black xl:justify-centre xl:shadow-xl xl:bg-white">
             <div
               className={`${

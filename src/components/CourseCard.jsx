@@ -9,8 +9,8 @@ const CourseCard = ({ cardData }) => {
   const { id, title, year, mode, status, desc, price } = cardData;
 
   return (
-    <div className=" mt-7 h-full w-[310px] sm:w-[500px] md:w-[700px] lg:w-[410px] xl:w-[572px] mx-auto lg:mx-0 shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-md border-[#E5E5E5]">
-      <div className="flex flex-col md:flex-row lg:flex-col xl:flex-row mt-10 ml-6 pt-7">
+    <div className=" mt-7 h-full w-[310px] sm:w-[500px] md:w-[700px] lg:w-[410px] xl:w-[410px] mx-auto lg:mx-0 shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-md border-[#E5E5E5]">
+      <div className="flex flex-col md:flex-row lg:flex-col xl:flex-col mt-10 ml-6 pt-7">
         <span className=" font-medium text-2xl md:text-3xl ">
           {title}{" "}
           <span className=" font-bold text-2xl md:text-3xl">{year}</span>
@@ -19,20 +19,20 @@ const CourseCard = ({ cardData }) => {
           <span
             className={`box-border uppercase ${
               mode === "OFFLINE" ? "bg-[#F5752D] " : "bg-[#5BAD09]"
-            } text-white m-0 xl:m-auto p-2 ml-[0px] sm:ml-7 md:ml-[150px] lg:ml-[45px] xl:ml-[90px] mt-3 md:mt-0 lg:mt-3 xl:mt-[0px] font-semibold text-sm rounded-sm`}
+            } text-white m-0 xl:m-auto p-2 lg:p-1 ml-[0px] sm:ml-7 md:ml-[150px] lg:ml-[45px] xl:ml-[16px] mt-3 md:mt-0 lg:mt-3 xl:mt-[12px] font-semibold text-sm rounded-sm`}
           >
             {mode}
           </span>
           <span
             className={`${
               status === null ? "hidden" : "block"
-            } uppercase m-auto p-2 px-2 font-medium text-sm bg-[#E8F0FC] ml-5 sm:ml-[25px] md:ml-[25px] lg:ml-6 xl:ml-[25px] mt-3 md:mt-[0px] lg:mt-3 xl:mt-[0px] rounded-sm`}
+            } uppercase m-auto p-2 lg:p-1 px-2 font-medium text-sm bg-[#E8F0FC] ml-5 sm:ml-[25px] md:ml-[25px] lg:ml-6 xl:ml-[10px] mt-3 md:mt-[0px] lg:mt-3 xl:mt-[12px] rounded-sm`}
           >
             {status}
           </span>
         </div>
       </div>
-      <div className=" w-[272px] sm:w-[400px] md:w-[500px] lg:w-[272px] xl:w-[490px] bg-[#F5F5F5] mt-5 mx-auto xl:ml-10">
+      <div className=" w-[272px] sm:w-[400px] md:w-[500px] lg:w-[272px] xl:w-[350px] bg-[#F5F5F5] mt-5 mx-auto xl:ml-10">
         <ul className="list-disc ml-5 p-5">
           {desc.map((item) => (
             <li
@@ -65,7 +65,7 @@ const CourseCard = ({ cardData }) => {
           <button
             className={`${
               price === null ? "hidden" : ""
-            } box-border bg-[#3A47FB] text-[white] shadow-xl m-auto p-3 font-semibold text-sm rounded-lg ml-12 mt-3 xl:mt-[0px]`}
+            } box-border bg-[#3A47FB] text-[white] shadow-xl m-auto p-3 font-semibold text-sm rounded-lg ml-12 mt-3`}
           >
             Buy now <span className="text-[#f1f1f2] ml-1">|</span>
             <span className=" font-bold italic text-[15px] ml-1.5">
