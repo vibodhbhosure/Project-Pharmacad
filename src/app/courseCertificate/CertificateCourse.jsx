@@ -209,7 +209,7 @@ export default function CourseCertificate() {
                 className="-ml-5 "
                 src={orsmall}
                 width={23}
-                height={11}
+                height={13}
                 alt="Other Small Image"
               ></Image>
               <div className="absolute top-[8px] left-[35px] leading-[141%] text-xl text-white font-extrabold font-inter inline-block ">
@@ -376,7 +376,7 @@ export default function CourseCertificate() {
             className="-ml-1 -mt-1.5"
             src={small}
             width={23}
-            height={11}
+            height={13}
             alt="Small Image"
           ></Image>
           <div className="absolute top-[8px] left-[35px] text-white text-[22.81px] leading-[141%] font-extrabold font-inter text-card-background inline-block w-[248px]">
