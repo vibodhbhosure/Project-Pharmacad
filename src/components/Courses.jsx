@@ -14,7 +14,7 @@ const Courses = () => {
       {/* <div className="h-[38px] w-[42px] ml-7 lg:ml-[131px] mt-14 md:mt-[57px] border-2 border-gray-300 bg-white items-center justify-center absolute rounded-sm p-2 cursor-pointer -z-50">
         <FaAngleLeft className="ml-1" />
       </div> */}
-      <div className="flex flex-col ml-6 lg:ml-[135px] mr-[10px] lg:mr-[185px] xl:mr-[135px] mt-36 lg:mt-[100px] space-x-0">
+      <div className="flex flex-col ml-6 lg:ml-[135px] mr-[10px] lg:mr-[185px] xl:mr-[135px] mt-24 lg:mt-[100px] space-x-0">
         <div className="h-[200px] w-full flex flex-col xl:pl-20">
           <span className=" text-3xl md:text-4xl font-bold">Courses</span>
           <span className=" mt-6 lg:mt-8 font-normal text-base md:text-lg lg:text-xl w-full mr-[10px] lg:mr-[185px] xl:mr-[135px]">
@@ -32,14 +32,14 @@ const Courses = () => {
 
         {Annoucements_data.map((cardData, index) => (
           <div
-            className="h-[204px] w-[310px] sm:w-[600px] md:w-[536px] mt-12 lg:mt-8 mx-auto sm:mx-0 lg:pl-20"
+            className="h-[204px] w-[310px] sm:w-[600px] md:w-[536px] mt-12 lg:mt-8 mx-auto sm:mx-0 xl:pl-20"
             key={index}
           >
             <Annoucements cardData={cardData} />
           </div>
         ))}
       </div>
-      <div className=" mt-[440px] sm:mt-48 md:mt-[220px] mx-6 lg:ml-[131px] lg:pl-20">
+      <div className=" mt-[440px] sm:mt-48 md:mt-[220px] mx-6 lg:ml-[131px] xl:pl-20">
         <span className="hidden lg:block font-bold text-3xl ">
           Upcoming Batches
         </span>
