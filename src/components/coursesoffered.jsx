@@ -42,13 +42,13 @@ const CoursesOffered = () => {
             <p className="mt-2 text-gray-700 font-light font-montserrat mb-2">
               {course.description}
             </p>
-            <p className="text-black font-semibold font-raleway mt-4 inline-block">
-              To learn more about the courses we offer,
+            <p className="text-black font-normal font-raleway mt-4 inline-block">
+              To learn more about the courses we offer,&nbsp;
               <Link
                 href="/courses"
                 className="text-black font-semibold font-raleway mt-4 inline-block"
               >
-                Click here
+                Click here!
               </Link>
             </p>
           </div>
