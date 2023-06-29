@@ -7,6 +7,7 @@ import Sammaam from "../../../public/Sammaam.webp";
 import Vector from "../../../public/Vector.webp";
 import Footer from "@/components/footer";
 import Link from "next/link";
+
 export default function CourseCertificate() {
   return (
     <div className="container mx-auto max-w-screen-xl px-4 py-8 overflow-x-hidden">
