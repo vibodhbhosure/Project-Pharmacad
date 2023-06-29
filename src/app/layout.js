@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Pharmcad - Best Coaching Class for Pharmacy in Mumbai',
-  description: 'India’s Best Coaching Class for M. Pharmacy, MBA entrance exams & Abroad Studies for Pharmacy students. Experts in GPAT, NIPER, BITS, Manipal, ICT & other entrance exams, also MBA entrance  (CAT / NMAT / CET / SNAP / XAT / CMAT, etc.) exams. More than 30 tutors & content creators from India’s top ranked institutes like NIPER, BITS, ICT, BCP, Punjab University etc., working together to provide you the best & quality education via offline & online platform.',
+  description: 'India’s Best Coaching Class for M. Pharmacy, MBA entrance exams & Abroad Studies for Pharmacy students.',
   charset: 'utf-8',
   viewport: 'width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=6,user-scalable=yes',
   robots: 'all',
