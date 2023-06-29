@@ -45,7 +45,7 @@ const Carousel = () => {
     return () => {
       clearTimeout(timer);
     };
-  }, [currentIndex, 3000, MaxIndex]);
+  }, [currentIndex, MaxIndex]);
 
   const prevSlide = () => {
     const newIndex = (currentIndex - 1 + slides.length) % slides.length;

@@ -134,8 +134,8 @@ const Courses = () => {
           </div>
         </div>
         <div className="grid-cols-1 grid lg:grid-cols-2 grid-flow-row gap-y-9 gap-x-0 ">
-          {courseDataArray.slice(0, 4).map((cardData) => (
-            <div className="lg:w-fit ">
+          {courseDataArray.slice(0, 4).map((cardData, index) => (
+            <div key={index} className="lg:w-fit ">
               <CourseCard cardData={cardData} />
             </div>
           ))}

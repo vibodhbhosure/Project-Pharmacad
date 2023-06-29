@@ -18,7 +18,7 @@ const AdCarousal = () => {
     return () => {
       clearTimeout(timer);
     };
-  }, [currentIndex, 3000, MaxIndex]);
+  }, [currentIndex, MaxIndex]);
 
   const prevSlide = () => {
     const isFirstSlide = currentIndex == 0;

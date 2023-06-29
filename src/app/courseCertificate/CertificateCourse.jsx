@@ -368,7 +368,7 @@ export default function CourseCertificate() {
           </div>
         </div>
       </div>
-      //small and md screen code
+      {/* small and md screen code */}
       <div className="absolute -mt-[185px]">
         <div className="box-border sm:block lg:hidden md:block absolute w-[290px] h-[896px] left-[18px] sm:left-[18px] md:left-[45px] top-[350px] bg-white border border-opacity-60 border-gray-300 shadow-md rounded-2xl">
           <div className="absolute -mt-[6px] left-[14px] rounded-bl-xl rounded-tr-xl rounded-br-xl [background:linear-gradient(93.54deg,_#020a78,_#8e00fd)] shadow-[0px_5.473354339599609px_9.12px_rgba(0,_0,_0,_0.25)] w-[265px] h-[230.23px]" />
