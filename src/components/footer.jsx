@@ -257,7 +257,7 @@ const Footer = () => {
           </p>
           <div className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
             <p className="text-white font-inter text-sm text-left sm:text-left font-sans-bold">
-              Developed by VIT
+              Developed by Pharmacad
             </p>
           </div>
         </div>
