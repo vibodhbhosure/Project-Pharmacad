@@ -3,16 +3,16 @@ import Link from "next/link";
 const CoursesOffered = () => {
   const courses = [
     {
-      headiing: "CAT / MAT / CET / NMAT / XAT +",
-      name: "MBA Entrance Exam-",
-      description:
-        "Prepare for India’s top MBA entrance exams (CAT | MAT | CET | NMAT | XAT etc.) with our experienced alumnus support from top B-schools across India like IIM, Goa Institute of Management, NMIMS and Welingkar Institute of Management etc.",
-    },
-    {
       headiing: "GPAT / NIPER / NMIMS +",
       name: "M. Pharmacy Entrance Exam-",
       description:
         "Pharmacad is India’s best coaching academy for M. Pharmacy entrance exams (GPAT | NIPER | BITS | MANIPAL etc.) having online and offline teaching platforms. The entire programme is designed to enhance conceptual learning for students to help them crack all the entrance exams for M. Pharmacy.",
+    },
+    {
+      headiing: "CAT / MAT / CET / NMAT / XAT +",
+      name: "MBA Entrance Exam-",
+      description:
+        "Prepare for India’s top MBA entrance exams (CAT | MAT | CET | NMAT | XAT etc.) with our experienced alumnus support from top B-schools across India like IIM, Goa Institute of Management, NMIMS and Welingkar Institute of Management etc.",
     },
     {
       headiing: "CAT / MAT / CET / NMAT / XAT +",

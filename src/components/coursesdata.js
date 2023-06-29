@@ -39,11 +39,11 @@ const coursesdata = [
         "mode": "OFFLINE",
         "year": null,
         "status": null,
-        "desc": ["81 IMPORTANT TOPIC TESTS",
-            "30 TOPIC TESTS",
-            "50 UNIT TESTS",
-            "10 FULL SYLLABUS MOCK TESTS",
-            "10 FULL SYLLABUS SUBJECT TESTS"],
+        "desc": ["81 Important Topic Tests",
+            "30 Topic Tests",
+            "50 Unit Tests",
+            "10 Full Syllabus Mock Tests",
+            "10 Full Syllabus Subject Tests"],
         "price": null
 
     },

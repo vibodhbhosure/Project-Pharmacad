@@ -1,4 +1,4 @@
 User-agent:*
 Allow:/
 
-Sitemap: https://test.pharmacad.in/sitemap.xml
+Sitemap: https://pharmacad.in/sitemap.xml
