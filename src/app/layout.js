@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import Navbars from '../components/Navbars'
 import Contactbar from '@/components/Contactbar'
 import Script from "next/script"
+import Head from "next/head"
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -16,7 +17,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <Head>
         <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-P8WK1P9N3N" />
         <Script
           id='google-analytics'
@@ -32,6 +33,8 @@ export default function RootLayout({ children }) {
         `,
           }}
         />
+      </Head>
+      <body className={inter.className}>
         <Contactbar />
         <Navbars />
         {children}
