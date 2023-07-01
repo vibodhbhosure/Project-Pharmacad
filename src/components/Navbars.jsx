@@ -13,7 +13,7 @@ const MENU_LIST = [
   { text: "Certificate Courses", href: "/courseCertificate" },
   { text: "Abroad Studies", href: "#" },
   { text: "Blogs", href: "/blog" },
-  { text: "Youtube", href: "https://www.youtube.com/@Pharmacad" },
+  { text: "Youtube", href: "https://www.youtube.com/@Pharmacad", target: "_blank" },
   { text: "Testimonials", href: "/testimonials" },
   { text: "About Us", href: "/about" },
   { text: "Contact", href: "#contact" },
@@ -62,7 +62,7 @@ const Navbars = () => {
                   }}
                   key={menu.text}
                 >
-                  <NavItem active={activeIdx === idx} {...menu} />
+                  <NavItem active={activeIdx === idx} {...menu} target={menu.target} />
                 </div>
               ))}
             </div>
