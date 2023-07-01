@@ -5,25 +5,23 @@ import orsmall from "../../../public/orsmall.webp";
 import Almas from "../../../public/Almas.webp";
 import Sammaam from "../../../public/Sammaam.webp";
 import Vector from "../../../public/Vector.webp";
-import Footer from '@/components/footer';
+import Footer from "@/components/footer";
 import Link from "next/link";
 
 export default function CourseCertificate() {
   return (
     // <div className="container mx-auto max-w-screen-xl px-4 py-8">
     <>
-
       <div className="absolute w-full sm:w-[461px] h-[35px] left-[18px] lg:left-[212px] md:left-[212px] sm:left-[18px] top-[140px] sm:top-[180px] md:top-[240px] lg:top-[230px]">
         <h1 className="font-inter font-bold text-3xl sm:text-4xl md:text-4xl lg:text-4xl leading-tight">
           Certificate Courses
         </h1>
       </div>
-
       <div className="hidden sm:hidden lg:block md:hidden">
         <div className="absolute top-[345px] left-[337.5px] box-border w-[39px] h-px border-t-[1px] border-dashed border-gray-800" />
         <div className="absolute top-[345px] left-[512.5px] box-border w-[39px] h-px border-t-[1px] border-dashed border-gray-800" />
         <div className="absolute top-[345px] left-[656.5px] box-border w-[39px] h-px border-t-[1px] border-dashed border-gray-800" />
-        <div className="absolute top-[345px] left-[813.5px] box-border w-[39px] h-px border-t-[1px] border-dashed border-gray-800" />
+        <div className="absolute top-[345px] left-[819px] box-border w-[34px] h-px border-t-[1px] border-dashed border-gray-800" />
         <div className="absolute top-[345px] left-[1051.5px] box-border w-10 h-px border-t-[1px] border-dashed border-gray-800" />
         <div className="absolute top-[315px]  font-bold left-[212px] shadow-green-400 rounded-md text-center bg-whitesmoke-500  box-border w-[126px] h-[58px] border-[2px] border-solid border-green-400">
           100% online courses
@@ -34,8 +32,8 @@ export default function CourseCertificate() {
         <div className="absolute top-[315px] font-bold left-[551px] shadow-green-400 rounded-md text-center bg-whitesmoke-200  box-border w-[106px] h-[58px] border-[2px] border-solid border-green-400">
           Flexible schedule
         </div>
-        <div className="absolute top-[315px] font-bold left-[695px] shadow-green-400 rounded-md text-center bg-whitesmoke-500  box-border w-[119px] h-[58px] border-[2px] border-solid border-green-400">
-          Learn from expert
+        <div className="absolute top-[315px] font-bold left-[695px] shadow-green-400 rounded-md text-center bg-whitesmoke-500  box-border w-[126px] h-[58px] border-[2px] border-solid border-green-400">
+          Learn from industry expert
         </div>
         <div className="absolute top-[315px] font-bold left-[852px] shadow-green-400 rounded-md text-center bg-whitesmoke-500  box-border w-[200px] h-[58px] border-[2px] border-solid border-green-400">
           Job / Internship placement assistance
@@ -111,7 +109,8 @@ export default function CourseCertificate() {
                     Knowledge about pharmacovigilance & clinical research
                   </p>
                   <p className="m-0 my-2 whitespace-nowrap">
-                    Exposure to allied domains (medical writing / medical coding)
+                    Exposure to allied domains (medical writing / medical
+                    coding)
                   </p>
                   <p className="m-0 my-2 whitespace-nowrap">
                     Hands on training with case studies & assignments
@@ -134,49 +133,49 @@ export default function CourseCertificate() {
                   alt="greentick"
                   src={Vector}
                   width={22}
-                  height={20}
+                  height={22}
                 />
                 <Image
                   className="absolute h-[10.68%] w-[8.32%] top-[16%] right-[91.68%] bottom-[76.56%] left-[0%] max-w-full overflow-hidden max-h-full"
                   alt="greentick"
                   src={Vector}
                   width={22}
-                  height={20}
+                  height={22}
                 />
                 <Image
                   className="absolute h-[10.68%] w-[8.32%] top-[30%] right-[91.68%] bottom-[63.8%] left-[0%] max-w-full overflow-hidden max-h-full"
                   alt="greentick"
                   src={Vector}
                   width={22}
-                  height={20}
+                  height={22}
                 />
                 <Image
                   className="absolute h-[10.68%] w-[8.32%] top-[44%] right-[91.68%] bottom-[51.04%] left-[0%] max-w-full overflow-hidden max-h-full"
                   alt="greentick"
                   src={Vector}
                   width={22}
-                  height={20}
+                  height={22}
                 />
                 <Image
                   className="absolute h-[10.68%] w-[8.32%] top-[59%] right-[91.68%] bottom-[38.28%] left-[0%] max-w-full overflow-hidden max-h-full"
                   alt="greentick"
                   src={Vector}
                   width={22}
-                  height={20}
+                  height={22}
                 />
                 <Image
                   className="absolute h-[10.68%] w-[8.32%] top-[74%] right-[91.68%] bottom-[25.52%] left-[0%] max-w-full overflow-hidden max-h-full"
                   alt="greentick"
                   src={Vector}
                   width={22}
-                  height={20}
+                  height={22}
                 />
                 <Image
                   className="absolute h-[10.68%] w-[8.32%] top-[88%] right-[91.68%] bottom-[12.76%] left-[0%] max-w-full overflow-hidden max-h-full"
                   alt="greentick"
                   src={Vector}
                   width={22}
-                  height={20}
+                  height={22}
                 />
               </div>
             </div>
@@ -184,7 +183,7 @@ export default function CourseCertificate() {
             <div className="ml-[600px] -mt-[35px]">
               <Link href="/#contact">
                 <button className="bg-[#D9D9D9] w-[125px] h-[38px] py-2 px-4 rounded text-black">
-                  Pay now
+                  Enroll now
                 </button>
               </Link>
             </div>
@@ -210,7 +209,7 @@ export default function CourseCertificate() {
                 className="-ml-5 "
                 src={orsmall}
                 width={23}
-                height={11}
+                height={13}
                 alt="Other Small Image"
               ></Image>
               <div className="absolute top-[8px] left-[35px] leading-[141%] text-xl text-white font-extrabold font-inter inline-block ">
@@ -253,9 +252,10 @@ export default function CourseCertificate() {
               </div>
               <div className="mt-[30px] ml-[55px]">
                 <p>
-                  According to WIPO, numbers of patents file in India in 2018 was{" "}
-                  <br></br>
-                  2.5 greater than 2009,the economy in the same period was doubled.
+                  According to WIPO, numbers of patents file in India in 2018
+                  was <br></br>
+                  2.5 greater than 2009,the economy in the same period was
+                  doubled.
                 </p>
               </div>
               <div className="absolute top-[112px] left-[440px] w-[258.25px] h-[191.28px] text-sm">
@@ -275,7 +275,9 @@ export default function CourseCertificate() {
                   <p className="m-0 my-2 whitespace-nowrap">
                     Improve Business Exports
                   </p>
-                  <p className="m-0 my-2 whitespace-nowrap">Technology Transfer</p>
+                  <p className="m-0 my-2 whitespace-nowrap">
+                    Technology Transfer
+                  </p>
                   <p className="m-0 my-1.5 whitespace-nowrap">
                     100% placement assistance to students for PV/CR related Jobs
                   </p>
@@ -288,56 +290,56 @@ export default function CourseCertificate() {
                   alt="greentick"
                   src={Vector}
                   width={22}
-                  height={20}
+                  height={22}
                 />
                 <Image
                   className="absolute h-[10.68%] w-[8.32%] top-[16%] right-[91.68%] bottom-[76.56%] left-[0%] max-w-full overflow-hidden max-h-full"
                   alt="greentick"
                   src={Vector}
                   width={22}
-                  height={20}
+                  height={22}
                 />
                 <Image
                   className="absolute h-[10.68%] w-[8.32%] top-[30%] right-[91.68%] bottom-[63.8%] left-[0%] max-w-full overflow-hidden max-h-full"
                   alt="greentick"
                   src={Vector}
                   width={22}
-                  height={20}
+                  height={22}
                 />
                 <Image
                   className="absolute h-[10.68%] w-[8.32%] top-[44%] right-[91.68%] bottom-[51.04%] left-[0%] max-w-full overflow-hidden max-h-full"
                   alt="greentick"
                   src={Vector}
                   width={22}
-                  height={20}
+                  height={22}
                 />
                 <Image
                   className="absolute h-[10.68%] w-[8.32%] top-[59%] right-[91.68%] bottom-[38.28%] left-[0%] max-w-full overflow-hidden max-h-full"
                   alt="greentick"
                   src={Vector}
                   width={22}
-                  height={20}
+                  height={22}
                 />
                 <Image
                   className="absolute h-[10.68%] w-[8.32%] top-[74%] right-[91.68%] bottom-[25.52%] left-[0%] max-w-full overflow-hidden max-h-full"
                   alt="greentick"
                   src={Vector}
                   width={22}
-                  height={20}
+                  height={22}
                 />
                 <Image
                   className="absolute h-[10.68%] w-[8.32%] top-[88%] right-[91.68%] bottom-[12.76%] left-[0%] max-w-full overflow-hidden max-h-full"
                   alt="greentick"
                   src={Vector}
                   width={22}
-                  height={20}
+                  height={22}
                 />
                 <Image
                   className="absolute h-[10.68%] w-[8.32%] top-[102.5%] right-[91.68%] bottom-[12.76%] left-[0%] max-w-full overflow-hidden max-h-full"
                   alt="greentick"
                   src={Vector}
                   width={22}
-                  height={20}
+                  height={22}
                 />
               </div>
             </div>
@@ -345,7 +347,7 @@ export default function CourseCertificate() {
             <div className="ml-[600px] -mt-[10px]">
               <Link href="/#contact">
                 <button className="bg-[#D9D9D9]  w-[125px] h-[38px] py-2 px-4 rounded">
-                  Pay now
+                  Enroll now
                 </button>
               </Link>
             </div>
@@ -362,12 +364,11 @@ export default function CourseCertificate() {
                   </button>
                 </a>
               </Link>
-
             </div>
           </div>
         </div>
       </div>
-      //small and md screen code
+      {/* small and md screen code */}
       <div className="absolute -mt-[185px]">
         <div className="box-border sm:block lg:hidden md:block absolute w-[290px] h-[896px] left-[18px] sm:left-[18px] md:left-[45px] top-[350px] bg-white border border-opacity-60 border-gray-300 shadow-md rounded-2xl">
           <div className="absolute -mt-[6px] left-[14px] rounded-bl-xl rounded-tr-xl rounded-br-xl [background:linear-gradient(93.54deg,_#020a78,_#8e00fd)] shadow-[0px_5.473354339599609px_9.12px_rgba(0,_0,_0,_0.25)] w-[265px] h-[230.23px]" />
@@ -375,7 +376,7 @@ export default function CourseCertificate() {
             className="-ml-1 -mt-1.5"
             src={small}
             width={23}
-            height={11}
+            height={13}
             alt="Small Image"
           ></Image>
           <div className="absolute top-[8px] left-[35px] text-white text-[22.81px] leading-[141%] font-extrabold font-inter text-card-background inline-block w-[248px]">
@@ -447,49 +448,49 @@ export default function CourseCertificate() {
                 alt="greentick"
                 src={Vector}
                 width={22}
-                height={20}
+                height={22}
               />
               <Image
                 className="mt-[24px]"
                 alt="greentick"
                 src={Vector}
                 width={22}
-                height={20}
+                height={22}
               />
               <Image
                 className="mt-[20px]"
                 alt="greentick"
                 src={Vector}
                 width={22}
-                height={20}
+                height={22}
               />
               <Image
                 className="mt-[23px]"
                 alt="greentick"
                 src={Vector}
                 width={22}
-                height={20}
+                height={22}
               />
               <Image
                 className="mt-[23px]"
                 alt="greentick"
                 src={Vector}
                 width={22}
-                height={20}
+                height={22}
               />
               <Image
                 className="mt-[18px]"
                 alt="greentick"
                 src={Vector}
                 width={22}
-                height={20}
+                height={22}
               />
               <Image
                 className="mt-[8px]"
                 alt="greentick"
                 src={Vector}
                 width={22}
-                height={20}
+                height={22}
               />
             </div>
           </div>
@@ -512,7 +513,7 @@ export default function CourseCertificate() {
             <div>
               <Link href="/#contact">
                 <button className="bg-[#D9D9D9] mt-8 ml-1 text-[12px] w-[125px] h-[33px] py-2 px-4 rounded">
-                  Pay now
+                  Enroll now
                 </button>
               </Link>
             </div>
@@ -602,56 +603,56 @@ export default function CourseCertificate() {
                 alt="greentick"
                 src={Vector}
                 width={22}
-                height={20}
+                height={22}
               />
               <Image
                 className="mt-1"
                 alt="greentick"
                 src={Vector}
                 width={22}
-                height={20}
+                height={22}
               />
               <Image
                 className="mt-1.5"
                 alt="greentick"
                 src={Vector}
                 width={22}
-                height={20}
+                height={22}
               />
               <Image
                 className="mt-2"
                 alt="greentick"
                 src={Vector}
                 width={22}
-                height={20}
+                height={22}
               />
               <Image
                 className="mt-2"
                 alt="greentick"
                 src={Vector}
                 width={22}
-                height={20}
+                height={22}
               />
               <Image
                 className="mt-1.5"
                 alt="greentick"
                 src={Vector}
                 width={22}
-                height={20}
+                height={22}
               />
               <Image
                 className="mt-2.5"
                 alt="greentick"
                 src={Vector}
                 width={22}
-                height={20}
+                height={22}
               />
               <Image
                 className="mt-5"
                 alt="greentick"
                 src={Vector}
                 width={22}
-                height={20}
+                height={22}
               />
             </div>
           </div>
@@ -671,7 +672,7 @@ export default function CourseCertificate() {
             <div>
               <Link href="/#contact">
                 <button className="bg-[#D9D9D9] mt-8 ml-1 w-[125px] text-[12px] h-[33px] py-2 px-4 rounded ">
-                  Pay now
+                  Enroll now
                 </button>
               </Link>
             </div>
@@ -695,7 +696,6 @@ export default function CourseCertificate() {
       <div className="mt-[2000px] lg:mt-[1350px] sm:mt-[1150px] md:mt-[1150px]">
         <Footer />
       </div>
-
     </>
   );
 }

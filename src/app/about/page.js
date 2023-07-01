@@ -7,7 +7,7 @@ export default function aboutPage() {
     <>
       <div className="container mx-auto max-w-screen-xl px-4 py-8 mt-10">
 
-        <div className="flex lg:flex-row flex-col lg:gap-8 sm:gap-10 gap-12">
+        <div className="flex lg:flex-row flex-col lg:gap-8 sm:gap-10 gap-12 mt-8">
           <div className="w-full lg:w-6/12">
             <h2 className="w-full font-bold lg:text-5xl text-3xl lg:leading-10 leading-9 font-inter">ABOUT PHARMACAD</h2>
             <p className="font-light font-montserrat text-xl leading-7 text-justify text-gray-600 mt-6">

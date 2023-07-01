@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
 import Image from "next/legacy/image";
@@ -12,6 +12,7 @@ import image3c from "../../public/image3c.webp";
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = React.useState(0);
   const [isMobileView, setIsMobileView] = React.useState(false);
+  const [MaxIndex, setMaxIndex] = useState(1);
 
   const slides = [
     {
@@ -33,6 +34,18 @@ const Carousel = () => {
       height: 720,
     },
   ];
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setCurrentIndex((prevIndex) =>
+        prevIndex === MaxIndex ? 0 : prevIndex + 1
+      );
+    }, 3000);
+
+    return () => {
+      clearTimeout(timer);
+    };
+  }, [currentIndex, MaxIndex]);
 
   const prevSlide = () => {
     const newIndex = (currentIndex - 1 + slides.length) % slides.length;

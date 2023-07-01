@@ -8,9 +8,9 @@ const NationalOlympiad = ({ cardData }) => {
   const { id, heading, desc1, desc2 } = cardData;
   return (
     <div className="flex flex-col font-poppins font-semibold">
-      <div>ANNOUNCEMENTS</div>
+      <div className="text-2xl">ANNOUNCEMENTS</div>
       <div>
-        <div className="box mx-auto sm:mx-0 w-[310px] sm:w-[600px] md:w-[660px] lg:w-[975px] xl:w-[660px] h-[500px] sm:h-[267px] rounded-lg">
+        <div className="box mx-auto sm:mx-0 w-[310px] sm:w-[600px] md:w-[660px] lg:w-[875px] xl:w-[1050px] h-[500px] sm:h-[267px] xl:h-[260px] rounded-lg">
           <div className="mx-12 my-6 py-6">
             <div className="text-3xl font-semibold font-inter w-5/6 text-white">
               {heading}
@@ -23,7 +23,7 @@ const NationalOlympiad = ({ cardData }) => {
                 {desc2}
               </div>
             </div>
-            <Link href="/#contact">
+            <Link href="/#contact" aria-label="Register Now">
               <button className="bg-white hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
                 Register Now
               </button>

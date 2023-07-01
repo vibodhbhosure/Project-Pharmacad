@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 import Card1 from "./CarousalCards/Card1";
 import Card2 from "./CarousalCards/Card2";
@@ -7,6 +7,19 @@ import Card2 from "./CarousalCards/Card2";
 const AdCarousal = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [MaxIndex, setMaxIndex] = useState(1);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setCurrentIndex((prevIndex) =>
+        prevIndex === MaxIndex ? 0 : prevIndex + 1
+      );
+    }, 3000);
+
+    return () => {
+      clearTimeout(timer);
+    };
+  }, [currentIndex, MaxIndex]);
+
   const prevSlide = () => {
     const isFirstSlide = currentIndex == 0;
     const newIndex = isFirstSlide ? MaxIndex : currentIndex - 1;
