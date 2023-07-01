@@ -1,17 +1,16 @@
 const data = [
     {
-        "id": 1,
-        "testimonial": "I am extremely thankful to Pharmacad for providing excellent teaching and round-the-clock assistance during my GPAT preparation. Pharmacad has a simple, all in one mobile app that had everything ranging from video lectures, tests and mock exams to study material that a GPAT aspirant requires. The classroom lectures were delivered by the teachers in an interesting and easily understandable manner which makes the concepts firm.Thank you to team Pharmacad.",
-        "name": "Prachi Shrivastav",
-        "rank": "AIR 23 - GPAT 2021"
-
-    },
-
-    {
         "id": 2,
         "testimonial": "I would like to thank Pharmacad for helping and preparing me with the mock tests. The tests were always a mirror of what is left out while studying. The quick results were very helpful overall. Also, the opportunity of enrolling in Pharma Literati certificate courses was a motivation for me.",
         "name": "Nichiket Dandekar",
         "rank": "AIR 22 – GPAT 2018"
+
+    },
+    {
+        "id": 1,
+        "testimonial": "I am extremely thankful to Pharmacad for providing excellent teaching and round-the-clock assistance during my GPAT preparation. Pharmacad has a simple, all in one mobile app that had everything ranging from video lectures, tests and mock exams to study material that a GPAT aspirant requires. The classroom lectures were delivered by the teachers in an interesting and easily understandable manner which makes the concepts firm.Thank you to team Pharmacad.",
+        "name": "Prachi Shrivastav",
+        "rank": "AIR 23 - GPAT 2021"
 
     },
     {

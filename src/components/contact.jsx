@@ -230,12 +230,12 @@ const Contact = () => {
                 <ul className="list-none md:ml-10 mx-6">
                   <li>
                     <div className="flex space-x-3">
-                      <span className="mt-1">
-                        <Link href="tel:+919967163961">
+                      <span className="mt-1 pr-2">
+                        <Link href="tel:+919967163961" aria-label="Phone">
                           <FaPhoneAlt />
                         </Link>
                       </span>
-                      <Link href="tel:+919967163961">
+                      <Link href="tel:+919967163961" aria-label="Phone">
                         <span className="font-inter">(+91) 9967 163 961</span>
                       </Link>
                     </div>
@@ -248,10 +248,11 @@ const Contact = () => {
                   <li>
                     {" "}
                     <div className="flex space-x-3">
-                      <span className="mt-1">
+                      <span className="mt-1 pr-2">
                         <Link
                           href="mailto:pharmacad.india@gmail.com"
                           target="_blank"
+                          aria-label="Email"
                         >
                           <FaRegEnvelope />
                         </Link>
@@ -259,6 +260,7 @@ const Contact = () => {
                       <Link
                         href="mailto:pharmacad.india@gmail.com"
                         target="_blank"
+                        aria-label="Email"
                       >
                         <span className="font-inter">
                           pharmacad.india@gmail.com
@@ -274,10 +276,11 @@ const Contact = () => {
                   <li>
                     {" "}
                     <div className="flex space-x-3">
-                      <span className="mt-1">
+                      <span className="mt-1 pr-2">
                         <Link
                           href="https://goo.gl/maps/d4p6P2kJyqkqA6V79"
                           target="_blank"
+                          aria-label="Location Dadar"
                         >
                           <FaMapMarkerAlt />
                         </Link>
@@ -285,6 +288,7 @@ const Contact = () => {
                       <Link
                         href="https://goo.gl/maps/d4p6P2kJyqkqA6V79"
                         target="_blank"
+                        aria-label="Location Dadar"
                       >
                         <span className="font-inter">
                           Shishu Vihar Mandal, High School, opp. King George,
@@ -300,10 +304,11 @@ const Contact = () => {
                 <ul className="list-none md:ml-10 mx-6">
                   <li>
                     <div className="flex space-x-3">
-                      <span className="mt-1">
+                      <span className="mt-1 pr-2">
                         <Link
                           href="https://goo.gl/maps/hZm4UohLaAKekps27"
                           target="_blank"
+                          aria-label="Location Thane"
                         >
                           <FaMapMarkerAlt />
                         </Link>
@@ -311,6 +316,7 @@ const Contact = () => {
                       <Link
                         href="https://goo.gl/maps/hZm4UohLaAKekps27"
                         target="_blank"
+                        aria-label="Location Thane"
                       >
                         <p className="font-inter">
                           CET King Classroom, Ground Floor and Basement, Thakur

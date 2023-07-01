@@ -141,6 +141,7 @@ const Footer = () => {
                   href="https://m.facebook.com/pharmacad/"
                   className=" text-gray-500"
                   target="_blank"
+                  aria-label="Facebook"
                 >
                   <svg
                     fill="currentColor"
@@ -158,6 +159,7 @@ const Footer = () => {
                   href="https://www.youtube.com/@Pharmacad"
                   className="ml-5 text-gray-500"
                   target="_blank"
+                  aria-label="Youtube"
                 >
                   <svg
                     width="24px"
@@ -179,6 +181,7 @@ const Footer = () => {
                   href="https://www.instagram.com/pharmacad_gpat_niper_mba/"
                   className="ml-5 text-gray-500"
                   target="_blank"
+                  aria-label="Instagram"
                 >
                   <svg
                     fill="none"
@@ -205,6 +208,7 @@ const Footer = () => {
                   href="https://www.linkedin.com/company/pharmacad"
                   className="ml-5 text-gray-500"
                   target="_blank"
+                  aria-label="Linkedin"
                 >
                   <svg
                     fill="currentColor"
@@ -258,7 +262,7 @@ const Footer = () => {
           </p>
           <div className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
             <p className="text-white font-inter text-sm text-left sm:text-left font-sans-bold">
-              Developed by VIT
+              Developed by Pharmacad
             </p>
           </div>
         </div>

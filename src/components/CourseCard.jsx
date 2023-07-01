@@ -34,9 +34,9 @@ const CourseCard = ({ cardData }) => {
       </div>
       <div className=" w-[272px] sm:w-[400px] md:w-[500px] lg:w-[272px] xl:w-[350px] bg-[#F5F5F5] mt-5 mx-auto xl:ml-10">
         <ul className="list-disc ml-5 p-5">
-          {desc.map((item) => (
+          {desc.map((item, index) => (
             <li
-              key={id}
+              key={index}
               className="font-semibold font-montserrat text-sm mt-[6px]"
             >
               {item}
@@ -61,7 +61,7 @@ const CourseCard = ({ cardData }) => {
             </div>
           </button>
         </Link>
-        <Link href="/#contact">
+        <Link href="/#contact" aria-label="Buy Now">
           <button
             className={`${
               price === null ? "hidden" : ""
