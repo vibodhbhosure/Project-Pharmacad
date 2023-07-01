@@ -9,7 +9,7 @@ const data = [
         "id": 2,
         "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVbqOX6yMdic8__SMjTD2FD83gdzzyQrbuvEZCJtxJKA&s",
         "title": "Guidance for Placements",
-        "description": "Timely conduction of tests and assignments which help students gain in-depth knowledge of the GPAT NIPER Syllabus."
+        "description": "Guiding students to select the right job as per industry demands and assisting them to crack interviews "
     },
     {
         "id": 3,
