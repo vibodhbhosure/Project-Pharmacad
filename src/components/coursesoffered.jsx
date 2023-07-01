@@ -18,7 +18,7 @@ const CoursesOffered = () => {
       headiing: "CAT / MAT / CET / NMAT / XAT +",
       name: "Abroad Counselling-",
       description:
-        "Prepare for India’s top MBA entrance exams (CAT | MAT | CET | NMAT | XAT etc.) with our experienced alumnus support from top B-schools across India like IIM, Goa Institute of Management, NMIMS and Welingkar Institute of Management etc.",
+        "Almost 30% of Pharmacy students go abroad for higher education to countries like USA, UK, Australia, Canada, Germany etc.  Lack of dedicated education counsellors in pharmacy renders the aspirants confused regarding college and course selection. Pharmacad along with their affiliate UEMS (hyperlink to their website) specialized in abroad education counselling has created a dedicated system for pharmacy students to ensure the selection of right country, right university and right course. Our experienced team of counsellors guide the students at each and every step of the admission process. (Selecting the right date for GRE/TOEFL/IELTS, preparing LOR – Letter of recommendation, SOP – statement of purpose, Visa application & interview preparation, application form filling etc.)",
     },
   ];
 
@@ -46,7 +46,7 @@ const CoursesOffered = () => {
               To learn more about the courses we offer,&nbsp;
               <Link
                 href="/courses"
-                className="text-black font-semibold font-raleway mt-4 inline-block"
+                className="text-black font-semibold font-raleway inline-block"
               >
                 Click here!
               </Link>

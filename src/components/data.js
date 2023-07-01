@@ -3,31 +3,31 @@ const data = [
         "id": 1,
         "url": "../public/cardimages/card1.svg",
         "title": "Regular tests and Assistance",
-        "description": "Timely conduction of tests and assignments which helps students attain in-depth knowledge of the syllabus."
+        "description": "Timely conduction of tests and assignments which help students gain in-depth knowledge of the GPAT NIPER Syllabus "
     },
     {
         "id": 2,
         "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVbqOX6yMdic8__SMjTD2FD83gdzzyQrbuvEZCJtxJKA&s",
         "title": "Guidance for Placements",
-        "description": "Timely conduction of tests and assignments which helps students attain in-depth knowledge of the syllabus."
+        "description": "Guiding students to select the right job as per industry demands and assisting them to crack interviews "
     },
     {
         "id": 3,
         "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVbqOX6yMdic8__SMjTD2FD83gdzzyQrbuvEZCJtxJKA&s",
         "title": "Premium Certifications",
-        "description": "We offer a plethora of courses to aspiring students to help them keen on building a career in pharmacy."
+        "description": "We offer plethora of pharma related certificate and upskilling courses to help students kick start their careers in pharmacy."
     },
     {
         "id": 4,
         "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVbqOX6yMdic8__SMjTD2FD83gdzzyQrbuvEZCJtxJKA&s",
         "title": "Extra-curricular Development",
-        "description": "Students get access to a wide library of on-demand soft skills training courses to build an overall job-ready character."
+        "description": "Giving opportunities to pharmacy students to organize and execute events with the aim to build their network in the pharmaceutical industry, providing them with internships, industrial training programs and making them job ready."
     },
     {
         "id": 5,
         "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVbqOX6yMdic8__SMjTD2FD83gdzzyQrbuvEZCJtxJKA&s",
         "title": "Career Counselling",
-        "description": "Career counselling to assist students in selecting a suitable and the best career path based on their interests and other personal factors."
+        "description": "Helping students select suitable subjects for higher education and the right institute for the same based on their personal and professional interests."
     }
 
 ]

@@ -11,7 +11,7 @@ const coursesdata = [
             "Regular Test Series (150+ Tests)",
             "E Books & Notes available on the Android App",
             "Classwork MCQs + Practice MCQs Books More than 10,000 MCQs to practice",
-            "Complementary Certificate Course - Advanced Diploma in Pharmacovigilance @50% off",
+            "Certificate Course - Advanced Diploma in Pharmacovigilance @50% off",
             "Regular Interactive & Motivational sessions for performance analysis, college & course selection"],
         "price": null
 
@@ -28,7 +28,7 @@ const coursesdata = [
             "Regular Test Series (150+ Tests)",
             "E Books & Notes available on the Android App",
             "Classwork MCQs + Practice MCQs Books More than 10,000 MCQs to practice",
-            "Complementary Certificate Course - Advanced Diploma in Pharmacovigilance @50% off",
+            "Certificate Course - Advanced Diploma in Pharmacovigilance @50% off",
             "Regular Interactive & Motivational sessions for performance analysis, college & course selection"],
         "price": null
 

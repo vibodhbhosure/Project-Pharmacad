@@ -61,7 +61,7 @@ const Contact = () => {
       <div className="text-black font-inter text-xl my-2 pb-2 lg:text-black lg:font-inter lg:text-lg sm:text-[##4F4F4F] flex flex-row">
         {" "}
         <span className="px-2">━━ </span>{" "}
-        <span> Reach out to us and start your path to success </span>
+        <span> Reach out to us and start your Pharma Journey. </span>
       </div>
       <div className="max-w-7xl w-full pl-8 rounded shadow-lg ">
         <div className="flex flex-col md:flex-row md:space-x-8">

@@ -1,9 +1,9 @@
 const data = [
     {
-        "id": 2,
-        "testimonial": "I would like to thank Pharmacad for helping and preparing me with the mock tests. The tests were always a mirror of what is left out while studying. The quick results were very helpful overall. Also, the opportunity of enrolling in Pharma Literati certificate courses was a motivation for me.",
-        "name": "Nichiket Dandekar",
-        "rank": "AIR 22 – GPAT 2018"
+        "id": 16,
+        "testimonial": "The test series was very good. It helped me to check my performance and to improve my score as well as boost my confidence to appear for GPAT 2021.It was very well designed which included questions of all subjects and difficulty levels.Thankyou PHARMACAD team!",
+        "name": "Niyati Kodange",
+        "rank": "AIR 3- NIPER 2021 | AIR 49 - GPAT 2021"
 
     },
     {
@@ -14,12 +14,41 @@ const data = [
 
     },
     {
+        "id": 17,
+        "testimonial": "It is said that one does well in the world of academia when surrounded by colleagues, mentors and guides who serve as challenging yet endearing friends. PHARMACAD is an institute that exemplifies the same. An effort greater than promised is a highlight feature amongst its dedicated faculty. The institute in my opinion can claim to be the `THE BEST INSTITUTE FOR PHARMA PG ENTRANCES IN MUMBAI.`",
+        "name": "Rahul Vasvani",
+        "rank": "AIR 18 (MBA) - NIPER 2019 | AIR 39 (MS) - NIPER 2019"
+
+    },
+    {
+        "id": 18,
+        "testimonial": "Qualifying exams is indeed a big task but qualifying them with basics Clear makes it worth.Pharmacad focuses particularly clearing minor doubts which leads to very Strong Foundation and exams like GPAT demands this. I like to thank all teachers of team Pharmacad in supporting, Guiding and motivating me in my GPAT journey.THANK YOU Team PHARMACAD",
+        "name": "Gayatri Tambe",
+        "rank": "AIR 79 – GPAT 2021"
+
+    },
+    {
+        "id": 14,
+        "testimonial": "Pharmacad – A place that has changed my journey towards being a Pharmacist. At Pharmacad it’s not just about qualifying for GPAT but in all being an employable & knowledgeable person who can make a difference in this world. As they say, “I am a Pharmacist, and I am proud to be one”.",
+        "name": "Burhanuddin Kagalwala",
+        "rank": "AIR 23 – NIPER 2018 | AIR 88 – GPAT 2018"
+
+    },
+    {
         "id": 3,
         "testimonial": "Pharmacad is the right choice to be a good pharmacist. My dream to score well in GPAT entrance was fulfilled because of the immense efforts of the team. All the study material provided was to the point which gave us an idea of how to do GPAT oriented study. The timely tests prepared us well.",
         "name": "Archana Rajadhyax",
         "rank": "AIR 56 – NIPER 2018 | AIR 85 – GPAT 2018"
 
     },
+    {
+        "id": 2,
+        "testimonial": "I would like to thank Pharmacad for helping and preparing me with the mock tests. The tests were always a mirror of what is left out while studying. The quick results were very helpful overall. Also, the opportunity of enrolling in Pharma Literati certificate courses was a motivation for me.",
+        "name": "Nichiket Dandekar",
+        "rank": "AIR 22 – GPAT 2018"
+
+    },
+
     {
         "id": 4,
         "testimonial": "Pharmacad has been a great journey.They not only focus on GPAT/NIPER oriented lectures but also on the overall development of students by arranging motivational lectures, industrial visits and various online courses. I'm very thankful to Pranav Sir,Jigyasa ma'am, Kruti ma'am and all teachers at Pharmacad for their constant guidance and support.THANK YOU TEAM PHARMACAD!!!",
@@ -91,19 +120,15 @@ const data = [
 
     },
     {
-        "id": 14,
-        "testimonial": "Pharmacad – A place that has changed my journey towards being a Pharmacist. At Pharmacad it’s not just about qualifying for GPAT but in all being an employable & knowledgeable person who can make a difference in this world. As they say, “I am a Pharmacist, and I am proud to be one”.",
-        "name": "Burhanuddin Kagalwala",
-        "rank": "AIR 23 – NIPER 2018 | AIR 88 – GPAT 2018"
-
-    },
-    {
         "id": 15,
         "testimonial": "Pharmacad has given me the confidence about my profession. All the faculty members always helped us with our doubts and guided us thoroughly.And nevertheless...Pranav Sir and Kruti Ma'am were the constant pillars of support and motivation throughout this journey.",
         "name": "Ranchana Gore",
         "rank": "GPAT 2019 - QUALIFIED"
 
-    }
+    },
+
+
+
 
 ]
 

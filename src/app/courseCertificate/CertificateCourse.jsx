@@ -21,7 +21,7 @@ export default function CourseCertificate() {
         <div className="absolute top-[345px] left-[337.5px] box-border w-[39px] h-px border-t-[1px] border-dashed border-gray-800" />
         <div className="absolute top-[345px] left-[512.5px] box-border w-[39px] h-px border-t-[1px] border-dashed border-gray-800" />
         <div className="absolute top-[345px] left-[656.5px] box-border w-[39px] h-px border-t-[1px] border-dashed border-gray-800" />
-        <div className="absolute top-[345px] left-[813.5px] box-border w-[39px] h-px border-t-[1px] border-dashed border-gray-800" />
+        <div className="absolute top-[345px] left-[819px] box-border w-[34px] h-px border-t-[1px] border-dashed border-gray-800" />
         <div className="absolute top-[345px] left-[1051.5px] box-border w-10 h-px border-t-[1px] border-dashed border-gray-800" />
         <div className="absolute top-[315px]  font-bold left-[212px] shadow-green-400 rounded-md text-center bg-whitesmoke-500  box-border w-[126px] h-[58px] border-[2px] border-solid border-green-400">
           100% online courses
@@ -32,8 +32,8 @@ export default function CourseCertificate() {
         <div className="absolute top-[315px] font-bold left-[551px] shadow-green-400 rounded-md text-center bg-whitesmoke-200  box-border w-[106px] h-[58px] border-[2px] border-solid border-green-400">
           Flexible schedule
         </div>
-        <div className="absolute top-[315px] font-bold left-[695px] shadow-green-400 rounded-md text-center bg-whitesmoke-500  box-border w-[119px] h-[58px] border-[2px] border-solid border-green-400">
-          Learn from expert
+        <div className="absolute top-[315px] font-bold left-[695px] shadow-green-400 rounded-md text-center bg-whitesmoke-500  box-border w-[126px] h-[58px] border-[2px] border-solid border-green-400">
+          Learn from industry expert
         </div>
         <div className="absolute top-[315px] font-bold left-[852px] shadow-green-400 rounded-md text-center bg-whitesmoke-500  box-border w-[200px] h-[58px] border-[2px] border-solid border-green-400">
           Job / Internship placement assistance
@@ -183,7 +183,7 @@ export default function CourseCertificate() {
             <div className="ml-[600px] -mt-[35px]">
               <Link href="/#contact">
                 <button className="bg-[#D9D9D9] w-[125px] h-[38px] py-2 px-4 rounded text-black">
-                  Pay now
+                  Enroll now
                 </button>
               </Link>
             </div>
@@ -347,7 +347,7 @@ export default function CourseCertificate() {
             <div className="ml-[600px] -mt-[10px]">
               <Link href="/#contact">
                 <button className="bg-[#D9D9D9]  w-[125px] h-[38px] py-2 px-4 rounded">
-                  Pay now
+                  Enroll now
                 </button>
               </Link>
             </div>
@@ -513,7 +513,7 @@ export default function CourseCertificate() {
             <div>
               <Link href="/#contact">
                 <button className="bg-[#D9D9D9] mt-8 ml-1 text-[12px] w-[125px] h-[33px] py-2 px-4 rounded">
-                  Pay now
+                  Enroll now
                 </button>
               </Link>
             </div>
@@ -672,7 +672,7 @@ export default function CourseCertificate() {
             <div>
               <Link href="/#contact">
                 <button className="bg-[#D9D9D9] mt-8 ml-1 w-[125px] text-[12px] h-[33px] py-2 px-4 rounded ">
-                  Pay now
+                  Enroll now
                 </button>
               </Link>
             </div>

@@ -24,16 +24,15 @@ const About = () => {
             <p className="text-lg leading-6 text-gray-600 mt-8">We offer</p>
             <ul className="list-disc list-inside">
               <li className="font-semibold text-lg font-montserrat leading-6 text-gray-600 ">
-                15,000+ plus MCQs with explanations
+                Extensive guidance for GPAT NIPER and other entrance exams for
+                Pharmacy
               </li>
               <li className="font-semibold text-lg font-montserrat leading-6 text-gray-600 ">
-                More than 700+ videos
+                Well structured course work for MBA aspirants
               </li>
               <li className="font-semibold text-lg font-montserrat leading-6 text-gray-600 ">
-                Detailed & conscised notes & synopsis
-              </li>
-              <li className="font-semibold text-lg font-montserrat leading-6 text-gray-600 ">
-                E-books
+                Industrial affiliations, training programs and certification
+                courses to make students job ready
               </li>
             </ul>
             <p className="font-lg text-lg leading-6 font-montserrat text-gray-600 mt-11">
