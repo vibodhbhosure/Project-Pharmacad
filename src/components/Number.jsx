@@ -54,7 +54,7 @@ const Number = () => {
           <div className="lg:flex lg:flex-col lg:mr-10 sm:flex sm:flex-col sm:justify-items-center sm:content-center sm:pb-5 flex flex-col justify-items-center content-center pb-5">
             <div className="lg:flex lg:flex-row lg:ml-0  sm:flex sm:flex-row  flex  flex-row ">
               <div className="lg:text-6xl lg:font-bold lg:font-poppins sm:text-4xl sm:font-bold sm:font-poppins sm:text-white lg:text-white  text-6xl  font-bold  font-poppins  text-white">
-                35
+                45
               </div>
 
               <div className="lg:text-6xl lg:font-bold lg:font-poppins lg:ml-0 sm:text-4xl sm:font-bold sm:font-poppins  sm:ml-1 text-6xl  font-bold  font-poppins   ml-1 text-[#1CFFF1]">
@@ -70,7 +70,7 @@ const Number = () => {
           <div className="lg:flex lg:flex-col lg:mr-10 sm:flex sm:flex-col sm:justify-items-center sm:content-center sm:pb-5  flex  flex-col justify-items-center  content-center  pb-5">
             <div className="lg:flex lg:flex-row lg:ml-0  sm:flex sm:flex-row flex flex-row ">
               <div className="lg:text-6xl lg:font-bold lg:font-poppins sm:text-4xl sm:font-bold sm:font-poppins sm:text-white lg:text-white text-6xl font-bold font-poppins text-white">
-                45
+                90
               </div>
 
               <div className="lg:text-6xl lg:font-bold lg:font-poppins lg:ml-0 sm:text-4xl sm:font-bold sm:font-poppins  sm:ml-1 text-6xl font-bold font-poppins  ml-1 text-[#1CFFF1]">
