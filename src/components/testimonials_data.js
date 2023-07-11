@@ -1,4 +1,64 @@
 const data = [
+  
+    {
+        "id": 1,
+        "testimonial": "I am extremely thankful to Pharmacad for providing excellent teaching and round-the-clock assistance during my GPAT preparation. Pharmacad has a simple, all in one mobile app that had everything ranging from video lectures, tests and mock exams to study material that a GPAT aspirant requires. The classroom lectures were delivered by the teachers in an interesting and easily understandable manner which makes the concepts firm.Thank you to team Pharmacad.",
+        "name": "Prachi Shrivastav",
+        "rank": "AIR 23 - GPAT 2021"
+
+    },
+    {
+        "id": 19,
+        "testimonial": "Best-in-class teaching, precise and concise notes, brain-teasing test series, pre-recorded lectures, and a team of passionate and highly supportive teachers make Pharmacad a golden bridge to make your dream come true as GPAT Ranker. It’s a platform full of opportunities, where everyone is given a chance to express themselves and grow. I thank this wonderful team and wish their passionate work grows into a big organization for many aspiring students to benefit from their Noble Zeal.",
+        "name": "Hiral Joshi",
+        "rank": "AIR-13 - NIPER 2021 | AIR-28 - GPAT 2021"
+    },
+    {
+        "id": 20,
+        "testimonial": "Pharmacad is One of the most helpful platforms for all pharma students. All study-related materials and videos are impeccable. The quality of the concepts is unmatched. Absolutely full coverage with all that's needed. All the faculty are so helpful and always have been very supportive… Overall, it's just amazing!",
+        "name": "Paulami Dutta",
+        "rank": "AIR-10 - NIPER 2022 | AIR-33 - GPAT 2022"
+    },
+    {
+        "id": 21,
+        "testimonial": "Pharmacad teaching staff is very helpful and supportive. The study material provided by the class is very useful in GPAT preparation. Regular test series help in practising MCQs and keeping a record of our progress. Teachers are always approachable for any doubt-solving. Study material in Pharmacad app is very useful for quick revision and covers the entire GPAT syllabus. The teaching faculty is experienced and focuses on topics frequently asked in GPAT.",
+        "name": "Aakash Haria",
+        "rank": "AIR-21 - NIPER 2022 | AIR-21 - GPAT 2022"
+    },
+    {
+        "id": 22,
+        "testimonial": "A great place which aims to help students grow to their full potential. Dedicated, motivating teachers and management constantly helping students to rise and shine.",
+        "name": "Sakshi Shah",
+        "rank": "AIR-104 - GPAT 2020"
+    },
+    {
+        "id": 14,
+        "testimonial": "Pharmacad – A place that has changed my journey towards being a Pharmacist. At Pharmacad it’s not just about qualifying for GPAT but in all being an employable & knowledgeable person who can make a difference in this world. As they say, “I am a Pharmacist, and I am proud to be one”.",
+        "name": "Burhanuddin Kagalwala",
+        "rank": "AIR 23 – NIPER 2018 | AIR 88 – GPAT 2018"
+
+    },
+    {
+        "id": 3,
+        "testimonial": "Pharmacad is the right choice to be a good pharmacist. My dream to score well in GPAT entrance was fulfilled because of the immense efforts of the team. All the study material provided was to the point which gave us an idea of how to do GPAT oriented study. The timely tests prepared us well.",
+        "name": "Archana Rajadhyax",
+        "rank": "AIR 56 – NIPER 2018 | AIR 85 – GPAT 2018"
+
+    },
+    {
+        "id": 23,
+        "testimonial": "With Pharmacad, Dreams Have Turned into Reality!!! Hard work in The Right Direction as Guided by Pharmacad Counsellors Helped Me Work Efficiently for My Goal and Ultimately the Target Achieved! For a Future I Thought of, Pharmacad Helped Me Reach There with the Perfect Counselling Sessions, Available at All Times for All the Doubts!Thank You Pharmacad!!Thanks Gayatri Ma’am, Jigyasa Ma’am & Pranav Sir !!!! A Perfect Academy to Reach Your Goals!!!",
+        "name": "Dharmesh Mehta",
+        "rank": "AIR 66 – NIPER 2017"
+
+    },
+    {
+        "id": 24,
+        "testimonial": "I am truly grateful to Pharmacad and its coaching staff for all the help and guidance they have provided me with. They not only provide coaching for entrance exams but also give us a peak into the industry functioning through guest lectures. I would highly recommend Pharmacad to other Students.",
+        "name": "Suzanne Gomez",
+        "rank": "AIR 260 – GPAT 2020"
+
+    },
     {
         "id": 16,
         "testimonial": "The test series was very good. It helped me to check my performance and to improve my score as well as boost my confidence to appear for GPAT 2021.It was very well designed which included questions of all subjects and difficulty levels.Thankyou PHARMACAD team!",
@@ -7,10 +67,31 @@ const data = [
 
     },
     {
-        "id": 1,
-        "testimonial": "I am extremely thankful to Pharmacad for providing excellent teaching and round-the-clock assistance during my GPAT preparation. Pharmacad has a simple, all in one mobile app that had everything ranging from video lectures, tests and mock exams to study material that a GPAT aspirant requires. The classroom lectures were delivered by the teachers in an interesting and easily understandable manner which makes the concepts firm.Thank you to team Pharmacad.",
-        "name": "Prachi Shrivastav",
-        "rank": "AIR 23 - GPAT 2021"
+        "id": 9,
+        "testimonial": "Pharmacad is the best option for every GPAT/NIPER aspirant who wishes to study and then give exams and get an overall view of our standing in this competitive world.All the tests were conducted online and thus gave us a practice for the final exam proved to be very useful in terms of last minute preparations.",
+        "name": "Aditi Bhat",
+        "rank": "AIR 62 - GPAT 2019"
+
+    },
+    {
+        "id": 25,
+        "testimonial": "Balancing your co-curriculum and academic performance is something I have learnt at Pharmacad. Thanks, Pranav sir for a constant motivational speech every Sunday morning. All the Test Series and Guest Lectures were very much helpful for us. Thanks a lot to all the teachers for sharing with us their incredible knowledge and helping us to cross our hurdles.",
+        "name": "Sneha Suthar",
+        "rank": "AIR 29 - GPAT 2020", 
+
+    },
+    {
+        "id": 26,
+        "testimonial": "PHARMACAD doesn’t just provide you with a teacher but a guide. All the subjects are taught by specialised teachers which is a must need. Topic, Subject and Mock tests provided on the website gave me the confidence and experience on how to go through the online interface of the examination. Not just that but individual student evaluation based on score and accuracy also student counselling played a very crucial role in attempting a high number of questions.",
+        "name": "Ashuta Parab",
+        "rank": "AIR 552 - GPAT 2020",
+
+    },
+    {
+        "id": 28,
+        "testimonial": "Pharmacad is an ideal place for the all-around development of a pharma student. Apart from entrance exam preparations, Pharmacad has helped me expand my knowledge! About the other fields of pharmacy through various seminars organized by the team. I’m really grateful to the team for helping me become a proud pharmacist as the tagline suggests!",
+        "name": "Simone Mendonca",
+        "rank": "AIR 471 - GPAT 2020",
 
     },
     {
@@ -27,20 +108,7 @@ const data = [
         "rank": "AIR 79 – GPAT 2021"
 
     },
-    {
-        "id": 14,
-        "testimonial": "Pharmacad – A place that has changed my journey towards being a Pharmacist. At Pharmacad it’s not just about qualifying for GPAT but in all being an employable & knowledgeable person who can make a difference in this world. As they say, “I am a Pharmacist, and I am proud to be one”.",
-        "name": "Burhanuddin Kagalwala",
-        "rank": "AIR 23 – NIPER 2018 | AIR 88 – GPAT 2018"
-
-    },
-    {
-        "id": 3,
-        "testimonial": "Pharmacad is the right choice to be a good pharmacist. My dream to score well in GPAT entrance was fulfilled because of the immense efforts of the team. All the study material provided was to the point which gave us an idea of how to do GPAT oriented study. The timely tests prepared us well.",
-        "name": "Archana Rajadhyax",
-        "rank": "AIR 56 – NIPER 2018 | AIR 85 – GPAT 2018"
-
-    },
+    
     {
         "id": 2,
         "testimonial": "I would like to thank Pharmacad for helping and preparing me with the mock tests. The tests were always a mirror of what is left out while studying. The quick results were very helpful overall. Also, the opportunity of enrolling in Pharma Literati certificate courses was a motivation for me.",
@@ -84,13 +152,7 @@ const data = [
         "rank": "AIR 106 - GPAT 2019 | AIR 106 - GPAT 2019"
 
     },
-    {
-        "id": 9,
-        "testimonial": "Pharmacad is the best option for every GPAT/NIPER aspirant who wishes to study and then give exams and get an overall view of our standing in this competitive world.All the tests were conducted online and thus gave us a practice for the final exam proved to be very useful in terms of last minute preparations.",
-        "name": "Aditi Bhat",
-        "rank": "AIR 56 - GPAT 2019 | AIR 62 - GPAT 2018"
-
-    },
+   
     {
         "id": 10,
         "testimonial": "Pharmacad the best place where I got all concepts cleared in Pharmacology and Organic Chemistry.Best breakthrough I got for GPAT and Phd.Best orientation for GPAT preparation and time management. Thank you",
@@ -126,6 +188,7 @@ const data = [
         "rank": "GPAT 2019 - QUALIFIED"
 
     },
+   
 
 
 
