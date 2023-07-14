@@ -155,7 +155,9 @@ const Contact = () => {
                 >
                   <option value="">Select a course</option>
                   <option value="MBA Entrance Exam">MBA Entrance Exam</option>
-                  <option value="M. Pharmacy Entrance Exam">M. Pharmacy Entrance Exam</option>
+                  <option value="M. Pharmacy Entrance Exam">
+                    M. Pharmacy Entrance Exam
+                  </option>
                   <option value="Abroad Counselling">Abroad Counselling</option>
                   <option value="Pharmacovigilance Certificate Course">
                     Pharmacovigilance Certificate Course
@@ -165,7 +167,9 @@ const Contact = () => {
                   </option>
                   <option value="MCQ Booklets">MCQ Booklets</option>
                   <option value="GPAT Test Series">GPAT Test Series</option>
-                  <option value="GPAT Booster Course">GPAT Booster Course</option>
+                  <option value="GPAT Booster Course">
+                    GPAT Booster Course
+                  </option>
                 </select>
               </div>
               <div className="mb-4">
@@ -182,6 +186,7 @@ const Contact = () => {
                   onChange={(e) => setMessage(e.target.value)}
                   rows={5}
                   className="w-full border-gray-300 border rounded px-3 py-2"
+                  required
                 ></textarea>
               </div>
               <button
