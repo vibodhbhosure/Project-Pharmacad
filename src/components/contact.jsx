@@ -154,18 +154,18 @@ const Contact = () => {
                   required
                 >
                   <option value="">Select a course</option>
-                  <option value="course1">MBA Entrance Exam</option>
-                  <option value="course2">M. Pharmacy Entrance Exam</option>
-                  <option value="course3">Abroad Counselling</option>
-                  <option value="course4">
+                  <option value="MBA Entrance Exam">MBA Entrance Exam</option>
+                  <option value="M. Pharmacy Entrance Exam">M. Pharmacy Entrance Exam</option>
+                  <option value="Abroad Counselling">Abroad Counselling</option>
+                  <option value="Pharmacovigilance Certificate Course">
                     Pharmacovigilance Certificate Course
                   </option>
-                  <option value="course5">
+                  <option value="Intellectual Patent Rights Certificate Course">
                     Intellectual Patent Rights Certificate Course
                   </option>
-                  <option value="course6">MCQ Booklets</option>
-                  <option value="course7">GPAT Test Series</option>
-                  <option value="course8">GPAT Booster Course</option>
+                  <option value="MCQ Booklets">MCQ Booklets</option>
+                  <option value="GPAT Test Series">GPAT Test Series</option>
+                  <option value="GPAT Booster Course">GPAT Booster Course</option>
                 </select>
               </div>
               <div className="mb-4">
