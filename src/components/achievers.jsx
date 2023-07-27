@@ -1,5 +1,13 @@
 import React from "react";
 import Image from "next/image";
+
+import MB from "../../public/manashviB_1.webp";
+import AH from "../../public/akashharia_1.webp";
+import HJ from "../../public/hiraljoshi_1.webp";
+import NK from "../../public/NiyatiK_1.webp";
+import PS from "../../public/prachiach_1.webp";
+import SS from "../../public/sakshishah_1.webp";
+
 const Achieve = () => {
   return (
     <div className="bg-white py-24 sm:py-20">
@@ -15,8 +23,8 @@ const Achieve = () => {
             <div className="flex flex-col items-center gap-x-6 rounded-4xl shadow-md">
               <Image
                 className="p-3"
-                src="\manashviB_1.webp"
-                // src={MB}
+                // src="\manashviB_1.webp"
+                src={MB}
                 alt="Manashvi Bhanushali"
                 height="200"
                 width="200"
@@ -38,8 +46,8 @@ const Achieve = () => {
             <div className="flex flex-col items-center gap-x-6 rounded-4xl shadow-md">
               <Image
                 className="p-3"
-                src="/akashharia_1.webp"
-                // src={AH}
+                // src="/akashharia_1.webp"
+                src={AH}
                 alt="akashharia"
                 height="200"
                 width="200"
@@ -62,8 +70,8 @@ const Achieve = () => {
             <div className="flex flex-col items-center gap-x-6 rounded-4xl shadow-md">
               <Image
                 className="p-3"
-                src="\hiraljoshi_1.webp"
-                // src={HJ}
+                // src="\hiraljoshi_1.webp"
+                src={HJ}
                 alt="hiraljoshi"
                 height="200"
                 width="200"
@@ -85,8 +93,8 @@ const Achieve = () => {
             <div className="flex flex-col items-center gap-x-6 rounded-4xl shadow-md">
               <Image
                 className="p-3"
-                src="\NiyatiK_1.webp"
-                // src={NK}
+                // src="\NiyatiK_1.webp"
+                src={NK}
                 alt="Niayti Kodange"
                 height="200"
                 width="200"
@@ -109,8 +117,8 @@ const Achieve = () => {
             <div className="flex flex-col items-center gap-x-6 rounded-4xl shadow-md">
               <Image
                 className="p-3"
-                src="\sakshishah_1.webp"
-                // src={SS}
+                // src="\sakshishah_1.webp"
+                src={SS}
                 alt="Saakshi Shah"
                 height="200"
                 width="200"
@@ -133,8 +141,8 @@ const Achieve = () => {
             <div className="flex flex-col items-center gap-x-6 rounded-4xl shadow-md">
               <Image
                 className="p-3"
-                src="\prachiach_1.webp"
-                // src={PS}
+                // src="\prachiach_1.webp"
+                src={PS}
                 alt="Prachi Shrivastav"
                 height="200"
                 width="200"
