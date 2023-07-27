@@ -32,7 +32,6 @@ const About = () => {
               <li className="font-semibold text-lg font-montserrat leading-6 text-gray-600 ">
               Industrial affiliations, training programs and certification courses to make students job ready 
               </li>
-              
             </ul>
             <p className="font-lg text-lg leading-6 font-montserrat text-gray-600 mt-11">
               Pharmacad also provides Industrial training, career counseling, B.
