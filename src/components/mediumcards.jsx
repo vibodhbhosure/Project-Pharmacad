@@ -8,7 +8,11 @@ const MediumCard = ({ article }) => {
         className="text-gray-600 mb-4 break-all overflow-y-auto h-96"
         dangerouslySetInnerHTML={{ __html: article.description }}
       />
-      <Link href={article.link} className="text-blue-500 inline-block">
+      <Link
+        href={article.link}
+        className="text-blue-500 inline-block"
+        target="_blank"
+      >
         Read more
       </Link>
     </div>
